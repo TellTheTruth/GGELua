@@ -1,0 +1,203 @@
+<style>
+html { background-color: #f6f6f6; }
+body { font-family: monospace; }
+li { margin: 2px; }
+h2 { color: #333; font-size: 2.0em; margin: 0; }
+h3 { color: #333; font-size: 2.7em; margin: 0; }
+.release-date, .forum-link { font-size: 10pt }
+
+
+</style>
+<h3>-=GGELUA 更新日志=-</h3>
+
+<h2>版本 0.9</h2>
+<div class="release-date">发布时间: 2016.5.10</div>
+<ul>
+    <li>增加 国外SQLITE3(并增加支持中文,密码,取行数)</li>
+    <li>增加 纹理支持从string载入(必须指定长度)</li>
+    <li>增加 对象:加引用()</li>
+    <li>增加 对象:释放()</li>
+    <li>增加 对象:取指针()</li>
+    <li>增加 BASS音效库（FFI）</li>
+    <li>增加 引擎.关闭()</li>
+    <li>增加 logger(专业写日志)</li>
+    <li>增加 外部聊天框</li>
+
+    <li>更新 SQLITE到3.88版本</li>
+    <li>更新 HPSocket到3.4.3</li>
+    <li>更新 Galaxy2D到4.2D</li>
+    <li>更新 ST到3103</li>
+
+    <li>优化 MYSQL类 取数据方法</li>
+    <li>优化 崩溃提示(编译后)</li>
+    <li>优化 编译速度*10</li>
+    <li>优化 坐标恢复为浮点</li>
+    <li>优化 代码载入顺序(根目录->扩展目录->引擎目录)</li>
+    <li>修正 minizip不能打开加密的文件</li>
+    <li>修正 FFI 取MD5会偶尔错误</li>
+    <li>修正 FFI 剪辑板相关函数</li>
+    <li>修正 FFI函数声明不正确，导致在循环中使用会表溢出问题</li>
+    <li>完善 线程(现在是真线程,多LUA虚拟机)</li>
+    <li>完善 服务端(v0.9)</li>
+    <li>完善 编译加密</li>
+
+    <li>删除 旧的FMOD,用FFI版本替代</li>
+    <li>删除 旧的SQLITE,用国外版本替代</li>
+    <li>删除 luasocket</li>
+    <li>删除 旧的超级文本,用丰富文本替代</li>
+</ul>
+
+<h2>版本 0.8</h2>
+<div class="release-date">发布时间: 2015.6.1</div>
+<ul>
+    <li>增加 UI类</li>
+    <li>增加 多线程类</li>
+    <li>增加 坐标类</li>
+    <li>增加 FFI函数</li>
+    <li>增加 新zib模块（支持打开多个，旧的合并到引擎类）</li>
+    <li>增加 新FMOD类2(由FFI调用)</li>
+    <li>增加 无边框模式</li>
+    <li>增加 引擎->截图格式选项</li>
+    <li>增加 纹理->到文件格式选项</li>
+    <li>增加 纹理->复制纹理</li>
+    <li>增加 传奇2直读库(支持wil,wzl,并优化影子效果)</li>
+
+    <li>去除 Start.dll的依赖(已改成库)</li>
+    <li>修正 class 继承(并增加 多继承和销毁)</li>
+    <li>修正 回调不检错</li>
+    <li>修正 关联失败不提示错误</li>
+    <li>优化 回调参数改为函数，而不是函数文本名</li>
+    <li>优化 所有坐标强制使用整数</li>
+    <li>优化 错误提示</li>
+    <li>优化 用C++重写服务端和客户端(并升级HP到331)</li>
+    <li>优化 导出污染全局</li>
+    <li>优化 sqlite</li>
+    <li>升级 JIT到2.0.4</li>
+
+    <li>删除 GDI文字</li>
+</ul>
+
+<h2>版本 0.7</h2>
+<div class="release-date">发布时间: 2015.4</div>
+<ul>
+	<li>修正 带空格目录不能编译</li>
+	<li>修正 关联LUA</li>
+	<li>修正 mysql类的一些问题</li>
+	<li>优化 使用HPSOCKET客户端</li>
+	<li>增加 模块编译</li>
+	<li>增加 服务端编译</li>
+	<li>增加 服务端->日志写出</li>
+	<li>增加 服务端->INI,命令行</li>
+	<li>增加 客户端->连接事件</li>
+	<li>优化 界面</li>
+	<li>删除 无数...</li>
+	<li>优化 各种...</li>
+	<li>升级 ST3到3083版本</li>
+
+</ul>
+<h2>版本 0.6</h2>
+<div class="release-date">发布时间: 2014.10</div>
+<ul>
+    <li>修正 取像素不释放的问题(内存错误)</li>
+    <li>修正 寻路出错问题(内存错误)</li>
+    <li>修正 GDI字体显示错位问题(显示的时候,尽量使用整数,小数在某些显卡不支持)</li>
+    <li>修正 fmod无法置音量问题</li>
+    <li>修正 按ALT组合有警告声问题</li>
+    <li>修正 编译器没有加密脚本问题</li>
+    <li>删除 doc(直接在源码标注说明)</li>
+
+    <li>增加 GLOW染色</li>
+    <li>增加 BASE64</li>
+    <li>增加 MD5(取数据摘要)</li>
+    <li>增加 纹理灰度化</li>
+    <li>增加 luafilesystem</li>
+
+    <li>增加 GUI->超级列表框</li>
+    <li>增加 GUI->层次</li>
+    <li>增加 GUI->输入框</li>
+    <li>增加 GUI->创建界面</li>
+    <li>增加 mir2直读(射狼赞助开源)</li>
+
+    <li>增加 XML解析</li>
+    <li>增加 ICO 更换</li>
+    <li>解除 SQLite.dll对Galaxy2d.dll的依赖</li>
+    <li>增加 SQLite 使用字段名取值</li>
+    <li>增加 math.round  四舍五入函数(适用小数)</li>
+    <li>增加 math.round1  四舍五入函数(适用整数和小数)</li>
+    <li>增加 UAC管理员权限</li>
+    <li>增加 引擎.置图标  (修改窗口图标,参数为base64文本)</li>
+    <li>升级 ST3到3065版本</li>
+    <li>升级 JIT到2.0.3</li>
+
+    <li>增加以下易命令</li>
+    <li>取硬盘特征字</li>
+    <li>取CPU特征字</li>
+    <li>运行</li>
+    <li>取剪辑板文本</li>
+    <li>置剪辑板文本</li>
+    <li>剪辑板中可有文本</li>
+    <li>清除剪辑板</li>
+    <li>取屏幕宽度</li>
+    <li>取屏幕高度</li>
+    <li>取文本注册项</li>
+    <li>取数值注册项</li>
+    <li>写注册项 </li>
+    <li>删除注册项</li>
+    <li>注册项是否存在</li>
+    <li>读配置项</li>
+    <li>写配置项</li>
+    <li>取配置节名</li>
+    <li>寻找文件</li>
+    <li>文件是否存在</li>
+    <li>取运行目录</li>
+    <li>取执行文件名</li>
+    <li>删首尾空</li>
+</ul>
+<h2>版本 0.5</h2>
+<div class="release-date">发布时间: 2014.6</div>
+<ul>
+    <li>修正doc目录问题</li>
+    <li>优化脚本载入方式</li>
+    <li>增加函数   table.copy()</li>
+    <li>增加函数   string.split()</li>
+    <li>增加函数   复制文件()</li>
+    <li>增加 类创建方法    旧 = 对象.创建()   新 = 对象()</li>
+    <li>增加 GGE客户端和实例</li>
+    <li>增加 GGE服务端(基于hpsocket)</li>
+    <li>增加 luasocket类</li>
+    <li>更新 luasocket服务端和客户端实例</li>
+    <li>增加 gge动画类和实例</li>
+    <li>增加 gif到动画序列图工具</li>
+    <li>增加 超级文本(多彩文字,聊天框,表情)</li>
+    <li>完善 GUI</li>
+    <li>增加 sqlite  事务,压缩,行数等函数</li>
+    <li>更新 函数检测正则表达式 支持xx = fun格式</li>
+    <li>增加 生成的函数自动高亮</li>
+    <li>增加 生成全局变量(生成_G表,需要游戏运行一次)</li>
+    <li>增加 帮助菜单中GGELUA的官网链接</li>
+    <li>增加 mysql 模块</li>
+    <li>增加 引擎.取命令行()</li>
+    <li>增加 易语言 多线程载入例子</li>
+    <li>增加 实例列表和项目列表右键操作</li>
+    <li>增加 位操作相关函数</li>
+</ul>
+<h2>版本 0.1-0.4</h2>
+<div class="release-date">发布时间: 2014.5</div>
+<ul>
+    <li>修正 不能用中文路径的问题</li>
+    <li>修正 gdi文字:取文本宽度的问题</li>
+    <li>修正 工作路径</li>
+    <li>修正 不能显示错误信息</li>
+    <li>修改 主程序自动关联项目</li>
+    <li>增加 KEY自动提示(键盘键值)</li>
+    <li>增加 gge精灵:取像素</li>
+    <li>增加 ffi调用DLL示例</li>
+    <li>以下函数大部分使用ffi而非易语言,函数文件在 .\base\ggefunction.lua</li>
+    <li>增加 信息框 函数</li>
+    <li>增加 延迟 函数</li>
+    <li>增加 文件是否存在 函数</li>
+    <li>增加 打开网站 函数</li>
+    <li>增加 table.tostring和table.loadstring 函数</li>
+    <li>增加 table.print 函数</li>
+    <li>增加 luasocket模块</li>
+</ul>

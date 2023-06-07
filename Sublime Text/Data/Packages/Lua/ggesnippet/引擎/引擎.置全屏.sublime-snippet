@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[引擎.置全屏(${1:})]]></content>
+    <tabTrigger>yq.zqp</tabTrigger>
+    <scope>source.lua</scope>
+    <description>引擎.置全屏</description>
+</snippet>

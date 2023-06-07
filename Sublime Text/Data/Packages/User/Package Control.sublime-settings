@@ -1,0 +1,38 @@
+{
+	"auto_upgrade": false,
+	"auto_upgrade_ignore":
+	[
+	],
+	"auto_upgrade_last_run": null,
+	"http_proxy": "",
+	"https_proxy": "",
+	"in_process_packages":
+	[
+	],
+	"installed_packages":
+	[
+		"All Autocomplete",
+		"AutoFileName",
+		"BracketHighlighter",
+		"BufferScroll",
+		"Color Highlighter",
+		"Colorcoder",
+		"ColorPicker",
+		"ConvertToUTF8",
+		"FileHeader",
+		"FindKeyConflicts",
+		"Function Name Display",
+		"IMESupport",
+		"INI",
+		"LuaAutocomplete",
+		"Package Control",
+		"SideBarEnhancements",
+		"SublimeTmpl",
+		"SyncedSideBar",
+		"SyncedSidebarBg",
+		"Toolbar",
+		"TrailingSpaces"
+	],
+	"proxy_password": "",
+	"proxy_username": ""
+}

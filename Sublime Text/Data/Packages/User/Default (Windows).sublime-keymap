@@ -1,0 +1,7 @@
+[
+	{ "keys": ["f5"], "command": "build", "args": {"variant": "Run"} },
+	{ "keys": ["ctrl+f5"], "command": "build", "args": {"variant": "Stop"} },
+	{ "keys": ["f6"], "command": "build", "args": {"variant": "RunInCommand"} },
+	{ "keys": ["shift+space"], "command": "auto_complete" },
+	{ "keys": ["f9"], "command": "build", "args": {"variant": "Run"} },
+]

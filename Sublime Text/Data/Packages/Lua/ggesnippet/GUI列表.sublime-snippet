@@ -1,0 +1,64 @@
+<snippet>
+	<content><![CDATA[
+--======================================================================--
+local ${1:列表} =  ${2:窗口}:创建列表("${3:名称}",${4:文字},${5:宽度},${6:高度})
+
+
+function ${1:列表}:初始化()
+
+	self.包围盒 = require ("gge包围盒")(0,0,${5:宽度},${6:高度})
+
+	self.x = 0
+	self.y = 0
+	self.焦点偏移 = 0
+	self.选中偏移 = 0
+
+	-- for i=1,20 do
+	-- 	self:添加("测试数据"..i,i)
+	-- end
+	self.选中精灵 = require("gge精灵类")(0,0,0,${5:宽度},14):置颜色(0x80808080)
+	self.焦点精灵 = require("gge精灵类")(0,0,0,${5:宽度},14):置颜色(0x80008000)
+	self.焦点可见 = false
+	self.选中可见 = true
+end
+
+function ${1:列表}:更新(dt,x,y)--窗口xy
+	self.包围盒:置坐标(x+self.x,y+self.y)
+end
+
+function ${1:列表}:显示(x,y)
+	--self.包围盒:显示()
+	if self.选中可见 then self.选中精灵:显示(x+self.x,y+self.y+self.选中偏移) end
+	if self.焦点可见 then self.焦点精灵:显示(x+self.x,y+self.y+self.焦点偏移) end
+end
+function ${1:列表}:检查点(x,y)
+	return self.包围盒:检查点(x,y)
+end
+function ${1:列表}:消息事件(类型,消息,参数1,参数2)
+
+	if 消息 == "焦点选中" then
+		self.焦点可见 = true
+		self.焦点偏移 = 参数1
+
+	elseif 消息 == "选中" then
+		self.选中偏移 = 参数1
+		self.选中可见 = true
+	elseif 消息 == "取消选中" then
+		self.选中可见 = false
+	elseif 消息 == "失去焦点" then
+		self.焦点可见 = false
+	elseif 消息 =="移动" or  消息 =="准备关闭" then
+		return not self:是否碰撞()
+	end
+	return true
+end
+
+]]></content>
+    <tabTrigger>guilb</tabTrigger>
+    <scope>source.lua</scope>
+    <description>列表模版</description>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<!-- <tabTrigger>hello</tabTrigger> -->
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>

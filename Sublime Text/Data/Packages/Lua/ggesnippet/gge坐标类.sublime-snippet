@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[gge坐标类]]></content>
+    <tabTrigger>ggezbl</tabTrigger>
+    <scope>source.lua</scope>
+    <description>gge坐标类</description>
+</snippet>

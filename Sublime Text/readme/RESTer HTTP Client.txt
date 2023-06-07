@@ -1,0 +1,50 @@
+Using
+
+A request can be as simple as a URI:
+
+http://api.my-example-site.com
+Or, you can send headers and a body:
+
+PUT /my-endpoint HTTP/1.1
+Host: api.my-example-site.com
+Accept: text/plain
+Accept-Charset: utf-8
+X-custom-header: whatever you want
+
+Here is the payload for the PUT request. Just add an empty line after the headers.
+Once you have a request ready, use shortcut Ctrl + Alt + r or open the Command Palette (Shift + Command + P) and enter RESTer HTTP Request.
+
+Making Requests
+
+The Request Line
+
+The first non-empty line of the selection (or document if nothing is selected) is the ¡°request line¡±. RESTer parses this to determine the method, URI, and protocol.
+
+You may include the hostname in the request line, but RESTer does not require it. If omitted, be sure to include a Host header indicating the hostname.
+
+Here are some example request lines:
+
+GET /my-endpoint HTTP/1.1
+Host: api.my-example-site.com
+GET http://api.my-example-site.com/my-endpoint
+http://api.my-example-site.com/my-endpoint
+api.my-example-site.com/my-endpoint
+Because GET is the default method, each of these will have the same effect.
+
+Headers
+
+RESTer parses the lines immediately following the first non-empty line up to the first empty line as headers. Use the standard field-name: field-value format.
+
+Query Parameters
+
+For requests with many query parameters, you may want to spread your request across a number of lines. RESTer will parse any lines in the headers section that begin with ? or & as query parameters. You may use = or : to separate the key from the value.
+
+The following example requests are equivalent:
+
+All in the URI ¡° http://api.my-example-site.com/?cat=molly&dog=bear
+
+With new lines
+http://api.my-example-site.com/ ?cat=molly &dog=bear
+
+Indented, using colons, and only using ?
+http://api.my-example-site.com/ ? cat: molly ? dog: bear

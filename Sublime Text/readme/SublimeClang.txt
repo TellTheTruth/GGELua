@@ -1,0 +1,146 @@
+LINUX
+A. 安装强大的SublimeClang插件
+   SublimeClang是Sublime Text中唯一的C/C++自动补全插件，功能强大，自带语法检查功能，不过最近作者已经停止更新了，目前只能在Sublime Text 2的Package Control中可以找到并自动安装，在SublimeText 3中只能手动通过源码安装，其代码线在https://github.com/quarnster/SublimeClang中。具体安装步骤如下：
+安装相关软件
+    sudo apt-get install cmake build-essential clang git
+    cd ~/.config/sublime-text-3/Packages
+    git clone --recursive https://github.com/quarnster/SublimeClang SublimeClang
+    cd SublimeClang
+    cp /usr/lib/x86_64-linux-gnu/libclang-3.4.so.1 internals/libclang.so      #这一步很重要，如果你的clang库不是3.4版本的话，请将对应版本的库拷贝到internals中
+    cd src
+    mkdir build
+    cd build
+    cmake ..
+    make
+一切成功的话将会在SublimeClang/internals目录中生成libcache.so库文件。重启Sublime Text，然后按快捷键Ctrl + `(Esc下面那个键)打开自带的控制输出，看看有没有错误，如果没有错误就说明一切OK了。接下来就是配置自己的文件了，按下ctrl + shift + p快捷键，在弹出的输入框中输入 sublimeclang settings ，然后选择带User那一行，在打开的文件中输入如下信息：
+{
+    "show_output_panel": false,
+    "dont_prepend_clang_includes": true,
+    "inhibit_sublime_completions": false,
+
+    "options":
+    [
+        "-std=gnu++11",
+        "-isystem", "/usr/include",
+        "-isystem", "/usr/include/c++/*",
+        "-isystem", "/usr/include/c++/4.8",
+        "-isystem", "/usr/include/c++/4.8/*",
+        "-isystem", "/usr/include/boost",
+        "-isystem", "/usr/include/boost/**",
+        "-isystem", "/usr/lib/gcc/x86_64-linux-gnu/4.8/include",
+        "-isystem", "/usr/lib/gcc/x86_64-linux-gnu/4.8/include/*"
+    ]
+}
+注释：我的gcc版本为4.8，如果你的不是请替换对应的版本，在#include相应的头文件后保存当前文件，在接下来的操作中将更快的提示所包含在头文件的函数或者变量。
+B. 工程实例
+    通过菜单栏中的Project -> Add Folder To Project...把你已有的原代码目录加入到Sublime Text中，然后通过Project -> Save Project As...来保存你的项目，这样就创建好了项目。例如我的机器在/media/WinE/WorkStation/Swift中有个C++项目，代码分别放在了Swift下的swift/base和swift/disruptor两个目录下，现在想要把这两个目录中的内容在写代码时能够自动提示则需要相应的配置修改。Project -> Edit Project，在所打开的配置文件中我更改如下：
+{
+    "folders":
+    [
+        {
+            "follow_symlinks": true,
+            "path": "/media/WinE/WorkStation/Swift"
+        }
+    ],
+
+    "settings":
+    {
+        "sublimeclang_options":
+        [
+            "-I/media/WinE/WorkStation/Swift",
+            "-I/media/WinE/WorkStation/Swift/swift/base",
+            "-I/media/WinE/WorkStation/Swift/swift/disruptor",
+       ]
+    }
+}
+
+=====================================================================================================================================
+WIN7 x64
+
+1. 到https://www.cygwin.com/下载setup-x86_64.exe安装文件，下载后采用默认路劲安装，在选库的时候，选择相应的gcc g++
+
+2.到http://www.sublimetext.com/3下载Windows 64 bit的安装包，下载后安装
+
+3. 安装Package Control   
+
+4. git clone --recursive https://github.com/quarnster/SublimeClang SublimeClang
+然后到https://github.com/quarnster/SublimeClang/downloads下载SublimeClang-1.0.41.sublime-package包，下载完成后把其重命名为SublimeClang-1.0.41.sublime-package.zip，然后解压把其中以dll结尾的文件拷贝到SublimeClang\internals目录中，重启sublimetext则可以再菜单栏Preferences->Package Settings中看到SublimeClang
+
+配置SublimeClang
+点击Preferences->Package Settings->SublimeClang->Settings - User，在打开的问文件中输入如下：
+{
+    "show_output_panel": false,
+    "dont_prepend_clang_includes": true,
+    "inhibit_sublime_completions": false,
+    "options":
+    [
+        "-IC:\\cygwin64\\usr\\include",
+        "-IC:\\cygwin64\\usr\\include\\*",
+        "-IC:\\cygwin64\\lib\\gcc\\x86_64-pc-cygwin\\4.9.0\\include",
+        "-IC:\\cygwin64\\lib\\gcc\\x86_64-pc-cygwin\\4.9.0\\include\\c++",
+        "-IC:\\cygwin64\\lib\\gcc\\x86_64-pc-cygwin\\4.9.0\\include\\c++\\*",
+    ]
+}
+
+注：4.9.0是gcc的版本，替换成对应的版本就可以了，如果你安装的是MinGM，那配置只是更换路径而已。配置好之后，重启SublimeText
+
+5. 项目加入实例
+    例如：现在有一个c++的开源项目Swift，在E:\WorkStation\Swift中，要将其加入到Sublime Text中并让SublimeClang对其生效。
+    打开SublimeText，在菜单栏中点击Project->Add Folder To Project...，选择E:\WorkStation\Swift即可，然后Project->Save Project As...保存项目
+    在Preferences->Package Settings->SublimeClang->Settings - User弹出的文件中的“options”后加入
+    "-IE:\\WorkStation\\Swift",
+    "-IE:\\WorkStation\\Swift\\*",
+    "-IE:\\WorkStation\\Swift\\**",
+    保存，并重启sublimetext，这样在写代码时就能有代码提示了。
+
+6. Others
+    做C/C++开发建议安装C++ Snippets、ConvertToUTF8等插件。其实SublimeText中很多以.sublime-package结尾的文件都是可以通过更改后缀为.zip来进行解压的，把解压出来的内容更改后再压缩为.zip文件并更改为.sublime-package结尾的文件，替换原来的文件，这样SublimeText就使用你的配置了。
+    很多以.sublime-package中包含了以.sublime-snippet结尾的文件，这些文件是写代码时弹出提示的配置。比如在写C/C++代码时当你输入if则会弹出一些提示，选中一个按回车则会输出如下代码：
+if (/* condition */)
+{
+    /* code */
+}
+此时，按Tab键你可以看到很人性化的设计。如果这种代码风格不是你想要的，则你可以更改成自己喜欢的风格，也可以自己写。具体如何写google一下就知道了，这里说说如何改。这里的if snippet放在Sublime Text 3安装路径(C:\Program Files\Sublime Text 3\Packages)中的C++.sublime-package中if-..-(if).sublime-snippet中，其内容如下：
+<snippet>
+ <description>If Condition</description>
+    <content><![CDATA[if (${1:/* condition */})
+{
+ ${0:/* code */}
+}]]></content>
+    <tabTrigger>if</tabTrigger>
+    <scope>source.c, source.objc, source.c++, source.objc++</scope>
+</snippet>
+如果将其改成如下并从新打包成C++.sublime-package并替换掉原来的：
+<snippet>
+ <description>If Condition</description>
+    <content><![CDATA[if (${1:/* condition */})  { 
+ ${0:/* code */}
+}]]></content>
+    <tabTrigger>if</tabTrigger>
+    <scope>source.c, source.objc, source.c++, source.objc++</scope>
+</snippet>
+在下次输入if时则会变成如下代码：
+if (/* condition */) {
+    /* code */
+}
+磨刀不误砍柴工，多看几个，然后添加一些自己的snippet，这样就能把消耗在写代码上的时间省出来做更多功能逻辑上的处理了。
+
+7. 项目编译
+   把C:\cygwin64\bin加到系统环境变量PATH中，相关配置goolge一下就会了。
+
+======================================================================================================
+macox
+
+{
+    "options":
+    [
+            "-Wall",
+            "-I/usr/lib/clang/3.1/include/**",
+            "-I/usr/lib/clang/2.1/include/**",
+            "-I/usr/lib/gcc/i686-apple-darwin11/4.2.1/include/",
+            "-isysroot",
+            "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk",
+            "-D__IPHONE_OS_VERSION_MIN_REQUIRED=50100",
+            "-I/Applications/Xcode.app/Contents/Developer/usr/llvm-gcc-4.2/lib/gcc/i686-apple-darwin11/4.2.1/include/",
+    ]
+}

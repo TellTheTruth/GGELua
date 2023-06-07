@@ -1,0 +1,756 @@
+{
+	"folder_history":
+	[
+	],
+	"last_version": 3103,
+	"last_window_id": 218,
+	"log_indexing": false,
+	"settings":
+	{
+		"new_window_height": 769.0,
+		"new_window_settings":
+		{
+			"auto_complete":
+			{
+				"selected_items":
+				[
+				]
+			},
+			"build_system_choices":
+			[
+				[
+					[
+						[
+							"Packages/Lua/ggegame.sublime-build",
+							"Run"
+						],
+						[
+							"Packages/Lua/ggeobj.sublime-build",
+							"Run"
+						],
+						[
+							"Packages/Lua/ggeserver.sublime-build",
+							"Run"
+						]
+					],
+					[
+						"Packages/Lua/ggegame.sublime-build",
+						"Run"
+					]
+				],
+				[
+					[
+						[
+							"Packages/Lua/ggegame.sublime-build",
+							"RunInCommand"
+						],
+						[
+							"Packages/Lua/ggeobj.sublime-build",
+							"RunInCommand"
+						],
+						[
+							"Packages/Lua/ggeserver.sublime-build",
+							"RunInCommand"
+						]
+					],
+					[
+						"Packages/Lua/ggegame.sublime-build",
+						"RunInCommand"
+					]
+				]
+			],
+			"build_varint": "",
+			"command_palette":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"console":
+			{
+				"height": 0.0,
+				"history":
+				[
+				]
+			},
+			"distraction_free":
+			{
+				"menu_visible": true,
+				"show_minimap": false,
+				"show_open_files": false,
+				"show_tabs": false,
+				"side_bar_visible": false,
+				"status_bar_visible": false
+			},
+			"file_history":
+			[
+				"/I/我的项目/GGELUA/Core/Game/gge文字类.lua"
+			],
+			"find":
+			{
+				"height": 0.0
+			},
+			"find_in_files":
+			{
+				"height": 0.0,
+				"where_history":
+				[
+				]
+			},
+			"find_state":
+			{
+				"case_sensitive": false,
+				"find_history":
+				[
+				],
+				"highlight": true,
+				"in_selection": false,
+				"preserve_case": false,
+				"regex": false,
+				"replace_history":
+				[
+				],
+				"reverse": false,
+				"show_context": true,
+				"use_buffer2": true,
+				"whole_word": false,
+				"wrap": true
+			},
+			"incremental_find":
+			{
+				"height": 0.0
+			},
+			"input":
+			{
+				"height": 0.0
+			},
+			"menu_visible": true,
+			"output.exec":
+			{
+				"height": 234.0
+			},
+			"output.find_results":
+			{
+				"height": 0.0
+			},
+			"pinned_build_system": "",
+			"replace":
+			{
+				"height": 0.0
+			},
+			"save_all_on_build": true,
+			"select_file":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"select_project":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"select_symbol":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"show_minimap": true,
+			"show_open_files": false,
+			"show_tabs": true,
+			"side_bar_visible": true,
+			"side_bar_width": 194.0,
+			"status_bar_visible": true,
+			"template_settings":
+			{
+			}
+		},
+		"new_window_width": 1093.0
+	},
+	"windows":
+	[
+		{
+			"auto_complete":
+			{
+				"selected_items":
+				[
+				]
+			},
+			"buffers":
+			[
+				{
+					"file": "main.lua",
+					"settings":
+					{
+						"buffer_size": 1548,
+						"line_ending": "Windows"
+					}
+				},
+				{
+					"file": "聊天窗口.lua",
+					"settings":
+					{
+						"buffer_size": 2856,
+						"line_ending": "Windows"
+					}
+				}
+			],
+			"build_system": "Packages/Lua/ggegame.sublime-build",
+			"build_system_choices":
+			[
+				[
+					[
+						[
+							"Packages/Lua/ggegame.sublime-build",
+							"Run"
+						],
+						[
+							"Packages/Lua/ggeobj.sublime-build",
+							"Run"
+						],
+						[
+							"Packages/Lua/ggeserver.sublime-build",
+							"Run"
+						]
+					],
+					[
+						"Packages/Lua/ggegame.sublime-build",
+						"Run"
+					]
+				],
+				[
+					[
+						[
+							"Packages/Lua/ggegame.sublime-build",
+							"RunInCommand"
+						],
+						[
+							"Packages/Lua/ggeobj.sublime-build",
+							"RunInCommand"
+						],
+						[
+							"Packages/Lua/ggeserver.sublime-build",
+							"RunInCommand"
+						]
+					],
+					[
+						"Packages/Lua/ggegame.sublime-build",
+						"RunInCommand"
+					]
+				]
+			],
+			"build_varint": "",
+			"command_palette":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"console":
+			{
+				"height": 0.0,
+				"history":
+				[
+				]
+			},
+			"distraction_free":
+			{
+				"menu_visible": true,
+				"show_minimap": false,
+				"show_open_files": false,
+				"show_tabs": false,
+				"side_bar_visible": false,
+				"status_bar_visible": false
+			},
+			"expanded_folders":
+			[
+			],
+			"file_history":
+			[
+				"/I/我的项目/GGELUA/Core/Game/gge文字类.lua"
+			],
+			"find":
+			{
+				"height": 0.0
+			},
+			"find_in_files":
+			{
+				"height": 0.0,
+				"where_history":
+				[
+				]
+			},
+			"find_state":
+			{
+				"case_sensitive": false,
+				"find_history":
+				[
+				],
+				"highlight": true,
+				"in_selection": false,
+				"preserve_case": false,
+				"regex": false,
+				"replace_history":
+				[
+				],
+				"reverse": false,
+				"show_context": true,
+				"use_buffer2": true,
+				"whole_word": false,
+				"wrap": true
+			},
+			"groups":
+			[
+				{
+					"selected": 0,
+					"sheets":
+					[
+						{
+							"buffer": 0,
+							"file": "main.lua",
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 1548,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										459,
+										459
+									]
+								],
+								"settings":
+								{
+									"BracketHighlighterBusy": false,
+									"bh_regions":
+									[
+										"bh_square",
+										"bh_square_center",
+										"bh_square_open",
+										"bh_square_close",
+										"bh_square_content",
+										"bh_tag",
+										"bh_tag_center",
+										"bh_tag_open",
+										"bh_tag_close",
+										"bh_tag_content",
+										"bh_single_quote",
+										"bh_single_quote_center",
+										"bh_single_quote_open",
+										"bh_single_quote_close",
+										"bh_single_quote_content",
+										"bh_angle",
+										"bh_angle_center",
+										"bh_angle_open",
+										"bh_angle_close",
+										"bh_angle_content",
+										"bh_curly",
+										"bh_curly_center",
+										"bh_curly_open",
+										"bh_curly_close",
+										"bh_curly_content",
+										"bh_regex",
+										"bh_regex_center",
+										"bh_regex_open",
+										"bh_regex_close",
+										"bh_regex_content",
+										"bh_c_define",
+										"bh_c_define_center",
+										"bh_c_define_open",
+										"bh_c_define_close",
+										"bh_c_define_content",
+										"bh_default",
+										"bh_default_center",
+										"bh_default_open",
+										"bh_default_close",
+										"bh_default_content",
+										"bh_unmatched",
+										"bh_unmatched_center",
+										"bh_unmatched_open",
+										"bh_unmatched_close",
+										"bh_unmatched_content",
+										"bh_round",
+										"bh_round_center",
+										"bh_round_open",
+										"bh_round_close",
+										"bh_round_content",
+										"bh_double_quote",
+										"bh_double_quote_center",
+										"bh_double_quote_open",
+										"bh_double_quote_close",
+										"bh_double_quote_content"
+									],
+									"c_time":
+									[
+										128,
+										3,
+										99,
+										100,
+										97,
+										116,
+										101,
+										116,
+										105,
+										109,
+										101,
+										10,
+										100,
+										97,
+										116,
+										101,
+										116,
+										105,
+										109,
+										101,
+										10,
+										113,
+										0,
+										67,
+										10,
+										7,
+										224,
+										5,
+										10,
+										15,
+										28,
+										51,
+										0,
+										0,
+										0,
+										113,
+										1,
+										133,
+										113,
+										2,
+										82,
+										113,
+										3,
+										46
+									],
+									"color_scheme": "Packages/User/Color Highlighter/themes/Monokai.tmTheme",
+									"function_name_status_row": 23,
+									"origin_encoding": "UTF-8",
+									"syntax": "Packages/Lua/Lua.sublime-syntax",
+									"translate_tabs_to_spaces": false
+								},
+								"translation.x": 0.0,
+								"translation.y": 0.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 0,
+							"type": "text"
+						},
+						{
+							"buffer": 1,
+							"file": "聊天窗口.lua",
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 2856,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										759,
+										759
+									]
+								],
+								"settings":
+								{
+									"BracketHighlighterBusy": false,
+									"bh_regions":
+									[
+										"bh_unmatched",
+										"bh_unmatched_center",
+										"bh_unmatched_open",
+										"bh_unmatched_close",
+										"bh_unmatched_content",
+										"bh_angle",
+										"bh_angle_center",
+										"bh_angle_open",
+										"bh_angle_close",
+										"bh_angle_content",
+										"bh_round",
+										"bh_round_center",
+										"bh_round_open",
+										"bh_round_close",
+										"bh_round_content",
+										"bh_square",
+										"bh_square_center",
+										"bh_square_open",
+										"bh_square_close",
+										"bh_square_content",
+										"bh_curly",
+										"bh_curly_center",
+										"bh_curly_open",
+										"bh_curly_close",
+										"bh_curly_content",
+										"bh_single_quote",
+										"bh_single_quote_center",
+										"bh_single_quote_open",
+										"bh_single_quote_close",
+										"bh_single_quote_content",
+										"bh_regex",
+										"bh_regex_center",
+										"bh_regex_open",
+										"bh_regex_close",
+										"bh_regex_content",
+										"bh_c_define",
+										"bh_c_define_center",
+										"bh_c_define_open",
+										"bh_c_define_close",
+										"bh_c_define_content",
+										"bh_default",
+										"bh_default_center",
+										"bh_default_open",
+										"bh_default_close",
+										"bh_default_content",
+										"bh_double_quote",
+										"bh_double_quote_center",
+										"bh_double_quote_open",
+										"bh_double_quote_close",
+										"bh_double_quote_content",
+										"bh_tag",
+										"bh_tag_center",
+										"bh_tag_open",
+										"bh_tag_close",
+										"bh_tag_content"
+									],
+									"c_time":
+									[
+										128,
+										3,
+										99,
+										100,
+										97,
+										116,
+										101,
+										116,
+										105,
+										109,
+										101,
+										10,
+										100,
+										97,
+										116,
+										101,
+										116,
+										105,
+										109,
+										101,
+										10,
+										113,
+										0,
+										67,
+										10,
+										7,
+										224,
+										5,
+										10,
+										15,
+										28,
+										51,
+										0,
+										0,
+										0,
+										113,
+										1,
+										133,
+										113,
+										2,
+										82,
+										113,
+										3,
+										46
+									],
+									"color_scheme": "Packages/User/Color Highlighter/themes/Monokai.tmTheme",
+									"function_name_status_row": 26,
+									"origin_encoding": "UTF-8",
+									"syntax": "Packages/Lua/Lua.sublime-syntax",
+									"translate_tabs_to_spaces": false
+								},
+								"translation.x": 0.0,
+								"translation.y": 0.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 1,
+							"type": "text"
+						}
+					]
+				}
+			],
+			"incremental_find":
+			{
+				"height": 0.0
+			},
+			"input":
+			{
+				"height": 0.0
+			},
+			"layout":
+			{
+				"cells":
+				[
+					[
+						0,
+						0,
+						1,
+						1
+					]
+				],
+				"cols":
+				[
+					0.0,
+					1.0
+				],
+				"rows":
+				[
+					0.0,
+					1.0
+				]
+			},
+			"menu_visible": true,
+			"output.exec":
+			{
+				"height": 234.0
+			},
+			"output.find_results":
+			{
+				"height": 0.0
+			},
+			"pinned_build_system": "",
+			"position": "0,0,1,-1,-1,-1,-1,1062,234,234,1343",
+			"project": "其它_聊天框.sublime-project",
+			"replace":
+			{
+				"height": 0.0
+			},
+			"save_all_on_build": true,
+			"select_file":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"select_project":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"select_symbol":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"selected_group": 0,
+			"settings":
+			{
+			},
+			"show_minimap": true,
+			"show_open_files": false,
+			"show_tabs": true,
+			"side_bar_visible": true,
+			"side_bar_width": 194.0,
+			"status_bar_visible": true,
+			"template_settings":
+			{
+			},
+			"window_id": 217,
+			"workspace_name": "/F/soft/GGELUA0.99/Samples/其它_聊天框/其它_聊天框.sublime-workspace"
+		}
+	],
+	"workspaces":
+	{
+		"recent_workspaces":
+		[
+			"/F/soft/GGELUA0.99/Samples/其它_聊天框/其它_聊天框.sublime-workspace",
+			"/F/soft/ggelua1111/projects/模块_GGE传奇MAP/模块_GGE传奇MAP.sublime-workspace",
+			"/F/soft/GGELUA0.99/Samples/其它_传奇技能处理/其它_传奇技能处理.sublime-workspace",
+			"/F/soft/GGELUA0.99/Samples/模块_梦幻动画/模块_梦幻动画.sublime-workspace",
+			"/F/soft/GGELUA0.99/Samples/核心_服务端多线程/核心_服务端多线程.sublime-workspace",
+			"/F/soft/GGELUA0.99/Samples/模块_梦幻地图/模块_梦幻地图.sublime-workspace",
+			"/F/soft/GGELUA0.99/Samples/模块_dz账号验证/模块_dz账号验证.sublime-workspace",
+			"/F/soft/GGELUA0.99/Samples/核心_包围盒/核心_包围盒.sublime-workspace",
+			"/F/soft/GGELUA0.99/Samples/核心_GGEUI/核心_GGEUI.sublime-workspace",
+			"/F/soft/GGELUA0.99/Samples/核心_GUI1/核心_GUI1.sublime-workspace",
+			"/F/soft/GGELUA0.99/Samples/核心_GUI/核心_GUI.sublime-workspace",
+			"/F/soft/GGELUA0.99/Projects/圆形地图框/圆形地图框.sublime-workspace",
+			"/F/soft/GGELUA0.99/Projects/其它_文件操作/其它_文件操作.sublime-workspace",
+			"/F/soft/GGELUA0.99/Projects/xmlgui/xmlgui.sublime-workspace",
+			"/F/soft/GGELUA0.99/Projects/核心_GPK打包/核心_GPK打包.sublime-workspace",
+			"/C/Users/Administrator/Desktop/装备物品背包系统/装备物品背包系统.sublime-workspace",
+			"/F/work/梦幻ggelua开发/xyq2017/战斗模板/战斗模板.sublime-workspace",
+			"/F/work/taobao_code_bak/xyq2017/战斗模板/战斗模板.sublime-workspace",
+			"/F/work/梦幻ggelua开发/client/fighting.sublime-workspace",
+			"/C/Users/Administrator/Documents/Tencent Files/76107402/FileRecv/新梦单框架by个快快/梦单实战.sublime-workspace",
+			"/D/worker/xyq/mhggelua/xyqxmlgui.sublime-workspace",
+			"/F/soft/GGELUA0.99/Samples/核心_丰富文本类/核心_丰富文本类.sublime-workspace",
+			"/D/worker/test/梦幻联网成品源代码/Main/梦幻西游ONILE.sublime-workspace",
+			"/F/work/梦幻ggelua开发/xyqclient/xyqclient.sublime-workspace",
+			"/F/work/ggelua范例/xyqxmlgui/xyqxmlgui.sublime-workspace",
+			"/F/work/梦幻ggelua开发/xyqxmlgui/xyqxmlgui.sublime-workspace",
+			"/F/soft/GGELUA0.99/Main/模块_梦幻动画.sublime-workspace",
+			"/F/work/xyq2017/xyqclient/xyqclient.sublime-workspace",
+			"/D/用户目录/我的文档/Tencent Files/76107402/FileRecv/梦战源代码/梦战源代码/gge/Projects/梦战/bh.sublime-workspace",
+			"/F/work/梦幻ggelua开发/xyq2017/xyqclient2017/xyqclient2017.sublime-workspace",
+			"/F/work/mmorpg/mmorpgclient/mmorpgclient.sublime-workspace",
+			"/C/Users/Administrator/Desktop/xyq/mhggelua/xyqxmlgui.sublime-workspace",
+			"/F/work/ggelua范例/xmlggeui/xmlggeui.sublime-workspace",
+			"/D/用户目录/我的文档/Tencent Files/76107402/FileRecv/梦幻综合/梦幻综合/梦幻综合.sublime-workspace",
+			"/F/work/梦幻ggelua开发/xmlggeui/xmlggeui.sublime-workspace",
+			"/F/work/梦幻ggelua开发/xyq2017/xyserver2017/server2017777777777/xyserver2017.sublime-workspace",
+			"/F/work/ggelua范例/xyqserver2017/xyqserver2017.sublime-workspace",
+			"/G/360云盘备份/125410836/code/游戏源码/华夏OL/华夏服务端/华夏服务端.sublime-workspace",
+			"/F/soft/GGELUA0.99/Samples/GameTaTa/GameTaTa.sublime-workspace",
+			"/H/存储文件夹/test/test.sublime-workspace",
+			"/F/soft/GGELUA0.99/Projects/游戏模板test/游戏模板test.sublime-workspace",
+			"/F/soft/GGELUA0.99/Samples/模块_传奇wil地图/模块_传奇wil地图.sublime-workspace",
+			"/G/360云盘备份/125410836/code/游戏源码/武杀/武杀.sublime-workspace",
+			"/F/soft/GGELUA0.99/Samples/模块_A星寻路/模块_A星寻路.sublime-workspace",
+			"/D/用户目录/我的文档/Tencent Files/76107402/FileRecv/A星寻路原理演示/A星寻路/A星寻路.sublime-workspace",
+			"/G/360云盘备份/125410836/code/游戏源码/华夏OL/测试用/测试用.sublime-workspace",
+			"/F/soft/GGELUA0.99/Samples/核心_2精灵/核心_2精灵.sublime-workspace",
+			"/F/soft/GGELUA0.99/Samples/核心_切割实例/核心_切割实例.sublime-workspace",
+			"/F/soft/GGELUA0.99/Samples/模块_传奇wzl动画/模块_传奇wzl动画.sublime-workspace",
+			"/F/soft/GGELUA0.99/Samples/核心_3图像/核心_3图像.sublime-workspace",
+			"/F/soft/GGELUA0.99/Samples/模块_传奇wil动画/模块_传奇wil动画.sublime-workspace",
+			"/F/soft/ggelua/samples/XML测试/XML测试.sublime-workspace",
+			"/F/soft/ggelua/samples/模块_XML/模块_XML.sublime-workspace",
+			"/F/soft/ggelua/samples/GameTaTa/GameTaTa.sublime-workspace",
+			"/F/soft/GGELUA0.99/Samples/核心_序列动画/核心_序列动画.sublime-workspace"
+		]
+	}
+}

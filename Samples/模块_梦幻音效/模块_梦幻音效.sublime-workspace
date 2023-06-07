@@ -1,0 +1,539 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"gge",
+				"gge精灵类"
+			],
+			[
+				"to",
+				"tostring	(e)"
+			],
+			[
+				"e",
+				"elseif	elseif cond then"
+			],
+			[
+				"scr",
+				"Script	subdirectory"
+			],
+			[
+				"ta",
+				"table.insert	(table, [pos,] value)"
+			],
+			[
+				"for",
+				"forp	for k,v in pairs()"
+			],
+			[
+				"os",
+				"os.exit	([code])"
+			],
+			[
+				"f",
+				"forp	for k,v in pairs()"
+			],
+			[
+				"sc",
+				"Script/"
+			],
+			[
+				"re",
+				"return	return 返回"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "main.lua",
+			"settings":
+			{
+				"buffer_size": 355,
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/I/我的项目/GGELUA/Samples/模块_梦幻音效"
+	],
+	"file_history":
+	[
+		"/I/我的项目/GGELUA/Core/Game/ggeui.lua",
+		"/I/我的项目/GGELUA/projects/内嵌web/wke.h",
+		"/C/我的项目/GGELUA/Core/Game/ggecommon.lua",
+		"/C/我的项目/GGELUA/Core/Game/ggebuf.lua",
+		"/C/我的项目/GGELUA/Core/Game/gge纹理类.lua",
+		"/C/我的项目/gge__game/__GGE.lua",
+		"/C/我的项目/GGELUA/Core/Game/gge坐标类.lua",
+		"/C/我的项目/GGELUA/Core/Game/gge动画类.lua",
+		"/C/我的项目/袖珍问道/Script/人物类.lua",
+		"/C/我的项目/袖珍问道/Script/屏幕表.lua",
+		"/C/我的项目/袖珍问道/Script/地图/地图类.lua",
+		"/C/我的项目/袖珍问道/Script/动画/动画控.lua",
+		"/C/我的项目/袖珍问道/Script/动画/动画类.lua",
+		"/C/我的项目/GGELUA/Core/Game/gge线程类.lua",
+		"/C/我的项目/GGELUA/Core/Game/ggexml类.lua",
+		"/C/我的项目/GGELUA/Core/Game/ggeui.lua",
+		"/C/我的项目/GGELUA/Core/Game/gge音效类.lua",
+		"/C/我的项目/GGELUA/Core/Game/gge精灵类.lua",
+		"/C/我的项目/GGELUA/Core/Game/gge文字类.lua",
+		"/C/我的项目/GGELUA/Core/Game/gge引擎.lua",
+		"/C/我的项目/GGELUA/Core/Game/gge图像类.lua",
+		"/C/我的项目/GGELUA/Core/Game/gge包围盒.lua",
+		"/C/我的项目/袖珍问道/Script/动画/动画集.lua",
+		"/C/我的项目/袖珍问道/Script/地图/路径类.lua",
+		"/C/我的项目/袖珍问道/script/地图/地图类.lua",
+		"/C/我的项目/袖珍问道/GGE.lua",
+		"/C/我的项目/袖珍问道/Script/人物属性.lua",
+		"/C/我的项目/GGELUA/Core/Game/gge函数.lua",
+		"/C/我的项目/GGELUA/Core/Game/ffi函数.lua",
+		"/C/我的项目/袖珍问道/Script/资源表.lua",
+		"/C/我的项目/袖珍问道/Script/BDB类.lua",
+		"/C/我的项目/GGELUA/Core/Game/ggedebug.lua",
+		"/C/我的项目/袖珍问道/Script/ANI类.lua",
+		"/C/我的项目/袖珍问道/Script/MAP类.lua",
+		"/C/我的项目/GGELUA/Sublime Text/Data/Packages/Lua/Lua.tmLanguage",
+		"/C/我的项目/GGELUA/Core/Game/gge引擎类.lua",
+		"/C/我的项目/GGELUA/Core/Game/ggemain.lua",
+		"/C/Users/Administrator/Desktop/火花/scite356/scintilla/lexers/LexLua.cxx",
+		"/C/Users/Administrator/Desktop/火花/scite356/scintilla/lexers1/LexCPP.cxx",
+		"/C/我的项目/袖珍问道/Main.lua",
+		"/C/我的项目/GGELUA/Sublime Text/Data/Packages/User/FileHeader.sublime-settings",
+		"/C/我的项目/GGELUA/Sublime Text/Data/Packages/FileHeader/FileHeader.py",
+		"/C/Users/Administrator/Documents/Tencent Files/313738139/FileRecv/源.cpp",
+		"/C/我的项目/GGELUA/Sublime Text/Data/Packages/Lua/ggesnippet/创建.sublime-snippet",
+		"/D/data1.54/PlatformDepend/config/PanToolDlg_1024_768.ini",
+		"/C/我的项目/袖珍问道/main.lua",
+		"/D/data1.54/PlatformDepend/config/EntranceDlg.ini",
+		"/D/data1.54/PlatformDepend/config/ChatToolDlg.ini",
+		"/D/data1.54/PlatformDepend/config/LineChoiceDlg_1024_768.ini",
+		"/D/data1.54/PlatformDepend/config/CharCreationDlg.ini",
+		"/D/data1.54/PlatformDepend/config/Ui.ini",
+		"/D/data1.54/PlatformDepend/config/CharChoiceDlg_1024_768.ini",
+		"/D/data1.54/PlatformDepend/config/CharCreationDlg_1024_768.ini",
+		"/D/data1.54/PlatformDepend/config/EntranceDlg_1024_768.ini",
+		"/D/data1.54/PlatformDepend/config/AntiBotDlg_1024_768.ini",
+		"/C/我的项目/GGELUA/Core/Server/ggeserver.lua",
+		"/C/我的项目/GGELUA/Extend/Astart类.lua",
+		"/C/我的项目/GGELUA/Extend/Sqlite类.gge",
+		"/C/我的项目/袖珍问道/配置.ini",
+		"/C/我的项目/GGELUA/Extend/GUI.lua",
+		"/C/我的项目/袖珍问道/script/动画/动画类.lua",
+		"/C/我的项目/袖珍问道/Script/地图类.lua",
+		"/C/我的项目/袖珍问道/script/bdb类.lua",
+		"/C/我的项目/袖珍问道/Script/路径类.lua",
+		"/D/data1.54/PlatformDepend/config/Sound.ini",
+		"/C/我的项目/GGELUA/Sublime Text/Data/Packages/SublimeTmpl/templates/lua.tmpl",
+		"/C/我的项目/袖珍问道/袖珍问道.sublime-project",
+		"/C/我的项目/GGELUA/Sublime Text/Data/Packages/Lua/ggeobj.sublime-build",
+		"/C/我的项目/start/__GGE.lua",
+		"/C/我的项目/袖珍问道/__GGE"
+	],
+	"find":
+	{
+		"height": 22.0
+	},
+	"find_in_files":
+	{
+		"height": 90.0,
+		"where_history":
+		[
+			"D:\\data1.54\\PlatformDepend",
+			"C:\\我的项目\\GGELUA\\Core\\Game"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"wkeMouseWheel",
+			"消息常量",
+			"鼠标函数",
+			"wkeUpdate",
+			"utf8",
+			"t.",
+			"移动到",
+			"是否移动",
+			"角度算方向",
+			"self.map",
+			"'.'",
+			"\":\"",
+			"\".\"",
+			"\":\"",
+			":\"",
+			"':'",
+			"\":\"",
+			":\"",
+			"FoldLuaDoc",
+			"math",
+			"table",
+			"Keywords",
+			"self",
+			"this",
+			"|",
+			"2471",
+			"2186",
+			"5686",
+			"5605",
+			"5687",
+			"5616",
+			"5679",
+			"5666",
+			"5665",
+			"5601",
+			"动画:",
+			"动画",
+			"动画集",
+			"AS",
+			"_地图",
+			"g音效",
+			"self.ani",
+			" self",
+			"self.",
+			"self:j",
+			"self:",
+			"self.",
+			"self",
+			"self.",
+			"重置",
+			"置方向",
+			"坐标类",
+			" end",
+			"屏幕",
+			"角度算方向",
+			".动画集",
+			"角度算方向",
+			"math.cos",
+			"):",
+			"目录",
+			" end",
+			",true,true",
+			",false,false",
+			"s\",",
+			"动画类",
+			"动画线程",
+			"播放次数",
+			"状态",
+			"self.状态 = 0",
+			" self.状态 = 0",
+			"Total",
+			"数量",
+			"self.当前帧",
+			"循环",
+			"次数",
+			"self.已循环",
+			"x",
+			"ani",
+			"gbt",
+			"头",
+			"	self.",
+			"	",
+			",",
+			"xy",
+			"图像",
+			"地表组",
+			"生成XY",
+			"已加载表",
+			"/data/map/fkwj/03136.gbits",
+			"/data/map/fkwj/03010.gbits",
+			"纹理",
+			"/data/big_ui/00017.jpg",
+			"00006",
+			"client",
+			"RunPath",
+			"st",
+			"MessageBox",
+			"__GGE",
+			"LoadScript",
+			"Utf8toAnsi",
+			"readfile",
+			"ReadFile",
+			"MessageBox",
+			".CRC32",
+			"CRC32",
+			"__GGE.",
+			"__GGE",
+			"资源类"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"self:"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "main.lua",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 355,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								338,
+								338
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content"
+							],
+							"c_time":
+							[
+								128,
+								3,
+								99,
+								100,
+								97,
+								116,
+								101,
+								116,
+								105,
+								109,
+								101,
+								10,
+								100,
+								97,
+								116,
+								101,
+								116,
+								105,
+								109,
+								101,
+								10,
+								113,
+								0,
+								67,
+								10,
+								7,
+								224,
+								4,
+								17,
+								19,
+								35,
+								5,
+								0,
+								0,
+								0,
+								113,
+								1,
+								133,
+								113,
+								2,
+								82,
+								113,
+								3,
+								46
+							],
+							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai.tmTheme",
+							"function_name_status_row": 24,
+							"origin_encoding": "UTF-8",
+							"syntax": "Packages/Lua/Lua.sublime-syntax"
+						},
+						"translation.x": 84.0,
+						"translation.y": -0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 22.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 94.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "Packages/Lua/ggegame.sublime-build",
+	"project": "模块_梦幻音效.sublime-project",
+	"replace":
+	{
+		"height": 40.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 207.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

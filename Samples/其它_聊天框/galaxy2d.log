@@ -1,0 +1,26 @@
+Galaxy2D Game Engine 4.1
+版权声明: 版权所有(c) 2005 沈明. 保留所有权利.
+主页地址: http://www.cppblog.com/jianguhan/
+电子邮箱: jianguhan@126.com
+创建时间: 2018-12-5 1:11:0
+操作系统: Windows 6.2.9200
+CPU信息: Intel(R) Core(TM) i7-6700 CPU @ 3.40GHz
+物理内存: 2048M, 剩余:2048M
+
+开始初始化 Galaxy2D Game Engine.
+视频设备:NVIDIA GeForce GTX 1060 6GB
+最大纹理尺寸:16384x16384
+显示模式:800x600x32(窗口)
+初始化视频设备成功.
+音频设备:扬声器 (Realtek High Definition Audio)
+音频位速:16
+音频频率:44100
+初始化音频设备成功.
+Galaxy2D Game Engine 初始化完毕.
+
+创建字体[C:/Windows/Fonts/simsun.ttc][14,Normal,Normal,Mono]成功.
+载入纹理文件[02760.png]成功.
+载入纹理文件[1.jpg]成功.
+载入纹理文件[2.jpg]成功.
+TextureRelease:2.jpg
+TextureRelease:1.jpg

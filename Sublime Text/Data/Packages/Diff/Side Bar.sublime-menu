@@ -1,0 +1,3 @@
+[
+	{ "caption": "对比文件…", "command": "diff_files", "args": {"files": []} }
+]

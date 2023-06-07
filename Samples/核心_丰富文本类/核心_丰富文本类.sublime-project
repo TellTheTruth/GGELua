@@ -1,0 +1,15 @@
+{
+	"folders":
+	[
+		{
+			"file_exclude_patterns":
+			[
+				"丰富文本类.sublime-project"
+			],
+			"path": "."
+		},
+		{
+			"path": "C:\\我的项目\\GGELUA\\Core\\Game"
+		}
+	]
+}

@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[引擎.文件是否存在(${1:文件名})]]></content>
+    <tabTrigger>yq.wjsfcz</tabTrigger>
+    <scope>source.lua</scope>
+    <description>引擎.文件是否存在</description>
+</snippet>

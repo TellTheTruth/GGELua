@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[gge线程类]]></content>
+    <tabTrigger>ggexcl</tabTrigger>
+    <scope>source.lua</scope>
+    <description>gge线程类</description>
+</snippet>

@@ -1,0 +1,28 @@
+{
+    "cmd": ["$packages/../../../Build/GGEBuild.exe","ggegame", "$project_path"],
+// "file_regex": "^(...*?):([0-9]*):?([0-9]*)",
+    "file_regex": "([^\"]+)\"\\]\\:([0-9]+)",
+    "selector": "source.lua",
+    "shell": true,
+    "encoding": "cp936",
+    "working_dir":"$project_path",
+    "variants": [
+        {   "name": "Run",
+            "cmd": ["$packages/../../../g2d.exe", "$file_path", "$project_path"]
+        },
+        {   "name": "RunInCommand",
+            "cmd": ["$packages/../../../g2d.exe", "$file_path", "$project_path"]
+        },
+        {   "name": "SetGGE",
+            "shell": true,
+            "cmd": ["$packages/../../../GGEMain.exe", "ggegame","$project_path"]
+        },
+        {   "name": "Stop",
+            "cmd": ["taskkill","/im","g2d.exe","/f"]
+        },
+        {   "name": "AboutGGE",
+            "shell": true,
+            "cmd": ["$packages/../../../GGEMain.exe", "about"]
+        },
+    ]
+}

@@ -1,0 +1,59 @@
+http://lubriciousdevelopers.github.io/projects/sublime-sql-exec/
+
+Installation
+With Package Control
+
+Look for the package named SQLExec.
+
+With Git
+
+Download the Zip file, extract it to your Sublime Text packages directory, and rename it to SQLExec.
+
+Requirements
+
+Some directories have to be defined in the PATH environment variable, according to the SGBD that you want to use: "mysql" executable for MySQL, "pgsql" executable for PostgreSQL, "vsql" executable for Vertica, or "sqlplus" executable for Oracle ( Not tested ).
+
+You can also specify full path for these command in settings :
+
+( Preferences > Package Settings > SQLExec > Settings - User )
+
+                        "sql_exec.commands": {
+                            "mysql" : "/usr/bin/mysql"
+                        },
+                    
+Configuration
+Sample configuration file
+
+ 1                     {
+ 2                         "connections": {
+ 3                             "Connection 1": {
+ 4                                 "type"    : "mysql",
+ 5                                 "host"    : "127.0.0.1",
+ 6                                 "port"    : 3306,
+ 7                                 "username": "user",
+ 8                                 "password": "password",
+ 9                                 "database": "dbname"
+10                             },
+11                             "Connection 2": {
+12                                 "type"    : "pgsql",
+13                                 "host"    : "127.0.0.1",
+14                                 "port"    :  5432,
+15                                 "username": "anotheruser",
+16                                 "database": "dbname"
+17                             },
+18                             "Connection 2": {
+19                                 "type"    : "oracle",
+20                                 "host"    : "127.0.0.1",
+21                                 "port"    :  1522,
+22                                 "username": "anotheruser",
+23                                 "password": "password",
+24                                 "database": "dbname",
+25                                 "service" : "servicename"
+26                             }
+27                         }
+28                     }
+29                 
+PostgreSQL
+
+For connecting to PostgreSQL Database, you have to use a pgpass.cong file for connections using passwords. 
+See PostgreSQL pgpass.conf documentation for more details.

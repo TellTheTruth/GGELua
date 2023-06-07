@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[gge图像类]]></content>
+    <tabTrigger>ggetxl</tabTrigger>
+    <scope>source.lua</scope>
+    <description>gge图像类</description>
+</snippet>

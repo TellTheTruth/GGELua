@@ -1,0 +1,24 @@
+--函数
+__gge.crc32(文本)			取CRC32
+__gge.adler32(文本) 	
+__gge.enbase64(目标指针,目标长度,源指针,源长度)	
+__gge.debase64(目标指针,目标长度,源指针,源长度)	
+__gge.compress(目标指针,目标长度,源指针,源长度)	
+__gge.uncompress(目标指针,目标长度,源指针,源长度)		
+__gge.messagebox(文本,标题,类型)	弹框
+__gge.readfile(路径)			读整个文件
+__gge.writefile(路径,文本)		写到文件
+__gge.utf8toansi(文本,长度)		UTF8转ANSI
+__gge.ansitoutf8(文本,长度)		ANSI转UTF8
+__gge.safecall(函数,参数...)		检查运行
+__gge.scriptaccess(路径)		脚本是否存在
+__gge.loadscript(路径) 			加载脚本
+
+--常量
+__gge.isdebug 是否调试模式
+__gge.command 命令行
+__gge.cs      线程进入许可
+__gge.state   虚拟机
+__gge.runpath 运行目录
+__gge.curpath 当前目录
+__gge.version 版本号

@@ -1,0 +1,39 @@
+<snippet>
+	<content><![CDATA[
+--======================================================================--
+local ${1:控件名称} = ${2:窗口}:创建控件("${3:名称}")
+
+function ${1:控件名称}:初始化()
+	self.图像 = require("gge图像类").创建("${4:文件}")
+	self.x=10
+	self.y=10
+end
+
+function ${1:控件名称}:更新(dt,x,y)
+
+end
+
+function ${1:控件名称}:显示(x,y)
+	self.图像:显示(self.x,self.y)
+end
+
+function ${1:控件名称}:检查点(x,y)
+	return self.图像:取像素(x,y) ~=0
+end
+
+function ${1:控件名称}:消息事件(类型,消息,参数1,参数2)
+	if 消息 =="移动" or  消息 =="准备关闭" then
+		return not self:是否碰撞()
+	end
+	
+	return true
+end
+]]></content>
+    <tabTrigger>guikj</tabTrigger>
+    <scope>source.lua</scope>
+    <description>图像控件模版</description>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<!-- <tabTrigger>hello</tabTrigger> -->
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>

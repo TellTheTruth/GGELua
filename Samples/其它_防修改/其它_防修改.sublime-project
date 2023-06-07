@@ -1,0 +1,12 @@
+{
+	"folders":
+	[
+		{
+			"file_exclude_patterns":
+			[
+				"防修改.sublime-project"
+			],
+			"path": "."
+		}
+	]
+}

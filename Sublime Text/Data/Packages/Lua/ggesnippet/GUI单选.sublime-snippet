@@ -1,0 +1,48 @@
+<snippet>
+	<content><![CDATA[
+--======================================================================--
+
+local ${1:按钮} = ${2:窗口或容器}:创建单选按钮("${3:按钮名称}")
+
+
+function ${1:按钮}:初始化()
+	local 纹理 = require("gge纹理类")
+	self.纹理1 = 纹理.创建("${4:图片路径1}")
+	self.纹理2 = 纹理.创建("${5:图片路径2}")
+	self.精灵 = require("gge精灵类").创建(self.纹理1)
+
+	self.x = 0
+	self.y = 0
+end
+
+function ${1:按钮}:更新(dt,x,y)
+	self.精灵:置坐标(x+self.x,y+self.y)
+end
+
+function ${1:按钮}:显示()
+	self.精灵:显示()
+end
+
+function ${1:按钮}:检查点(x,y)
+	return self.精灵:检查点(x,y)
+end
+
+function ${1:按钮}:消息事件(类型,消息,参数1,参数2)
+	if 消息 =="选中" then
+		self.精灵:置纹理(self.纹理2)
+	elseif 消息 =="取消选中" then
+		self.精灵:置纹理(self.纹理1)
+	elseif 消息 =="移动" or  消息 =="准备关闭" then
+		return not self:是否碰撞()
+	end
+	return true
+end
+]]></content>
+    <tabTrigger>guiandx</tabTrigger>
+    <scope>source.lua</scope>
+    <description>单选按钮模版</description>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<!-- <tabTrigger>hello</tabTrigger> -->
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>

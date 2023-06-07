@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[table.tostring(${1:table})]]></content>
+    <tabTrigger>table.tostring</tabTrigger>
+    <scope>source.lua</scope>
+    <description>(gge)</description>
+</snippet>

@@ -1,0 +1,1 @@
+{"description": "A powerful file templating plugin for ST2/ST3", "platforms": ["*"], "version": "1.6.0", "sublime_text": "*", "url": "http://shiyanhui.github.io/FileHeader", "dependencies": []}

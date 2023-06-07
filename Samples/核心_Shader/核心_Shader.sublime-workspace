@@ -1,0 +1,856 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"ta",
+				"table.concat	table.concat"
+			],
+			[
+				"消息",
+				"消息函数"
+			],
+			[
+				"添加",
+				"添加元素"
+			],
+			[
+				"el",
+				"elseif	elseif cond then"
+			],
+			[
+				"un",
+				"unpack"
+			],
+			[
+				"u",
+				"unpack"
+			],
+			[
+				"p",
+				"pcall	(f, arg1, ...)"
+			],
+			[
+				"for",
+				"fori	for i,v in ipairs()"
+			],
+			[
+				"to",
+				"tostring"
+			],
+			[
+				"fun",
+				"function	function"
+			],
+			[
+				"bitr",
+				"bit.rshift	(x, disp)"
+			],
+			[
+				"gge",
+				"gge纹理类"
+			],
+			[
+				"cl",
+				"collectgarbage	([opt [, arg]])"
+			],
+			[
+				"set",
+				"setmetatable	(table, metatable)"
+			],
+			[
+				"pr",
+				"print	(...)"
+			],
+			[
+				"get",
+				"getfenv	([f])"
+			],
+			[
+				"pack",
+				"package.preload	package.preload"
+			],
+			[
+				"wi",
+				"write"
+			],
+			[
+				"lo",
+				"loadstring	(string [, chunkname])"
+			],
+			[
+				"str",
+				"string.dump	(function)"
+			],
+			[
+				"st",
+				"string.byte	(s [, i [, j]])"
+			],
+			[
+				"int",
+				"insert"
+			],
+			[
+				"re",
+				"req	require(module)"
+			],
+			[
+				"call",
+				"callback"
+			],
+			[
+				"os",
+				"os.time	([table])"
+			],
+			[
+				"ret",
+				"return	return 返回"
+			],
+			[
+				"mathf",
+				"math.floor	(x)"
+			],
+			[
+				"__",
+				"__index"
+			],
+			[
+				"load",
+				"loadstring	(string [, chunkname])"
+			],
+			[
+				"fo",
+				"forp	for k,v in pairs()"
+			],
+			[
+				"gui",
+				"guick	窗口模版"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "main.lua",
+			"settings":
+			{
+				"buffer_size": 1742,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/I/我的项目/GGELUA/Core/Game/ggeshader.lua",
+			"settings":
+			{
+				"buffer_size": 2064,
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "Packages/Lua/ggegame.sublime-build",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"last_filter": "Package Control: ",
+		"selected_items":
+		[
+			[
+				"Package Control: ",
+				"Package Control: Remove Package"
+			]
+		],
+		"width": 464.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/I/我的项目/GGELUA/Core/Game"
+	],
+	"file_history":
+	[
+		"/I/我的项目/GGELUA/projects/核心_Shader/GGE.lua",
+		"/I/Desktop/Galaxy2D/samples/bin/shader.fx",
+		"/I/我的项目/GGELUA/Core/Game/ggeshader.lua",
+		"/I/我的项目/GGELUA/Core/Game/gge纹理类.lua",
+		"/I/我的项目/GGELUA/Core/Game/gge坐标类.lua",
+		"/I/我的项目/GGELUA/Core/Game/gge图像类.lua",
+		"/I/我的项目/GGELUA/Core/Game/gge音效类.lua",
+		"/I/我的项目/GGELUA/Core/Game/gge资源类.lua",
+		"/I/我的项目/GGELUA/Core/Game/gge线程类.lua",
+		"/I/我的项目/GGELUA/Core/Game/gge精灵类.lua",
+		"/I/我的项目/GGELUA/Core/Game/gge粒子类.lua",
+		"/I/我的项目/GGELUA/Core/Game/gge文字类.lua",
+		"/I/我的项目/GGELUA/Core/Game/gge字节集.lua",
+		"/I/我的项目/GGELUA/Core/Game/gge包围盒.lua",
+		"/I/我的项目/GGELUA/Core/Game/gge动画类.lua",
+		"/I/我的项目/GGELUA/Core/Game/gge引擎.lua",
+		"/I/我的项目/GGELUA/Core/Game/ggemain.lua",
+		"/I/我的项目/GGELUA/Core/Game/ggedebug.lua",
+		"/I/我的项目/GGELUA/Core/Game/gge函数.lua",
+		"/I/我的项目/GGELUA/Sublime Text/Data/Packages/Lua/ggegame.sublime-build",
+		"/I/我的项目/GGELUA_Src/gge__game/__GGE.lua",
+		"/I/我的项目/GGELUA/Core/Game/ggexml类.lua",
+		"/I/我的项目/GGELUA/Core/Game/gui管理器.lua",
+		"/I/我的项目/GGELUA/Core/Game/gui加载类.lua",
+		"/I/我的项目/GGELUA/Core/Game/ggecommon.lua",
+		"/I/我的项目/GGELUA/Core/Game/gui控件类.lua",
+		"/E/我的项目/G2dLua/gge__game/__GGE.lua",
+		"/I/我的项目/GGENET/gge__server/__GGE.lua",
+		"/I/我的项目/GGELUA/samples/01.基础/1.基础.sublime-project",
+		"/I/我的项目/GGELUA/samples/01.基础/聊天窗口.lua",
+		"/I/我的项目/GGELUA/extend/Logger.lua",
+		"/I/我的项目/GGELUA/samples/01.基础/丰富文本类.lua",
+		"/I/我的项目/GGELUA/samples/01.基础/gge精灵类.lua",
+		"/H/BaiduYunDownload/source-mir2-heroes-201301262048/Source/HeroMirClient/Wis.pas",
+		"/I/我的项目/GGELUA/Sublime Text/Data/Packages/Toolbar/Main.sublime-menu",
+		"/I/我的项目/GGELUA/Sublime Text/Data/Packages/User/Preferences.sublime-settings",
+		"/I/我的项目/GGELUA/Sublime Text/Data/Packages/User/Base File.sublime-settings",
+		"/I/我的项目/GGELUA/Sublime Text/Data/Packages/User/Default (Windows).sublime-keymap",
+		"/I/我的项目/GGELUA/Sublime Text/Data/Packages/Alignment/Base File.sublime-settings",
+		"/I/我的项目/GGELUA/Sublime Text/Data/Packages/Alignment/Default (Windows).sublime-keymap",
+		"/I/我的项目/GGELUA/Sublime Text/Data/Packages/Lua/Lua.sublime-syntax",
+		"/I/我的项目/GGELUA/samples/01.基础/gge纹理类.lua",
+		"/I/我的项目/GGELUA/Core/Game/ffi函数.lua",
+		"/I/我的项目/GGELUA/Sublime Text/Data/Packages/User/Lua.sublime-settings",
+		"/I/我的项目/GGELUA/Sublime Text/Data/Packages/Lua/ggesnippet/key/鼠标左键.sublime-snippet",
+		"/I/我的项目/GGELUA/samples/01.基础/screenshot.jpg",
+		"/I/我的项目/GGELUA/samples/01.基础/02760.png",
+		"/I/我的项目/GGELUA/samples/01.基础/1.jpg",
+		"/I/我的项目/GGELUA/Sublime Text/Data/Packages/Lua/ggeserver.sublime-build",
+		"/I/我的项目/GGELUA/Sublime Text/Data/Packages/Theme - Default/Default.sublime-theme",
+		"/I/我的项目/GGELUA/Sublime Text/Data/Packages/Default/Preferences.sublime-settings",
+		"/I/我的项目/GGELUA/Sublime Text/Data/Packages/Theme - Default/Icon (Lua).tmPreferences",
+		"/I/我的项目/GGELUA/samples/01.基础/main.lua",
+		"/I/我的项目/GGELUA_Src/G2D/base.cpp",
+		"/I/我的项目/GGELUA/Sublime Text/Data/Packages/PlainTasks/PlainTasks (Windows).sublime-settings",
+		"/I/我的项目/GGELUA/Sublime Text/Data/Packages/PlainTasks/Default (Windows).sublime-keymap",
+		"/I/我的项目/GGELUA/Sublime Text/Data/Packages/PlainTasks/messages/Tutorial.todo",
+		"/I/我的项目/GGELUA/Sublime Text/Data/Packages/BracketHighlighter/bh_core.sublime-settings",
+		"/I/我的项目/GGELUA/extend/丰富文本类.lua",
+		"/I/我的项目/GGELUA/samples/01.基础/gge文字类.lua",
+		"/I/我的项目/GGELUA/samples/01.基础/聊天文本.lua",
+		"/I/我的项目/GGELUA/samples/01.基础/聊天线程.lua",
+		"/I/我的项目/GGELUA/Core/Server/ggecommon.lua",
+		"/I/我的项目/GGELUA_Src/G2D/gdi文字类.lua",
+		"/I/我的项目/GGELUA/Help/gge引擎/关闭.lua",
+		"/I/我的项目/GGELUA/Help/gge引擎/创建.lua",
+		"/I/我的项目/GGELUA/Help/gge引擎/创建",
+		"/I/我的项目/GGELUA/Core/Game/ggeui.lua",
+		"/C/我的项目/GGELUA/Core/Game/gge纹理类.lua",
+		"/C/我的项目/GGELUA/Core/Game/gge引擎.lua",
+		"/C/我的项目/GGELUA/extend/Glow/MAP类.lua",
+		"/C/我的项目/gge__game/__GGE.lua",
+		"/C/我的项目/GGELUA/Core/Game/ggecommon.lua",
+		"/C/Users/Administrator/Desktop/kvakvs-hge-a51b3ec/CMakeLists.txt",
+		"/C/我的项目/GGELUA/samples/01.基础/123",
+		"/C/我的项目/GGELUA/samples/01.基础/111.lua",
+		"/C/我的项目/GGELUA/samples/01.基础/main1.lua",
+		"/C/我的项目/GGELUA/samples/01.基础/123.lua",
+		"/C/我的项目/GGELUA/samples/01.基础/test.lua",
+		"/C/我的项目/GGELUA/samples/01.基础/-- @????: baidwwy...",
+		"/C/我的项目/GGELUA/Build/jit/bcsave.lua",
+		"/F/新建文件夹/调试/LuaJIT-2.0.4/src/jit/bcsave.lua",
+		"/F/新建文件夹/调试/LuaJIT-2.0.4/doc/ext_jit.html",
+		"/C/Users/ADMINI~1/AppData/Local/Temp/Rar$DR01.347/lua78/src/lcode-78.c",
+		"/C/Users/ADMINI~1/AppData/Local/Temp/Rar$DR09.790/lua78/src/lopcodes-78.h",
+		"/F/新建文件夹/调试/LuaJIT-2.0.4/src/lj_bc.h",
+		"/C/Users/Administrator/Desktop/lj_bc.h",
+		"/F/新建文件夹/调试/LuaJIT-2.0.4/src/lj_gc.h",
+		"/C/我的项目/GGELUA/Core/Game/ffi函数.lua",
+		"/C/我的项目/G2dLua/G2D/__GGE.h",
+		"/C/我的项目/GGELUA/Core/Game/gge函数.lua",
+		"/C/我的项目/GGELUA/Core/Game/gge引擎类.lua",
+		"/C/我的项目/GGELUA/samples/01.基础/bp.lua",
+		"/C/我的项目/GGELUA/Sublime Text/Data/Packages/Lua/ggegame.sublime-build",
+		"/C/我的项目/GGELUA/Sublime Text/Data/Packages/User/FileHeader.sublime-settings",
+		"/C/我的项目/GGELUA/Sublime Text/Data/Packages/FileHeader/template/header/Lua.tmpl",
+		"/C/我的项目/GGELUA/Sublime Text/Data/Packages/FileHeader/FileHeader.py",
+		"/C/我的项目/GGELUA/Sublime Text/Data/Packages/FileHeader/FileHeader.sublime-settings",
+		"/C/Users/Administrator/Desktop/curl-7.42.1/winbuild/BUILD.WINDOWS.txt",
+		"/C/Users/Administrator/Desktop/curl-7.42.1/winbuild/Makefile.vc",
+		"/C/Users/Administrator/Desktop/curl-7.42.1/winbuild/Makefile.msvc.names",
+		"/C/Users/Administrator/Desktop/curl-7.42.1/winbuild/MakefileBuild.vc",
+		"/C/Users/Administrator/Desktop/user_register.lua",
+		"/C/Users/Administrator/Desktop/curl-7.42.1/winbuild/gen_resp_file.bat",
+		"/C/Users/Administrator/Desktop/luasocket-2.0.2/src/socket.lua",
+		"/C/Users/Administrator/Desktop/luasocket-2.0.2/src/ltn12.lua",
+		"/D/我的项目/GGELUA/extend/LuaSock类.lua",
+		"/C/Users/Administrator/Desktop/luasocket-2.0.2/src/http.lua",
+		"/C/Users/Administrator/Desktop/luasocket-2.0.2/src/mime.lua",
+		"/D/我的项目/GGELUA/Core/Game/ffi函数.lua",
+		"/C/我的项目/GGELUA/Core/Game/gge精灵类.lua",
+		"/C/我的项目/GGELUA/Core/Game/gge图像类.lua",
+		"/C/我的项目/sqlite/Main.lua",
+		"/C/我的项目/GGELUA/core/game/gge引擎类.lua",
+		"/C/我的项目/GGELUA/Extend/Astart类.gge",
+		"/C/我的项目/GGELUA/Sublime Text/Data/Packages/ColorPicker/Main.sublime-menu",
+		"/C/我的项目/GGELUA/Sublime Text/Data/Packages/ColorPicker/sublimecp.py",
+		"/C/我的项目/GGELUA/Sublime Text/Data/Packages/ColorPicker/Default (Windows).sublime-keymap",
+		"/C/我的项目/GGELUA/Sublime Text/Data/Packages/ColorPicker/ColorPicker.sublime-settings",
+		"/C/我的项目/GGELUA/Sublime Text/Data/Packages/User/ColorPicker.sublime-settings",
+		"/C/我的项目/GGELUA/Core/Game/ggedebug.lua",
+		"/C/我的项目/GGELUA/Core/Game/ggemain.lua",
+		"/D/Desktop/GGELUA/Sublime Text 3/Data/Packages/User/lua.sublime-build",
+		"/D/Desktop/GGELUA中文/Sublime Text 3/Data/Packages/User/lua.sublime-build",
+		"/C/Users/Administrator/Desktop/db-4.4.20.NC/build_win32/db.h",
+		"/D/Desktop/GGELUA/samples/1.基础/main.lua",
+		"/D/Desktop/GGELUA/base/ggefunction.lua"
+	],
+	"find":
+	{
+		"height": 22.0
+	},
+	"find_in_files":
+	{
+		"height": 90.0,
+		"where_history":
+		[
+			"I:\\我的项目\\GGELUA\\Core\\Game",
+			"F:\\新建文件夹\\调试\\LuaJIT-2.0.4\\doc",
+			"C:\\我的项目\\GGELUA\\Sublime Text\\Data\\Packages\\FileHeader",
+			"C:\\Users\\Administrator\\Desktop\\curl-7.42.1\\builds"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": true,
+		"find_history":
+		[
+			"sf",
+			"function",
+			"self.isok",
+			"self.OBJ",
+			"GGEOBJ",
+			"大小",
+			"置指针",
+			"Texture_LoadStr",
+			"SetP",
+			"loadscript",
+			"success",
+			"safecall",
+			"self.Font",
+			"self.Tex",
+			"self.Spr",
+			"CheckP",
+			"取指针",
+			"self.Sound",
+			"GGE音效",
+			"self.Spr",
+			"GGE精灵",
+			"self.par",
+			"GGE粒子",
+			"self.Tex",
+			"GGE纹理",
+			"释放",
+			"加引用",
+			"self.Font",
+			"GGE文字",
+			"释放",
+			"加引用",
+			"self.Obj",
+			"self.Image",
+			"GGE图像",
+			"释放",
+			"加引用",
+			"self.Ani",
+			"GGE动画",
+			"select",
+			"20",
+			"255",
+			"120",
+			"240",
+			"200",
+			"150",
+			"100",
+			"200",
+			"255",
+			"folder",
+			"\",",
+			"[",
+			"bold_folder_labels",
+			"save_on_focus_lost",
+			"false",
+			"bold_folder_labels",
+			"draw_minimap_border",
+			"置宽高",
+			"收购导师",
+			"聊天",
+			"画线",
+			"添加文本",
+			"self.丰富文本",
+			"	",
+			"聊天文本",
+			"添加",
+			"self.文字",
+			"self.背景",
+			"self.文字",
+			"self.文",
+			"require",
+			"引擎",
+			"local ",
+			" end",
+			"if(_isrun)then return ",
+			"引擎",
+			"local ",
+			"线程循环",
+			"引擎",
+			"unpack",
+			"脩颅禄路潞炉脢媒",
+			"脧没脧垄潞炉脢媒",
+			"safecall",
+			"ret",
+			"__gge.tsend(__gge.tthis,",
+			"safecall",
+			"threadmain",
+			"是否打开",
+			"this",
+			"tmain",
+			"obj",
+			"新建类",
+			",",
+			"释放",
+			"band",
+			"WPARAM",
+			"bit.",
+			"纹理",
+			"SetP",
+			"__ggeSprite",
+			"self",
+			"font.",
+			"font",
+			"引擎.高度",
+			"窗口宽度",
+			"引擎",
+			"引擎.isrun",
+			"引擎.Base",
+			"聊天窗口:",
+			"base",
+			"self.base",
+			"引擎.",
+			"f",
+			"self",
+			"引擎.Base",
+			"if(引擎.isrun)then ",
+			"function 引擎.",
+			"引擎.",
+			"x,y",
+			"base:",
+			"base",
+			"self.",
+			"引擎",
+			"or",
+			"引擎.Base",
+			"	引擎.Base:",
+			"or ",
+			"	引擎.Base:",
+			"messagebox"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "main.lua",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1742,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								586,
+								586
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content"
+							],
+							"c_time":
+							[
+								128,
+								3,
+								99,
+								100,
+								97,
+								116,
+								101,
+								116,
+								105,
+								109,
+								101,
+								10,
+								100,
+								97,
+								116,
+								101,
+								116,
+								105,
+								109,
+								101,
+								10,
+								113,
+								0,
+								67,
+								10,
+								7,
+								224,
+								5,
+								22,
+								22,
+								57,
+								27,
+								0,
+								0,
+								0,
+								113,
+								1,
+								133,
+								113,
+								2,
+								82,
+								113,
+								3,
+								46
+							],
+							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai.tmTheme",
+							"function_name_status_row": 15,
+							"origin_encoding": "UTF-8",
+							"syntax": "Packages/Lua/Lua.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 42.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "/I/我的项目/GGELUA/Core/Game/ggeshader.lua",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2064,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1597,
+								1597
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content"
+							],
+							"c_time":
+							[
+								128,
+								3,
+								99,
+								100,
+								97,
+								116,
+								101,
+								116,
+								105,
+								109,
+								101,
+								10,
+								100,
+								97,
+								116,
+								101,
+								116,
+								105,
+								109,
+								101,
+								10,
+								113,
+								0,
+								67,
+								10,
+								7,
+								224,
+								5,
+								22,
+								20,
+								51,
+								34,
+								0,
+								0,
+								0,
+								113,
+								1,
+								133,
+								113,
+								2,
+								82,
+								113,
+								3,
+								46
+							],
+							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai.tmTheme",
+							"function_name_status_row": 52,
+							"origin_encoding": "UTF-8",
+							"syntax": "Packages/Lua/Lua.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": -0.0,
+						"translation.y": 420.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 22.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 160.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "Packages/Lua/ggegame.sublime-build",
+	"project": "核心_Shader.sublime-project",
+	"replace":
+	{
+		"height": 40.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"C:\\我的项目\\袖珍问道\\袖珍问道.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 215.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

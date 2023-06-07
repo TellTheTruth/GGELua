@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[gui管理器]]></content>
+    <tabTrigger>guiglq</tabTrigger>
+    <scope>source.lua</scope>
+    <description>gui管理器</description>
+</snippet>

@@ -1,0 +1,53 @@
+<style>
+html { background-color: #f6f6f6; }
+body { font-family: monospace; }
+li { margin: 2px; }
+h2 { color: #333; font-size: 2.0em; margin: 0; }
+h3 { color: #333; font-size: 2.7em; margin: 0; }
+.release-date, .forum-link { font-size: 10pt }
+
+
+</style>
+<h3>-=GGELUA 更新日志=-</h3>
+
+<h2>版本 0.95</h2>
+<div class="release-date">发布时间: 2016.6.1</div>
+<ul>
+    <li>增加 GGE包围盒(Galaxy2D核心)</li>
+    <li>增加 GGE轨迹带(Galaxy2D核心)</li>
+    <li>增加 GGEShader(Galaxy2D核心)</li>
+    <li>增加 GGE打包工具(Galaxy2D核心)</li>
+    <li>增加 动画可以直接使用图片路径创建</li>
+    <li>增加 纹理,图像可以从cdata创建</li>
+    <li>增加 zlib 压缩和解压</li>
+    <li>增加 base64 编码和解码</li>
+    <li>增加 crc32和adler32</li>
+    <li>更新 Galaxy2D到4.2D4(以前的库无法通用)</li>
+    <li>更新 HPSocket到3.4.4</li>
+    <li>重写 GGEGUI(Galaxy2D核心)</li>
+    <li>修改 纹理.复制 为 纹理.复制区域</li>
+    <li>修改 引擎.ZIPxxx 为 引擎.资源xxx</li>
+    <li>修改 引擎.全屏模式 为 置全屏</li>
+    <li>修改 文字.置描边 为 置描边颜色</li>
+    <li>修改 文字.置阴影 为 置阴影颜色</li>
+    <li>优化 ggeui(按需载入)</li>
+    <li>优化 调试出现BUG时,内存错误问题</li>
+    <li>优化 运行父函数(基类,函数名,...) 实现可以访问父类的父类</li>
+    <li>优化 编译后,弹出目录方式</li>
+    <li>优化 LUA出错时,提示的路径长度过短问题</li>
+    <li>优化 F9快捷键误按问题,改成运行</li>
+    <li>优化 给ST增加要求管理员权限</li>
+    <li>修正 不能按透明色载入问题</li>
+    <li>修正 关闭程序时,线程崩溃的问题</li>
+    <li>修正 ST没有折叠箭头问题</li>
+    <li>修正 包围盒不能检测相交问题</li>
+    <li>修正 引擎.置标题,不能在非系统循环使用问题</li>
+    <li>修正 线程调试,错误提示问题</li>
+    <li>修正 线程改成通过内存共享</li>
+    <li>修正 print参数末尾不能是中文问题</li>
+    <li>修正 手动释放时出错问题</li>
+    <li>修正 UAC权限(请求管理,但不仅限管理员,请注意请注意请注意...)</li>
+    <li>其它 增加接口和优化模块</li>
+    <li>其它 增加核心文件名到自动提示</li>
+</ul>
+

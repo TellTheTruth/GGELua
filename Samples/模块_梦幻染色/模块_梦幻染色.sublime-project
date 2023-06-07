@@ -1,0 +1,12 @@
+{
+	"folders":
+	[
+		{
+			"file_exclude_patterns":
+			[
+				"梦幻测试.sublime-project"
+			],
+			"path": "."
+		}
+	]
+}

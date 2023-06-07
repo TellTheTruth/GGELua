@@ -1,0 +1,572 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"for",
+				"forp	for k,v in pairs()"
+			],
+			[
+				"os",
+				"os.clock	()"
+			],
+			[
+				"call",
+				"callback"
+			],
+			[
+				"to",
+				"tostring	(e)"
+			],
+			[
+				"ret",
+				"return	return 返回"
+			],
+			[
+				"mathf",
+				"math.floor	(x)"
+			],
+			[
+				"__",
+				"__index"
+			],
+			[
+				"get",
+				"getmetatable	(object)"
+			],
+			[
+				"load",
+				"loadstring	(string [, chunkname])"
+			],
+			[
+				"fo",
+				"forp	for k,v in pairs()"
+			],
+			[
+				"gui",
+				"guick	窗口模版"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "GGE.lua",
+			"settings":
+			{
+				"buffer_size": 473,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "main.lua",
+			"settings":
+			{
+				"buffer_size": 940,
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "Packages/Lua/ggegame.sublime-build",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"last_filter": "Package Control: ",
+		"selected_items":
+		[
+			[
+				"Package Control: ",
+				"Package Control: Enable Package"
+			]
+		],
+		"width": 528.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/F/soft/GGELUA0.99/Samples/GameTaTa"
+	],
+	"file_history":
+	[
+		"/C/我的项目/G2dLua/Lua-cURLv3/README.md",
+		"/C/Users/Administrator/Desktop/user_register.lua",
+		"/C/我的项目/gge__game/__GGE.lua",
+		"/C/Users/Administrator/Desktop/curl-7.42.1/winbuild/BUILD.WINDOWS.txt",
+		"/C/Users/Administrator/Desktop/curl-7.42.1/winbuild/Makefile.msvc.names",
+		"/C/Users/Administrator/Desktop/curl-7.42.1/winbuild/MakefileBuild.vc",
+		"/C/Users/Administrator/Desktop/curl-7.42.1/winbuild/Makefile.vc",
+		"/C/Users/Administrator/Desktop/curl-7.42.1/winbuild/gen_resp_file.bat",
+		"/C/Users/Administrator/Desktop/luasocket-2.0.2/src/socket.lua",
+		"/C/Users/Administrator/Desktop/luasocket-2.0.2/src/ltn12.lua",
+		"/D/我的项目/GGELUA/extend/LuaSock类.lua",
+		"/C/Users/Administrator/Desktop/luasocket-2.0.2/src/http.lua",
+		"/C/Users/Administrator/Desktop/luasocket-2.0.2/src/mime.lua",
+		"/D/我的项目/GGELUA/Core/Game/ffi函数.lua",
+		"/C/我的项目/GGELUA/samples/01.基础/test.lua",
+		"/C/我的项目/GGELUA/Core/Game/gge精灵类.lua",
+		"/C/我的项目/GGELUA/Core/Game/gge纹理类.lua",
+		"/C/我的项目/GGELUA/Core/Game/gge图像类.lua",
+		"/C/我的项目/GGELUA/Core/Game/ggecommon.lua",
+		"/C/我的项目/sqlite/Main.lua",
+		"/C/我的项目/GGELUA/core/game/gge引擎类.lua",
+		"/C/我的项目/GGELUA/Extend/Astart类.gge",
+		"/C/我的项目/GGELUA/Core/Game/ffi函数.lua",
+		"/C/我的项目/GGELUA/Sublime Text/Data/Packages/ColorPicker/Main.sublime-menu",
+		"/C/我的项目/GGELUA/Sublime Text/Data/Packages/ColorPicker/sublimecp.py",
+		"/C/我的项目/GGELUA/Sublime Text/Data/Packages/ColorPicker/Default (Windows).sublime-keymap",
+		"/C/我的项目/GGELUA/Sublime Text/Data/Packages/ColorPicker/ColorPicker.sublime-settings",
+		"/C/我的项目/GGELUA/Sublime Text/Data/Packages/User/ColorPicker.sublime-settings",
+		"/C/我的项目/GGELUA/Core/Game/ggedebug.lua",
+		"/C/我的项目/GGELUA/Core/Game/ggemain.lua",
+		"/C/我的项目/GGELUA/Sublime Text/Data/Packages/Lua/ggegame.sublime-build",
+		"/D/Desktop/GGELUA/Sublime Text 3/Data/Packages/User/lua.sublime-build",
+		"/D/Desktop/GGELUA中文/Sublime Text 3/Data/Packages/User/lua.sublime-build",
+		"/C/Users/Administrator/Desktop/db-4.4.20.NC/build_win32/db.h",
+		"/D/Desktop/GGELUA/samples/1.基础/main.lua",
+		"/D/Desktop/GGELUA/base/ggefunction.lua"
+	],
+	"find":
+	{
+		"height": 22.0
+	},
+	"find_in_files":
+	{
+		"height": 90.0,
+		"where_history":
+		[
+			"C:\\Users\\Administrator\\Desktop\\curl-7.42.1\\builds"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"  ",
+			"c:",
+			"c",
+			"#str",
+			"?",
+			"CURLOPT_URL",
+			"trequest",
+			"source",
+			"request",
+			"create",
+			"c新建类",
+			"r",
+			"obj",
+			"self.",
+			"引擎",
+			"System_Start",
+			"__ggeBase",
+			"gZIP",
+			"#\"",
+			"#'",
+			"'#'",
+			"\"#\"",
+			"multiple databases"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 1,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "GGE.lua",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 473,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content"
+							],
+							"c_time":
+							[
+								128,
+								3,
+								99,
+								100,
+								97,
+								116,
+								101,
+								116,
+								105,
+								109,
+								101,
+								10,
+								100,
+								97,
+								116,
+								101,
+								116,
+								105,
+								109,
+								101,
+								10,
+								113,
+								0,
+								67,
+								10,
+								7,
+								223,
+								5,
+								29,
+								23,
+								32,
+								52,
+								0,
+								0,
+								0,
+								113,
+								1,
+								133,
+								113,
+								2,
+								82,
+								113,
+								3,
+								46
+							],
+							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai.tmTheme",
+							"function_name_status_row": 17,
+							"origin_encoding": "UTF-8",
+							"syntax": "Packages/Lua/Lua.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "main.lua",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 940,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								618,
+								647
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content"
+							],
+							"c_time":
+							[
+								128,
+								3,
+								99,
+								100,
+								97,
+								116,
+								101,
+								116,
+								105,
+								109,
+								101,
+								10,
+								100,
+								97,
+								116,
+								101,
+								116,
+								105,
+								109,
+								101,
+								10,
+								113,
+								0,
+								67,
+								10,
+								7,
+								223,
+								5,
+								29,
+								23,
+								32,
+								52,
+								0,
+								0,
+								0,
+								113,
+								1,
+								133,
+								113,
+								2,
+								82,
+								113,
+								3,
+								46
+							],
+							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai.tmTheme",
+							"function_name_status_row": 23,
+							"origin_encoding": "UTF-8",
+							"syntax": "Packages/Lua/Lua.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 459.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 22.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 189.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "Packages/Lua/ggegame.sublime-build",
+	"project": "GameTaTa.sublime-project",
+	"replace":
+	{
+		"height": 40.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 150.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

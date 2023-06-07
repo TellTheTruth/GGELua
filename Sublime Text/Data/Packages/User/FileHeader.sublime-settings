@@ -1,0 +1,13 @@
+{
+	"syntax_when_not_match": "Lua",
+    "Default": {
+    	"author_cn":"作者",
+    	"email_cn":"邮箱",
+    	"last_modified_by_cn":"最后修改来自",
+    	"last_modified_time_cn":"最后修改时间",
+    	"create_time_cn":"创建时间",
+        "author":"yangjier",
+        "last_modified_by":"yangjier",
+        "email": "76107402@qq.com"
+    }
+}

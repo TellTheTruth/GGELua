@@ -1,0 +1,319 @@
+<?xml version="1.0" encoding="gb2312"?>
+<Galaxy2D_Game_Engine_GUI_File>
+    <Font>
+        <宋体16 Name="C:/Windows/Fonts/simsun.ttc" Size="16" Bold="0" Boder="0" Mono="1" ImgFont="0"/>
+    </Font>
+    <Skin>
+        <空>
+            <RS TextureFile="输入账号.png" RenderType="0" TexX="0.000000" TexY="0.000000" TexW="0.000000" TexH="0.000000" TexColor="4294967295" TopSize="0.000000" BottomSize="0.000000" LeftSize="0.000000" RightSize="0.000000" FontColor="4294967295" FontBColor="4278190080" FontSColor="0" FontOffsetX="0.000000" FontOffsetY="0.000000"/>
+            <RS TextureFile="" RenderType="0" TexX="0.000000" TexY="0.000000" TexW="0.000000" TexH="0.000000" TexColor="4294967295" TopSize="0.000000" BottomSize="0.000000" LeftSize="0.000000" RightSize="0.000000" FontColor="4294967295" FontBColor="4278190080" FontSColor="0" FontOffsetX="0.000000" FontOffsetY="0.000000"/>
+            <RS TextureFile="" RenderType="0" TexX="0.000000" TexY="0.000000" TexW="0.000000" TexH="0.000000" TexColor="4294967295" TopSize="0.000000" BottomSize="0.000000" LeftSize="0.000000" RightSize="0.000000" FontColor="4294967295" FontBColor="4278190080" FontSColor="0" FontOffsetX="0.000000" FontOffsetY="0.000000"/>
+            <RS TextureFile="" RenderType="0" TexX="0.000000" TexY="0.000000" TexW="0.000000" TexH="0.000000" TexColor="4294967295" TopSize="0.000000" BottomSize="0.000000" LeftSize="0.000000" RightSize="0.000000" FontColor="4294967295" FontBColor="4278190080" FontSColor="0" FontOffsetX="0.000000" FontOffsetY="0.000000"/>
+            <RS TextureFile="" RenderType="0" TexX="0.000000" TexY="0.000000" TexW="0.000000" TexH="0.000000" TexColor="4294967295" TopSize="0.000000" BottomSize="0.000000" LeftSize="0.000000" RightSize="0.000000" FontColor="4294967295" FontBColor="4278190080" FontSColor="0" FontOffsetX="0.000000" FontOffsetY="0.000000"/>
+            <RS TextureFile="" RenderType="0" TexX="0.000000" TexY="0.000000" TexW="0.000000" TexH="0.000000" TexColor="4294967295" TopSize="0.000000" BottomSize="0.000000" LeftSize="0.000000" RightSize="0.000000" FontColor="4294967295" FontBColor="4278190080" FontSColor="0" FontOffsetX="0.000000" FontOffsetY="0.000000"/>
+            <RS TextureFile="" RenderType="0" TexX="0.000000" TexY="0.000000" TexW="0.000000" TexH="0.000000" TexColor="4294967295" TopSize="0.000000" BottomSize="0.000000" LeftSize="0.000000" RightSize="0.000000" FontColor="4294967295" FontBColor="4278190080" FontSColor="0" FontOffsetX="0.000000" FontOffsetY="0.000000"/>
+            <RS TextureFile="" RenderType="0" TexX="0.000000" TexY="0.000000" TexW="0.000000" TexH="0.000000" TexColor="4294967295" TopSize="0.000000" BottomSize="0.000000" LeftSize="0.000000" RightSize="0.000000" FontColor="4294967295" FontBColor="4278190080" FontSColor="0" FontOffsetX="0.000000" FontOffsetY="0.000000"/>
+        </空>
+        <通用_背景>
+            <RS TextureFile="背景.png" RenderType="0" TexX="0.000000" TexY="0.000000" TexW="1024.000000" TexH="768.000000" TexColor="4294967295" TopSize="0.000000" BottomSize="0.000000" LeftSize="0.000000" RightSize="0.000000" FontColor="4294967295" FontBColor="4278190080" FontSColor="0" FontOffsetX="0.000000" FontOffsetY="0.000000"/>
+            <RS TextureFile="" RenderType="0" TexX="0.000000" TexY="0.000000" TexW="0.000000" TexH="0.000000" TexColor="4294967295" TopSize="0.000000" BottomSize="0.000000" LeftSize="0.000000" RightSize="0.000000" FontColor="4294967295" FontBColor="4278190080" FontSColor="0" FontOffsetX="0.000000" FontOffsetY="0.000000"/>
+            <RS TextureFile="" RenderType="0" TexX="0.000000" TexY="0.000000" TexW="0.000000" TexH="0.000000" TexColor="4294967295" TopSize="0.000000" BottomSize="0.000000" LeftSize="0.000000" RightSize="0.000000" FontColor="4294967295" FontBColor="4278190080" FontSColor="0" FontOffsetX="0.000000" FontOffsetY="0.000000"/>
+            <RS TextureFile="" RenderType="0" TexX="0.000000" TexY="0.000000" TexW="0.000000" TexH="0.000000" TexColor="4294967295" TopSize="0.000000" BottomSize="0.000000" LeftSize="0.000000" RightSize="0.000000" FontColor="4294967295" FontBColor="4278190080" FontSColor="0" FontOffsetX="0.000000" FontOffsetY="0.000000"/>
+            <RS TextureFile="" RenderType="0" TexX="0.000000" TexY="0.000000" TexW="0.000000" TexH="0.000000" TexColor="4294967295" TopSize="0.000000" BottomSize="0.000000" LeftSize="0.000000" RightSize="0.000000" FontColor="4294967295" FontBColor="4278190080" FontSColor="0" FontOffsetX="0.000000" FontOffsetY="0.000000"/>
+            <RS TextureFile="" RenderType="0" TexX="0.000000" TexY="0.000000" TexW="0.000000" TexH="0.000000" TexColor="4294967295" TopSize="0.000000" BottomSize="0.000000" LeftSize="0.000000" RightSize="0.000000" FontColor="4294967295" FontBColor="4278190080" FontSColor="0" FontOffsetX="0.000000" FontOffsetY="0.000000"/>
+            <RS TextureFile="" RenderType="0" TexX="0.000000" TexY="0.000000" TexW="0.000000" TexH="0.000000" TexColor="4294967295" TopSize="0.000000" BottomSize="0.000000" LeftSize="0.000000" RightSize="0.000000" FontColor="4294967295" FontBColor="4278190080" FontSColor="0" FontOffsetX="0.000000" FontOffsetY="0.000000"/>
+            <RS TextureFile="" RenderType="0" TexX="0.000000" TexY="0.000000" TexW="0.000000" TexH="0.000000" TexColor="4294967295" TopSize="0.000000" BottomSize="0.000000" LeftSize="0.000000" RightSize="0.000000" FontColor="4294967295" FontBColor="4278190080" FontSColor="0" FontOffsetX="0.000000" FontOffsetY="0.000000"/>
+        </通用_背景>
+        <输入账号_按钮背景>
+            <RS TextureFile="输入账号.png" RenderType="0" TexX="1.000000" TexY="1.000000" TexW="154.000000" TexH="154.000000" TexColor="4294967295" TopSize="0.000000" BottomSize="0.000000" LeftSize="0.000000" RightSize="0.000000" FontColor="4294967295" FontBColor="4278190080" FontSColor="0" FontOffsetX="0.000000" FontOffsetY="0.000000"/>
+            <RS TextureFile="" RenderType="0" TexX="0.000000" TexY="0.000000" TexW="0.000000" TexH="0.000000" TexColor="4294967295" TopSize="0.000000" BottomSize="0.000000" LeftSize="0.000000" RightSize="0.000000" FontColor="4294967295" FontBColor="4278190080" FontSColor="0" FontOffsetX="0.000000" FontOffsetY="0.000000"/>
+            <RS TextureFile="" RenderType="0" TexX="0.000000" TexY="0.000000" TexW="0.000000" TexH="0.000000" TexColor="4294967295" TopSize="0.000000" BottomSize="0.000000" LeftSize="0.000000" RightSize="0.000000" FontColor="4294967295" FontBColor="4278190080" FontSColor="0" FontOffsetX="0.000000" FontOffsetY="0.000000"/>
+            <RS TextureFile="" RenderType="0" TexX="0.000000" TexY="0.000000" TexW="0.000000" TexH="0.000000" TexColor="4294967295" TopSize="0.000000" BottomSize="0.000000" LeftSize="0.000000" RightSize="0.000000" FontColor="4294967295" FontBColor="4278190080" FontSColor="0" FontOffsetX="0.000000" FontOffsetY="0.000000"/>
+            <RS TextureFile="" RenderType="0" TexX="0.000000" TexY="0.000000" TexW="0.000000" TexH="0.000000" TexColor="4294967295" TopSize="0.000000" BottomSize="0.000000" LeftSize="0.000000" RightSize="0.000000" FontColor="4294967295" FontBColor="4278190080" FontSColor="0" FontOffsetX="0.000000" FontOffsetY="0.000000"/>
+            <RS TextureFile="" RenderType="0" TexX="0.000000" TexY="0.000000" TexW="0.000000" TexH="0.000000" TexColor="4294967295" TopSize="0.000000" BottomSize="0.000000" LeftSize="0.000000" RightSize="0.000000" FontColor="4294967295" FontBColor="4278190080" FontSColor="0" FontOffsetX="0.000000" FontOffsetY="0.000000"/>
+            <RS TextureFile="" RenderType="0" TexX="0.000000" TexY="0.000000" TexW="0.000000" TexH="0.000000" TexColor="4294967295" TopSize="0.000000" BottomSize="0.000000" LeftSize="0.000000" RightSize="0.000000" FontColor="4294967295" FontBColor="4278190080" FontSColor="0" FontOffsetX="0.000000" FontOffsetY="0.000000"/>
+            <RS TextureFile="" RenderType="0" TexX="0.000000" TexY="0.000000" TexW="0.000000" TexH="0.000000" TexColor="4294967295" TopSize="0.000000" BottomSize="0.000000" LeftSize="0.000000" RightSize="0.000000" FontColor="4294967295" FontBColor="4278190080" FontSColor="0" FontOffsetX="0.000000" FontOffsetY="0.000000"/>
+        </输入账号_按钮背景>
+        <输入账号_进入游戏>
+            <RS TextureFile="输入账号.png" RenderType="0" TexX="340.000000" TexY="154.000000" TexW="75.000000" TexH="72.000000" TexColor="4294967295" TopSize="0.000000" BottomSize="0.000000" LeftSize="0.000000" RightSize="0.000000" FontColor="4294967295" FontBColor="4278190080" FontSColor="0" FontOffsetX="0.000000" FontOffsetY="0.000000"/>
+            <RS TextureFile="输入账号.png" RenderType="0" TexX="387.000000" TexY="1.000000" TexW="75.000000" TexH="72.000000" TexColor="4294967295" TopSize="0.000000" BottomSize="0.000000" LeftSize="0.000000" RightSize="0.000000" FontColor="4294967295" FontBColor="4278190080" FontSColor="0" FontOffsetX="0.000000" FontOffsetY="0.000000"/>
+            <RS TextureFile="输入账号.png" RenderType="0" TexX="340.000000" TexY="154.000000" TexW="75.000000" TexH="72.000000" TexColor="4294967295" TopSize="0.000000" BottomSize="0.000000" LeftSize="0.000000" RightSize="0.000000" FontColor="4294967295" FontBColor="4278190080" FontSColor="0" FontOffsetX="0.000000" FontOffsetY="0.000000"/>
+            <RS TextureFile="" RenderType="0" TexX="0.000000" TexY="0.000000" TexW="0.000000" TexH="0.000000" TexColor="4294967295" TopSize="0.000000" BottomSize="0.000000" LeftSize="0.000000" RightSize="0.000000" FontColor="4294967295" FontBColor="4278190080" FontSColor="0" FontOffsetX="0.000000" FontOffsetY="0.000000"/>
+            <RS TextureFile="" RenderType="0" TexX="0.000000" TexY="0.000000" TexW="0.000000" TexH="0.000000" TexColor="4294967295" TopSize="0.000000" BottomSize="0.000000" LeftSize="0.000000" RightSize="0.000000" FontColor="4294967295" FontBColor="4278190080" FontSColor="0" FontOffsetX="0.000000" FontOffsetY="0.000000"/>
+            <RS TextureFile="" RenderType="0" TexX="0.000000" TexY="0.000000" TexW="0.000000" TexH="0.000000" TexColor="4294967295" TopSize="0.000000" BottomSize="0.000000" LeftSize="0.000000" RightSize="0.000000" FontColor="4294967295" FontBColor="4278190080" FontSColor="0" FontOffsetX="0.000000" FontOffsetY="0.000000"/>
+            <RS TextureFile="" RenderType="0" TexX="0.000000" TexY="0.000000" TexW="0.000000" TexH="0.000000" TexColor="4294967295" TopSize="0.000000" BottomSize="0.000000" LeftSize="0.000000" RightSize="0.000000" FontColor="4294967295" FontBColor="4278190080" FontSColor="0" FontOffsetX="0.000000" FontOffsetY="0.000000"/>
+            <RS TextureFile="" RenderType="0" TexX="0.000000" TexY="0.000000" TexW="0.000000" TexH="0.000000" TexColor="4294967295" TopSize="0.000000" BottomSize="0.000000" LeftSize="0.000000" RightSize="0.000000" FontColor="4294967295" FontBColor="4278190080" FontSColor="0" FontOffsetX="0.000000" FontOffsetY="0.000000"/>
+        </输入账号_进入游戏>
+        <输入账号_LOGO>
+            <RS TextureFile="输入账号.png" RenderType="0" TexX="156.000000" TexY="1.000000" TexW="230.000000" TexH="152.000000" TexColor="4294967295" TopSize="0.000000" BottomSize="0.000000" LeftSize="0.000000" RightSize="0.000000" FontColor="4294967295" FontBColor="4278190080" FontSColor="0" FontOffsetX="0.000000" FontOffsetY="0.000000"/>
+            <RS TextureFile="" RenderType="0" TexX="0.000000" TexY="0.000000" TexW="0.000000" TexH="0.000000" TexColor="4294967295" TopSize="0.000000" BottomSize="0.000000" LeftSize="0.000000" RightSize="0.000000" FontColor="4294967295" FontBColor="4278190080" FontSColor="0" FontOffsetX="0.000000" FontOffsetY="0.000000"/>
+            <RS TextureFile="" RenderType="0" TexX="0.000000" TexY="0.000000" TexW="0.000000" TexH="0.000000" TexColor="4294967295" TopSize="0.000000" BottomSize="0.000000" LeftSize="0.000000" RightSize="0.000000" FontColor="4294967295" FontBColor="4278190080" FontSColor="0" FontOffsetX="0.000000" FontOffsetY="0.000000"/>
+            <RS TextureFile="" RenderType="0" TexX="0.000000" TexY="0.000000" TexW="0.000000" TexH="0.000000" TexColor="4294967295" TopSize="0.000000" BottomSize="0.000000" LeftSize="0.000000" RightSize="0.000000" FontColor="4294967295" FontBColor="4278190080" FontSColor="0" FontOffsetX="0.000000" FontOffsetY="0.000000"/>
+            <RS TextureFile="" RenderType="0" TexX="0.000000" TexY="0.000000" TexW="0.000000" TexH="0.000000" TexColor="4294967295" TopSize="0.000000" BottomSize="0.000000" LeftSize="0.000000" RightSize="0.000000" FontColor="4294967295" FontBColor="4278190080" FontSColor="0" FontOffsetX="0.000000" FontOffsetY="0.000000"/>
+            <RS TextureFile="" RenderType="0" TexX="0.000000" TexY="0.000000" TexW="0.000000" TexH="0.000000" TexColor="4294967295" TopSize="0.000000" BottomSize="0.000000" LeftSize="0.000000" RightSize="0.000000" FontColor="4294967295" FontBColor="4278190080" FontSColor="0" FontOffsetX="0.000000" FontOffsetY="0.000000"/>
+            <RS TextureFile="" RenderType="0" TexX="0.000000" TexY="0.000000" TexW="0.000000" TexH="0.000000" TexColor="4294967295" TopSize="0.000000" BottomSize="0.000000" LeftSize="0.000000" RightSize="0.000000" FontColor="4294967295" FontBColor="4278190080" FontSColor="0" FontOffsetX="0.000000" FontOffsetY="0.000000"/>
+            <RS TextureFile="" RenderType="0" TexX="0.000000" TexY="0.000000" TexW="0.000000" TexH="0.000000" TexColor="4294967295" TopSize="0.000000" BottomSize="0.000000" LeftSize="0.000000" RightSize="0.000000" FontColor="4294967295" FontBColor="4278190080" FontSColor="0" FontOffsetX="0.000000" FontOffsetY="0.000000"/>
+        </输入账号_LOGO>
+        <输入账号_左上角>
+            <RS TextureFile="输入账号.png" RenderType="0" TexX="1.000000" TexY="156.000000" TexW="338.000000" TexH="76.000000" TexColor="4294967295" TopSize="0.000000" BottomSize="0.000000" LeftSize="0.000000" RightSize="0.000000" FontColor="4294967295" FontBColor="4278190080" FontSColor="0" FontOffsetX="0.000000" FontOffsetY="0.000000"/>
+            <RS TextureFile="" RenderType="0" TexX="0.000000" TexY="0.000000" TexW="0.000000" TexH="0.000000" TexColor="4294967295" TopSize="0.000000" BottomSize="0.000000" LeftSize="0.000000" RightSize="0.000000" FontColor="4294967295" FontBColor="4278190080" FontSColor="0" FontOffsetX="0.000000" FontOffsetY="0.000000"/>
+            <RS TextureFile="" RenderType="0" TexX="0.000000" TexY="0.000000" TexW="0.000000" TexH="0.000000" TexColor="4294967295" TopSize="0.000000" BottomSize="0.000000" LeftSize="0.000000" RightSize="0.000000" FontColor="4294967295" FontBColor="4278190080" FontSColor="0" FontOffsetX="0.000000" FontOffsetY="0.000000"/>
+            <RS TextureFile="" RenderType="0" TexX="0.000000" TexY="0.000000" TexW="0.000000" TexH="0.000000" TexColor="4294967295" TopSize="0.000000" BottomSize="0.000000" LeftSize="0.000000" RightSize="0.000000" FontColor="4294967295" FontBColor="4278190080" FontSColor="0" FontOffsetX="0.000000" FontOffsetY="0.000000"/>
+            <RS TextureFile="" RenderType="0" TexX="0.000000" TexY="0.000000" TexW="0.000000" TexH="0.000000" TexColor="4294967295" TopSize="0.000000" BottomSize="0.000000" LeftSize="0.000000" RightSize="0.000000" FontColor="4294967295" FontBColor="4278190080" FontSColor="0" FontOffsetX="0.000000" FontOffsetY="0.000000"/>
+            <RS TextureFile="" RenderType="0" TexX="0.000000" TexY="0.000000" TexW="0.000000" TexH="0.000000" TexColor="4294967295" TopSize="0.000000" BottomSize="0.000000" LeftSize="0.000000" RightSize="0.000000" FontColor="4294967295" FontBColor="4278190080" FontSColor="0" FontOffsetX="0.000000" FontOffsetY="0.000000"/>
+            <RS TextureFile="" RenderType="0" TexX="0.000000" TexY="0.000000" TexW="0.000000" TexH="0.000000" TexColor="4294967295" TopSize="0.000000" BottomSize="0.000000" LeftSize="0.000000" RightSize="0.000000" FontColor="4294967295" FontBColor="4278190080" FontSColor="0" FontOffsetX="0.000000" FontOffsetY="0.000000"/>
+            <RS TextureFile="" RenderType="0" TexX="0.000000" TexY="0.000000" TexW="0.000000" TexH="0.000000" TexColor="4294967295" TopSize="0.000000" BottomSize="0.000000" LeftSize="0.000000" RightSize="0.000000" FontColor="4294967295" FontBColor="4278190080" FontSColor="0" FontOffsetX="0.000000" FontOffsetY="0.000000"/>
+        </输入账号_左上角>
+        <输入账号_账号>
+            <RS TextureFile="输入账号.png" RenderType="0" TexX="1.000000" TexY="233.000000" TexW="49.000000" TexH="15.000000" TexColor="4294967295" TopSize="0.000000" BottomSize="0.000000" LeftSize="0.000000" RightSize="0.000000" FontColor="4294967295" FontBColor="4278190080" FontSColor="0" FontOffsetX="0.000000" FontOffsetY="0.000000"/>
+            <RS TextureFile="" RenderType="0" TexX="0.000000" TexY="0.000000" TexW="0.000000" TexH="0.000000" TexColor="4294967295" TopSize="0.000000" BottomSize="0.000000" LeftSize="0.000000" RightSize="0.000000" FontColor="4294967295" FontBColor="4278190080" FontSColor="0" FontOffsetX="0.000000" FontOffsetY="0.000000"/>
+            <RS TextureFile="" RenderType="0" TexX="0.000000" TexY="0.000000" TexW="0.000000" TexH="0.000000" TexColor="4294967295" TopSize="0.000000" BottomSize="0.000000" LeftSize="0.000000" RightSize="0.000000" FontColor="4294967295" FontBColor="4278190080" FontSColor="0" FontOffsetX="0.000000" FontOffsetY="0.000000"/>
+            <RS TextureFile="" RenderType="0" TexX="0.000000" TexY="0.000000" TexW="0.000000" TexH="0.000000" TexColor="4294967295" TopSize="0.000000" BottomSize="0.000000" LeftSize="0.000000" RightSize="0.000000" FontColor="4294967295" FontBColor="4278190080" FontSColor="0" FontOffsetX="0.000000" FontOffsetY="0.000000"/>
+            <RS TextureFile="" RenderType="0" TexX="0.000000" TexY="0.000000" TexW="0.000000" TexH="0.000000" TexColor="4294967295" TopSize="0.000000" BottomSize="0.000000" LeftSize="0.000000" RightSize="0.000000" FontColor="4294967295" FontBColor="4278190080" FontSColor="0" FontOffsetX="0.000000" FontOffsetY="0.000000"/>
+            <RS TextureFile="" RenderType="0" TexX="0.000000" TexY="0.000000" TexW="0.000000" TexH="0.000000" TexColor="4294967295" TopSize="0.000000" BottomSize="0.000000" LeftSize="0.000000" RightSize="0.000000" FontColor="4294967295" FontBColor="4278190080" FontSColor="0" FontOffsetX="0.000000" FontOffsetY="0.000000"/>
+            <RS TextureFile="" RenderType="0" TexX="0.000000" TexY="0.000000" TexW="0.000000" TexH="0.000000" TexColor="4294967295" TopSize="0.000000" BottomSize="0.000000" LeftSize="0.000000" RightSize="0.000000" FontColor="4294967295" FontBColor="4278190080" FontSColor="0" FontOffsetX="0.000000" FontOffsetY="0.000000"/>
+            <RS TextureFile="" RenderType="0" TexX="0.000000" TexY="0.000000" TexW="0.000000" TexH="0.000000" TexColor="4294967295" TopSize="0.000000" BottomSize="0.000000" LeftSize="0.000000" RightSize="0.000000" FontColor="4294967295" FontBColor="4278190080" FontSColor="0" FontOffsetX="0.000000" FontOffsetY="0.000000"/>
+        </输入账号_账号>
+        <输入账号_密码>
+            <RS TextureFile="输入账号.png" RenderType="0" TexX="51.000000" TexY="233.000000" TexW="49.000000" TexH="15.000000" TexColor="4294967295" TopSize="0.000000" BottomSize="0.000000" LeftSize="0.000000" RightSize="0.000000" FontColor="4294967295" FontBColor="4278190080" FontSColor="0" FontOffsetX="0.000000" FontOffsetY="0.000000"/>
+            <RS TextureFile="" RenderType="0" TexX="0.000000" TexY="0.000000" TexW="0.000000" TexH="0.000000" TexColor="4294967295" TopSize="0.000000" BottomSize="0.000000" LeftSize="0.000000" RightSize="0.000000" FontColor="4294967295" FontBColor="4278190080" FontSColor="0" FontOffsetX="0.000000" FontOffsetY="0.000000"/>
+            <RS TextureFile="" RenderType="0" TexX="0.000000" TexY="0.000000" TexW="0.000000" TexH="0.000000" TexColor="4294967295" TopSize="0.000000" BottomSize="0.000000" LeftSize="0.000000" RightSize="0.000000" FontColor="4294967295" FontBColor="4278190080" FontSColor="0" FontOffsetX="0.000000" FontOffsetY="0.000000"/>
+            <RS TextureFile="" RenderType="0" TexX="0.000000" TexY="0.000000" TexW="0.000000" TexH="0.000000" TexColor="4294967295" TopSize="0.000000" BottomSize="0.000000" LeftSize="0.000000" RightSize="0.000000" FontColor="4294967295" FontBColor="4278190080" FontSColor="0" FontOffsetX="0.000000" FontOffsetY="0.000000"/>
+            <RS TextureFile="" RenderType="0" TexX="0.000000" TexY="0.000000" TexW="0.000000" TexH="0.000000" TexColor="4294967295" TopSize="0.000000" BottomSize="0.000000" LeftSize="0.000000" RightSize="0.000000" FontColor="4294967295" FontBColor="4278190080" FontSColor="0" FontOffsetX="0.000000" FontOffsetY="0.000000"/>
+            <RS TextureFile="" RenderType="0" TexX="0.000000" TexY="0.000000" TexW="0.000000" TexH="0.000000" TexColor="4294967295" TopSize="0.000000" BottomSize="0.000000" LeftSize="0.000000" RightSize="0.000000" FontColor="4294967295" FontBColor="4278190080" FontSColor="0" FontOffsetX="0.000000" FontOffsetY="0.000000"/>
+            <RS TextureFile="" RenderType="0" TexX="0.000000" TexY="0.000000" TexW="0.000000" TexH="0.000000" TexColor="4294967295" TopSize="0.000000" BottomSize="0.000000" LeftSize="0.000000" RightSize="0.000000" FontColor="4294967295" FontBColor="4278190080" FontSColor="0" FontOffsetX="0.000000" FontOffsetY="0.000000"/>
+            <RS TextureFile="" RenderType="0" TexX="0.000000" TexY="0.000000" TexW="0.000000" TexH="0.000000" TexColor="4294967295" TopSize="0.000000" BottomSize="0.000000" LeftSize="0.000000" RightSize="0.000000" FontColor="4294967295" FontBColor="4278190080" FontSColor="0" FontOffsetX="0.000000" FontOffsetY="0.000000"/>
+        </输入账号_密码>
+        <输入账号_输入背景>
+            <RS TextureFile="输入账号.png" RenderType="0" TexX="1.000000" TexY="249.000000" TexW="399.000000" TexH="36.000000" TexColor="4294967295" TopSize="0.000000" BottomSize="0.000000" LeftSize="0.000000" RightSize="0.000000" FontColor="4294967295" FontBColor="4278190080" FontSColor="0" FontOffsetX="0.000000" FontOffsetY="0.000000"/>
+            <RS TextureFile="" RenderType="0" TexX="0.000000" TexY="0.000000" TexW="0.000000" TexH="0.000000" TexColor="4294967295" TopSize="0.000000" BottomSize="0.000000" LeftSize="0.000000" RightSize="0.000000" FontColor="4294967295" FontBColor="4278190080" FontSColor="0" FontOffsetX="0.000000" FontOffsetY="0.000000"/>
+            <RS TextureFile="" RenderType="0" TexX="0.000000" TexY="0.000000" TexW="0.000000" TexH="0.000000" TexColor="4294967295" TopSize="0.000000" BottomSize="0.000000" LeftSize="0.000000" RightSize="0.000000" FontColor="4294967295" FontBColor="4278190080" FontSColor="0" FontOffsetX="0.000000" FontOffsetY="0.000000"/>
+            <RS TextureFile="" RenderType="0" TexX="0.000000" TexY="0.000000" TexW="0.000000" TexH="0.000000" TexColor="4294967295" TopSize="0.000000" BottomSize="0.000000" LeftSize="0.000000" RightSize="0.000000" FontColor="4294967295" FontBColor="4278190080" FontSColor="0" FontOffsetX="0.000000" FontOffsetY="0.000000"/>
+            <RS TextureFile="" RenderType="0" TexX="0.000000" TexY="0.000000" TexW="0.000000" TexH="0.000000" TexColor="4294967295" TopSize="0.000000" BottomSize="0.000000" LeftSize="0.000000" RightSize="0.000000" FontColor="4294967295" FontBColor="4278190080" FontSColor="0" FontOffsetX="0.000000" FontOffsetY="0.000000"/>
+            <RS TextureFile="" RenderType="0" TexX="0.000000" TexY="0.000000" TexW="0.000000" TexH="0.000000" TexColor="4294967295" TopSize="0.000000" BottomSize="0.000000" LeftSize="0.000000" RightSize="0.000000" FontColor="4294967295" FontBColor="4278190080" FontSColor="0" FontOffsetX="0.000000" FontOffsetY="0.000000"/>
+            <RS TextureFile="" RenderType="0" TexX="0.000000" TexY="0.000000" TexW="0.000000" TexH="0.000000" TexColor="4294967295" TopSize="0.000000" BottomSize="0.000000" LeftSize="0.000000" RightSize="0.000000" FontColor="4294967295" FontBColor="4278190080" FontSColor="0" FontOffsetX="0.000000" FontOffsetY="0.000000"/>
+            <RS TextureFile="" RenderType="0" TexX="0.000000" TexY="0.000000" TexW="0.000000" TexH="0.000000" TexColor="4294967295" TopSize="0.000000" BottomSize="0.000000" LeftSize="0.000000" RightSize="0.000000" FontColor="4294967295" FontBColor="4278190080" FontSColor="0" FontOffsetX="0.000000" FontOffsetY="0.000000"/>
+        </输入账号_输入背景>
+        <选择角色_左上角>
+            <RS TextureFile="选择角色.png" RenderType="0" TexX="1.000000" TexY="235.000000" TexW="338.000000" TexH="76.000000" TexColor="4294967295" TopSize="0.000000" BottomSize="0.000000" LeftSize="0.000000" RightSize="0.000000" FontColor="4294967295" FontBColor="4278190080" FontSColor="0" FontOffsetX="0.000000" FontOffsetY="0.000000"/>
+            <RS TextureFile="" RenderType="0" TexX="0.000000" TexY="0.000000" TexW="0.000000" TexH="0.000000" TexColor="4294967295" TopSize="0.000000" BottomSize="0.000000" LeftSize="0.000000" RightSize="0.000000" FontColor="4294967295" FontBColor="4278190080" FontSColor="0" FontOffsetX="0.000000" FontOffsetY="0.000000"/>
+            <RS TextureFile="" RenderType="0" TexX="0.000000" TexY="0.000000" TexW="0.000000" TexH="0.000000" TexColor="4294967295" TopSize="0.000000" BottomSize="0.000000" LeftSize="0.000000" RightSize="0.000000" FontColor="4294967295" FontBColor="4278190080" FontSColor="0" FontOffsetX="0.000000" FontOffsetY="0.000000"/>
+            <RS TextureFile="" RenderType="0" TexX="0.000000" TexY="0.000000" TexW="0.000000" TexH="0.000000" TexColor="4294967295" TopSize="0.000000" BottomSize="0.000000" LeftSize="0.000000" RightSize="0.000000" FontColor="4294967295" FontBColor="4278190080" FontSColor="0" FontOffsetX="0.000000" FontOffsetY="0.000000"/>
+            <RS TextureFile="" RenderType="0" TexX="0.000000" TexY="0.000000" TexW="0.000000" TexH="0.000000" TexColor="4294967295" TopSize="0.000000" BottomSize="0.000000" LeftSize="0.000000" RightSize="0.000000" FontColor="4294967295" FontBColor="4278190080" FontSColor="0" FontOffsetX="0.000000" FontOffsetY="0.000000"/>
+            <RS TextureFile="" RenderType="0" TexX="0.000000" TexY="0.000000" TexW="0.000000" TexH="0.000000" TexColor="4294967295" TopSize="0.000000" BottomSize="0.000000" LeftSize="0.000000" RightSize="0.000000" FontColor="4294967295" FontBColor="4278190080" FontSColor="0" FontOffsetX="0.000000" FontOffsetY="0.000000"/>
+            <RS TextureFile="" RenderType="0" TexX="0.000000" TexY="0.000000" TexW="0.000000" TexH="0.000000" TexColor="4294967295" TopSize="0.000000" BottomSize="0.000000" LeftSize="0.000000" RightSize="0.000000" FontColor="4294967295" FontBColor="4278190080" FontSColor="0" FontOffsetX="0.000000" FontOffsetY="0.000000"/>
+            <RS TextureFile="" RenderType="0" TexX="0.000000" TexY="0.000000" TexW="0.000000" TexH="0.000000" TexColor="4294967295" TopSize="0.000000" BottomSize="0.000000" LeftSize="0.000000" RightSize="0.000000" FontColor="4294967295" FontBColor="4278190080" FontSColor="0" FontOffsetX="0.000000" FontOffsetY="0.000000"/>
+        </选择角色_左上角>
+        <选择角色_信息背景>
+            <RS TextureFile="选择角色.png" RenderType="0" TexX="1.000000" TexY="312.000000" TexW="600.000000" TexH="113.000000" TexColor="4294967295" TopSize="0.000000" BottomSize="0.000000" LeftSize="0.000000" RightSize="0.000000" FontColor="4294967295" FontBColor="4278190080" FontSColor="0" FontOffsetX="0.000000" FontOffsetY="0.000000"/>
+            <RS TextureFile="" RenderType="0" TexX="0.000000" TexY="0.000000" TexW="0.000000" TexH="0.000000" TexColor="4294967295" TopSize="0.000000" BottomSize="0.000000" LeftSize="0.000000" RightSize="0.000000" FontColor="4294967295" FontBColor="4278190080" FontSColor="0" FontOffsetX="0.000000" FontOffsetY="0.000000"/>
+            <RS TextureFile="" RenderType="0" TexX="0.000000" TexY="0.000000" TexW="0.000000" TexH="0.000000" TexColor="4294967295" TopSize="0.000000" BottomSize="0.000000" LeftSize="0.000000" RightSize="0.000000" FontColor="4294967295" FontBColor="4278190080" FontSColor="0" FontOffsetX="0.000000" FontOffsetY="0.000000"/>
+            <RS TextureFile="" RenderType="0" TexX="0.000000" TexY="0.000000" TexW="0.000000" TexH="0.000000" TexColor="4294967295" TopSize="0.000000" BottomSize="0.000000" LeftSize="0.000000" RightSize="0.000000" FontColor="4294967295" FontBColor="4278190080" FontSColor="0" FontOffsetX="0.000000" FontOffsetY="0.000000"/>
+            <RS TextureFile="" RenderType="0" TexX="0.000000" TexY="0.000000" TexW="0.000000" TexH="0.000000" TexColor="4294967295" TopSize="0.000000" BottomSize="0.000000" LeftSize="0.000000" RightSize="0.000000" FontColor="4294967295" FontBColor="4278190080" FontSColor="0" FontOffsetX="0.000000" FontOffsetY="0.000000"/>
+            <RS TextureFile="" RenderType="0" TexX="0.000000" TexY="0.000000" TexW="0.000000" TexH="0.000000" TexColor="4294967295" TopSize="0.000000" BottomSize="0.000000" LeftSize="0.000000" RightSize="0.000000" FontColor="4294967295" FontBColor="4278190080" FontSColor="0" FontOffsetX="0.000000" FontOffsetY="0.000000"/>
+            <RS TextureFile="" RenderType="0" TexX="0.000000" TexY="0.000000" TexW="0.000000" TexH="0.000000" TexColor="4294967295" TopSize="0.000000" BottomSize="0.000000" LeftSize="0.000000" RightSize="0.000000" FontColor="4294967295" FontBColor="4278190080" FontSColor="0" FontOffsetX="0.000000" FontOffsetY="0.000000"/>
+            <RS TextureFile="" RenderType="0" TexX="0.000000" TexY="0.000000" TexW="0.000000" TexH="0.000000" TexColor="4294967295" TopSize="0.000000" BottomSize="0.000000" LeftSize="0.000000" RightSize="0.000000" FontColor="4294967295" FontBColor="4278190080" FontSColor="0" FontOffsetX="0.000000" FontOffsetY="0.000000"/>
+        </选择角色_信息背景>
+        <选择角色_选择按钮>
+            <RS TextureFile="选择角色.png" RenderType="0" TexX="1.000000" TexY="1.000000" TexW="164.000000" TexH="164.000000" TexColor="4294967295" TopSize="0.000000" BottomSize="0.000000" LeftSize="0.000000" RightSize="0.000000" FontColor="4294967295" FontBColor="4278190080" FontSColor="0" FontOffsetX="0.000000" FontOffsetY="0.000000"/>
+            <RS TextureFile="选择角色.png" RenderType="0" TexX="1.000000" TexY="1.000000" TexW="164.000000" TexH="164.000000" TexColor="4294967295" TopSize="0.000000" BottomSize="0.000000" LeftSize="0.000000" RightSize="0.000000" FontColor="4294967295" FontBColor="4278190080" FontSColor="0" FontOffsetX="0.000000" FontOffsetY="0.000000"/>
+            <RS TextureFile="选择角色.png" RenderType="0" TexX="1.000000" TexY="1.000000" TexW="164.000000" TexH="164.000000" TexColor="4294967295" TopSize="0.000000" BottomSize="0.000000" LeftSize="0.000000" RightSize="0.000000" FontColor="4294967295" FontBColor="4278190080" FontSColor="0" FontOffsetX="0.000000" FontOffsetY="0.000000"/>
+            <RS TextureFile="" RenderType="0" TexX="0.000000" TexY="0.000000" TexW="0.000000" TexH="0.000000" TexColor="4294967295" TopSize="0.000000" BottomSize="0.000000" LeftSize="0.000000" RightSize="0.000000" FontColor="4294967295" FontBColor="4278190080" FontSColor="0" FontOffsetX="0.000000" FontOffsetY="0.000000"/>
+            <RS TextureFile="选择角色.png" RenderType="0" TexX="1.000000" TexY="1.000000" TexW="164.000000" TexH="164.000000" TexColor="4294967295" TopSize="0.000000" BottomSize="0.000000" LeftSize="0.000000" RightSize="0.000000" FontColor="4294967295" FontBColor="4278190080" FontSColor="0" FontOffsetX="0.000000" FontOffsetY="0.000000"/>
+            <RS TextureFile="选择角色.png" RenderType="0" TexX="1.000000" TexY="1.000000" TexW="164.000000" TexH="164.000000" TexColor="4294967295" TopSize="0.000000" BottomSize="0.000000" LeftSize="0.000000" RightSize="0.000000" FontColor="4294967295" FontBColor="4278190080" FontSColor="0" FontOffsetX="0.000000" FontOffsetY="0.000000"/>
+            <RS TextureFile="选择角色.png" RenderType="0" TexX="1.000000" TexY="1.000000" TexW="164.000000" TexH="164.000000" TexColor="4294967295" TopSize="0.000000" BottomSize="0.000000" LeftSize="0.000000" RightSize="0.000000" FontColor="4294967295" FontBColor="4278190080" FontSColor="0" FontOffsetX="0.000000" FontOffsetY="0.000000"/>
+            <RS TextureFile="" RenderType="0" TexX="0.000000" TexY="0.000000" TexW="0.000000" TexH="0.000000" TexColor="4294967295" TopSize="0.000000" BottomSize="0.000000" LeftSize="0.000000" RightSize="0.000000" FontColor="4294967295" FontBColor="4278190080" FontSColor="0" FontOffsetX="0.000000" FontOffsetY="0.000000"/>
+        </选择角色_选择按钮>
+        <选择角色_创建按钮>
+            <RS TextureFile="选择角色.png" RenderType="0" TexX="305.000000" TexY="1.000000" TexW="118.000000" TexH="48.000000" TexColor="4294967295" TopSize="0.000000" BottomSize="0.000000" LeftSize="0.000000" RightSize="0.000000" FontColor="4294967295" FontBColor="4278190080" FontSColor="0" FontOffsetX="0.000000" FontOffsetY="0.000000"/>
+            <RS TextureFile="选择角色.png" RenderType="0" TexX="120.000000" TexY="166.000000" TexW="118.000000" TexH="48.000000" TexColor="4294967295" TopSize="0.000000" BottomSize="0.000000" LeftSize="0.000000" RightSize="0.000000" FontColor="4294967295" FontBColor="4278190080" FontSColor="0" FontOffsetX="0.000000" FontOffsetY="0.000000"/>
+            <RS TextureFile="选择角色.png" RenderType="0" TexX="305.000000" TexY="1.000000" TexW="118.000000" TexH="48.000000" TexColor="4294967295" TopSize="0.000000" BottomSize="0.000000" LeftSize="0.000000" RightSize="0.000000" FontColor="4294967295" FontBColor="4278190080" FontSColor="0" FontOffsetX="0.000000" FontOffsetY="0.000000"/>
+            <RS TextureFile="" RenderType="0" TexX="0.000000" TexY="0.000000" TexW="0.000000" TexH="0.000000" TexColor="4294967295" TopSize="0.000000" BottomSize="0.000000" LeftSize="0.000000" RightSize="0.000000" FontColor="4294967295" FontBColor="4278190080" FontSColor="0" FontOffsetX="0.000000" FontOffsetY="0.000000"/>
+            <RS TextureFile="" RenderType="0" TexX="0.000000" TexY="0.000000" TexW="0.000000" TexH="0.000000" TexColor="4294967295" TopSize="0.000000" BottomSize="0.000000" LeftSize="0.000000" RightSize="0.000000" FontColor="4294967295" FontBColor="4278190080" FontSColor="0" FontOffsetX="0.000000" FontOffsetY="0.000000"/>
+            <RS TextureFile="" RenderType="0" TexX="0.000000" TexY="0.000000" TexW="0.000000" TexH="0.000000" TexColor="4294967295" TopSize="0.000000" BottomSize="0.000000" LeftSize="0.000000" RightSize="0.000000" FontColor="4294967295" FontBColor="4278190080" FontSColor="0" FontOffsetX="0.000000" FontOffsetY="0.000000"/>
+            <RS TextureFile="" RenderType="0" TexX="0.000000" TexY="0.000000" TexW="0.000000" TexH="0.000000" TexColor="4294967295" TopSize="0.000000" BottomSize="0.000000" LeftSize="0.000000" RightSize="0.000000" FontColor="4294967295" FontBColor="4278190080" FontSColor="0" FontOffsetX="0.000000" FontOffsetY="0.000000"/>
+            <RS TextureFile="" RenderType="0" TexX="0.000000" TexY="0.000000" TexW="0.000000" TexH="0.000000" TexColor="4294967295" TopSize="0.000000" BottomSize="0.000000" LeftSize="0.000000" RightSize="0.000000" FontColor="4294967295" FontBColor="4278190080" FontSColor="0" FontOffsetX="0.000000" FontOffsetY="0.000000"/>
+        </选择角色_创建按钮>
+        <选择角色_进入游戏>
+            <RS TextureFile="选择角色.png" RenderType="0" TexX="239.000000" TexY="189.000000" TexW="148.000000" TexH="45.000000" TexColor="4294967295" TopSize="0.000000" BottomSize="0.000000" LeftSize="0.000000" RightSize="0.000000" FontColor="4294967295" FontBColor="4278190080" FontSColor="0" FontOffsetX="0.000000" FontOffsetY="0.000000"/>
+            <RS TextureFile="选择角色.png" RenderType="0" TexX="305.000000" TexY="50.000000" TexW="148.000000" TexH="45.000000" TexColor="4294967295" TopSize="0.000000" BottomSize="0.000000" LeftSize="0.000000" RightSize="0.000000" FontColor="4294967295" FontBColor="4278190080" FontSColor="0" FontOffsetX="0.000000" FontOffsetY="0.000000"/>
+            <RS TextureFile="选择角色.png" RenderType="0" TexX="239.000000" TexY="189.000000" TexW="148.000000" TexH="45.000000" TexColor="4294967295" TopSize="0.000000" BottomSize="0.000000" LeftSize="0.000000" RightSize="0.000000" FontColor="4294967295" FontBColor="4278190080" FontSColor="0" FontOffsetX="0.000000" FontOffsetY="0.000000"/>
+            <RS TextureFile="" RenderType="0" TexX="0.000000" TexY="0.000000" TexW="0.000000" TexH="0.000000" TexColor="4294967295" TopSize="0.000000" BottomSize="0.000000" LeftSize="0.000000" RightSize="0.000000" FontColor="4294967295" FontBColor="4278190080" FontSColor="0" FontOffsetX="0.000000" FontOffsetY="0.000000"/>
+            <RS TextureFile="" RenderType="0" TexX="0.000000" TexY="0.000000" TexW="0.000000" TexH="0.000000" TexColor="4294967295" TopSize="0.000000" BottomSize="0.000000" LeftSize="0.000000" RightSize="0.000000" FontColor="4294967295" FontBColor="4278190080" FontSColor="0" FontOffsetX="0.000000" FontOffsetY="0.000000"/>
+            <RS TextureFile="" RenderType="0" TexX="0.000000" TexY="0.000000" TexW="0.000000" TexH="0.000000" TexColor="4294967295" TopSize="0.000000" BottomSize="0.000000" LeftSize="0.000000" RightSize="0.000000" FontColor="4294967295" FontBColor="4278190080" FontSColor="0" FontOffsetX="0.000000" FontOffsetY="0.000000"/>
+            <RS TextureFile="" RenderType="0" TexX="0.000000" TexY="0.000000" TexW="0.000000" TexH="0.000000" TexColor="4294967295" TopSize="0.000000" BottomSize="0.000000" LeftSize="0.000000" RightSize="0.000000" FontColor="4294967295" FontBColor="4278190080" FontSColor="0" FontOffsetX="0.000000" FontOffsetY="0.000000"/>
+            <RS TextureFile="" RenderType="0" TexX="0.000000" TexY="0.000000" TexW="0.000000" TexH="0.000000" TexColor="4294967295" TopSize="0.000000" BottomSize="0.000000" LeftSize="0.000000" RightSize="0.000000" FontColor="4294967295" FontBColor="4278190080" FontSColor="0" FontOffsetX="0.000000" FontOffsetY="0.000000"/>
+        </选择角色_进入游戏>
+        <选择角色_返回>
+            <RS TextureFile="选择角色.png" RenderType="0" TexX="239.000000" TexY="140.000000" TexW="118.000000" TexH="48.000000" TexColor="4294967295" TopSize="0.000000" BottomSize="0.000000" LeftSize="0.000000" RightSize="0.000000" FontColor="4294967295" FontBColor="4278190080" FontSColor="0" FontOffsetX="0.000000" FontOffsetY="0.000000"/>
+            <RS TextureFile="选择角色.png" RenderType="0" TexX="1.000000" TexY="166.000000" TexW="118.000000" TexH="48.000000" TexColor="4294967295" TopSize="0.000000" BottomSize="0.000000" LeftSize="0.000000" RightSize="0.000000" FontColor="4294967295" FontBColor="4278190080" FontSColor="0" FontOffsetX="0.000000" FontOffsetY="0.000000"/>
+            <RS TextureFile="选择角色.png" RenderType="0" TexX="239.000000" TexY="140.000000" TexW="118.000000" TexH="48.000000" TexColor="4294967295" TopSize="0.000000" BottomSize="0.000000" LeftSize="0.000000" RightSize="0.000000" FontColor="4294967295" FontBColor="4278190080" FontSColor="0" FontOffsetX="0.000000" FontOffsetY="0.000000"/>
+            <RS TextureFile="" RenderType="0" TexX="0.000000" TexY="0.000000" TexW="0.000000" TexH="0.000000" TexColor="4294967295" TopSize="0.000000" BottomSize="0.000000" LeftSize="0.000000" RightSize="0.000000" FontColor="4294967295" FontBColor="4278190080" FontSColor="0" FontOffsetX="0.000000" FontOffsetY="0.000000"/>
+            <RS TextureFile="" RenderType="0" TexX="0.000000" TexY="0.000000" TexW="0.000000" TexH="0.000000" TexColor="4294967295" TopSize="0.000000" BottomSize="0.000000" LeftSize="0.000000" RightSize="0.000000" FontColor="4294967295" FontBColor="4278190080" FontSColor="0" FontOffsetX="0.000000" FontOffsetY="0.000000"/>
+            <RS TextureFile="" RenderType="0" TexX="0.000000" TexY="0.000000" TexW="0.000000" TexH="0.000000" TexColor="4294967295" TopSize="0.000000" BottomSize="0.000000" LeftSize="0.000000" RightSize="0.000000" FontColor="4294967295" FontBColor="4278190080" FontSColor="0" FontOffsetX="0.000000" FontOffsetY="0.000000"/>
+            <RS TextureFile="" RenderType="0" TexX="0.000000" TexY="0.000000" TexW="0.000000" TexH="0.000000" TexColor="4294967295" TopSize="0.000000" BottomSize="0.000000" LeftSize="0.000000" RightSize="0.000000" FontColor="4294967295" FontBColor="4278190080" FontSColor="0" FontOffsetX="0.000000" FontOffsetY="0.000000"/>
+            <RS TextureFile="" RenderType="0" TexX="0.000000" TexY="0.000000" TexW="0.000000" TexH="0.000000" TexColor="4294967295" TopSize="0.000000" BottomSize="0.000000" LeftSize="0.000000" RightSize="0.000000" FontColor="4294967295" FontBColor="4278190080" FontSColor="0" FontOffsetX="0.000000" FontOffsetY="0.000000"/>
+        </选择角色_返回>
+        <选择角色_字体>
+            <RS TextureFile="输入账号.png" RenderType="0" TexX="0.000000" TexY="0.000000" TexW="0.000000" TexH="0.000000" TexColor="4294967295" TopSize="0.000000" BottomSize="0.000000" LeftSize="0.000000" RightSize="0.000000" FontColor="4278190080" FontBColor="4278190080" FontSColor="0" FontOffsetX="0.000000" FontOffsetY="0.000000"/>
+            <RS TextureFile="" RenderType="0" TexX="0.000000" TexY="0.000000" TexW="0.000000" TexH="0.000000" TexColor="4294967295" TopSize="0.000000" BottomSize="0.000000" LeftSize="0.000000" RightSize="0.000000" FontColor="4294967295" FontBColor="4278190080" FontSColor="0" FontOffsetX="0.000000" FontOffsetY="0.000000"/>
+            <RS TextureFile="" RenderType="0" TexX="0.000000" TexY="0.000000" TexW="0.000000" TexH="0.000000" TexColor="4294967295" TopSize="0.000000" BottomSize="0.000000" LeftSize="0.000000" RightSize="0.000000" FontColor="4294967295" FontBColor="4278190080" FontSColor="0" FontOffsetX="0.000000" FontOffsetY="0.000000"/>
+            <RS TextureFile="" RenderType="0" TexX="0.000000" TexY="0.000000" TexW="0.000000" TexH="0.000000" TexColor="4294967295" TopSize="0.000000" BottomSize="0.000000" LeftSize="0.000000" RightSize="0.000000" FontColor="4294967295" FontBColor="4278190080" FontSColor="0" FontOffsetX="0.000000" FontOffsetY="0.000000"/>
+            <RS TextureFile="" RenderType="0" TexX="0.000000" TexY="0.000000" TexW="0.000000" TexH="0.000000" TexColor="4294967295" TopSize="0.000000" BottomSize="0.000000" LeftSize="0.000000" RightSize="0.000000" FontColor="4294967295" FontBColor="4278190080" FontSColor="0" FontOffsetX="0.000000" FontOffsetY="0.000000"/>
+            <RS TextureFile="" RenderType="0" TexX="0.000000" TexY="0.000000" TexW="0.000000" TexH="0.000000" TexColor="4294967295" TopSize="0.000000" BottomSize="0.000000" LeftSize="0.000000" RightSize="0.000000" FontColor="4294967295" FontBColor="4278190080" FontSColor="0" FontOffsetX="0.000000" FontOffsetY="0.000000"/>
+            <RS TextureFile="" RenderType="0" TexX="0.000000" TexY="0.000000" TexW="0.000000" TexH="0.000000" TexColor="4294967295" TopSize="0.000000" BottomSize="0.000000" LeftSize="0.000000" RightSize="0.000000" FontColor="4294967295" FontBColor="4278190080" FontSColor="0" FontOffsetX="0.000000" FontOffsetY="0.000000"/>
+            <RS TextureFile="" RenderType="0" TexX="0.000000" TexY="0.000000" TexW="0.000000" TexH="0.000000" TexColor="4294967295" TopSize="0.000000" BottomSize="0.000000" LeftSize="0.000000" RightSize="0.000000" FontColor="4294967295" FontBColor="4278190080" FontSColor="0" FontOffsetX="0.000000" FontOffsetY="0.000000"/>
+        </选择角色_字体>
+        <选择角色_选中>
+            <RS TextureFile="选择角色.png" RenderType="0" TexX="166.000000" TexY="1.000000" TexW="138.000000" TexH="138.000000" TexColor="4294967295" TopSize="0.000000" BottomSize="0.000000" LeftSize="0.000000" RightSize="0.000000" FontColor="4294967295" FontBColor="4278190080" FontSColor="0" FontOffsetX="0.000000" FontOffsetY="0.000000"/>
+            <RS TextureFile="" RenderType="0" TexX="0.000000" TexY="0.000000" TexW="0.000000" TexH="0.000000" TexColor="4294967295" TopSize="0.000000" BottomSize="0.000000" LeftSize="0.000000" RightSize="0.000000" FontColor="4294967295" FontBColor="4278190080" FontSColor="0" FontOffsetX="0.000000" FontOffsetY="0.000000"/>
+            <RS TextureFile="" RenderType="0" TexX="0.000000" TexY="0.000000" TexW="0.000000" TexH="0.000000" TexColor="4294967295" TopSize="0.000000" BottomSize="0.000000" LeftSize="0.000000" RightSize="0.000000" FontColor="4294967295" FontBColor="4278190080" FontSColor="0" FontOffsetX="0.000000" FontOffsetY="0.000000"/>
+            <RS TextureFile="" RenderType="0" TexX="0.000000" TexY="0.000000" TexW="0.000000" TexH="0.000000" TexColor="4294967295" TopSize="0.000000" BottomSize="0.000000" LeftSize="0.000000" RightSize="0.000000" FontColor="4294967295" FontBColor="4278190080" FontSColor="0" FontOffsetX="0.000000" FontOffsetY="0.000000"/>
+            <RS TextureFile="" RenderType="0" TexX="0.000000" TexY="0.000000" TexW="0.000000" TexH="0.000000" TexColor="4294967295" TopSize="0.000000" BottomSize="0.000000" LeftSize="0.000000" RightSize="0.000000" FontColor="4294967295" FontBColor="4278190080" FontSColor="0" FontOffsetX="0.000000" FontOffsetY="0.000000"/>
+            <RS TextureFile="" RenderType="0" TexX="0.000000" TexY="0.000000" TexW="0.000000" TexH="0.000000" TexColor="4294967295" TopSize="0.000000" BottomSize="0.000000" LeftSize="0.000000" RightSize="0.000000" FontColor="4294967295" FontBColor="4278190080" FontSColor="0" FontOffsetX="0.000000" FontOffsetY="0.000000"/>
+            <RS TextureFile="" RenderType="0" TexX="0.000000" TexY="0.000000" TexW="0.000000" TexH="0.000000" TexColor="4294967295" TopSize="0.000000" BottomSize="0.000000" LeftSize="0.000000" RightSize="0.000000" FontColor="4294967295" FontBColor="4278190080" FontSColor="0" FontOffsetX="0.000000" FontOffsetY="0.000000"/>
+            <RS TextureFile="" RenderType="0" TexX="0.000000" TexY="0.000000" TexW="0.000000" TexH="0.000000" TexColor="4294967295" TopSize="0.000000" BottomSize="0.000000" LeftSize="0.000000" RightSize="0.000000" FontColor="4294967295" FontBColor="4278190080" FontSColor="0" FontOffsetX="0.000000" FontOffsetY="0.000000"/>
+        </选择角色_选中>
+        <选择角色_头像>
+            <RS TextureFile="05133.png" RenderType="0" TexX="0.000000" TexY="10.000000" TexW="116.000000" TexH="146.000000" TexColor="4294967295" TopSize="0.000000" BottomSize="0.000000" LeftSize="0.000000" RightSize="0.000000" FontColor="4294967295" FontBColor="4278190080" FontSColor="0" FontOffsetX="0.000000" FontOffsetY="0.000000"/>
+            <RS TextureFile="" RenderType="0" TexX="0.000000" TexY="0.000000" TexW="0.000000" TexH="0.000000" TexColor="4294967295" TopSize="0.000000" BottomSize="0.000000" LeftSize="0.000000" RightSize="0.000000" FontColor="4294967295" FontBColor="4278190080" FontSColor="0" FontOffsetX="0.000000" FontOffsetY="0.000000"/>
+            <RS TextureFile="" RenderType="0" TexX="0.000000" TexY="0.000000" TexW="0.000000" TexH="0.000000" TexColor="4294967295" TopSize="0.000000" BottomSize="0.000000" LeftSize="0.000000" RightSize="0.000000" FontColor="4294967295" FontBColor="4278190080" FontSColor="0" FontOffsetX="0.000000" FontOffsetY="0.000000"/>
+            <RS TextureFile="" RenderType="0" TexX="0.000000" TexY="0.000000" TexW="0.000000" TexH="0.000000" TexColor="4294967295" TopSize="0.000000" BottomSize="0.000000" LeftSize="0.000000" RightSize="0.000000" FontColor="4294967295" FontBColor="4278190080" FontSColor="0" FontOffsetX="0.000000" FontOffsetY="0.000000"/>
+            <RS TextureFile="" RenderType="0" TexX="0.000000" TexY="0.000000" TexW="0.000000" TexH="0.000000" TexColor="4294967295" TopSize="0.000000" BottomSize="0.000000" LeftSize="0.000000" RightSize="0.000000" FontColor="4294967295" FontBColor="4278190080" FontSColor="0" FontOffsetX="0.000000" FontOffsetY="0.000000"/>
+            <RS TextureFile="" RenderType="0" TexX="0.000000" TexY="0.000000" TexW="0.000000" TexH="0.000000" TexColor="4294967295" TopSize="0.000000" BottomSize="0.000000" LeftSize="0.000000" RightSize="0.000000" FontColor="4294967295" FontBColor="4278190080" FontSColor="0" FontOffsetX="0.000000" FontOffsetY="0.000000"/>
+            <RS TextureFile="" RenderType="0" TexX="0.000000" TexY="0.000000" TexW="0.000000" TexH="0.000000" TexColor="4294967295" TopSize="0.000000" BottomSize="0.000000" LeftSize="0.000000" RightSize="0.000000" FontColor="4294967295" FontBColor="4278190080" FontSColor="0" FontOffsetX="0.000000" FontOffsetY="0.000000"/>
+            <RS TextureFile="" RenderType="0" TexX="0.000000" TexY="0.000000" TexW="0.000000" TexH="0.000000" TexColor="4294967295" TopSize="0.000000" BottomSize="0.000000" LeftSize="0.000000" RightSize="0.000000" FontColor="4294967295" FontBColor="4278190080" FontSColor="0" FontOffsetX="0.000000" FontOffsetY="0.000000"/>
+        </选择角色_头像>
+    </Skin>
+    <Ctrl>
+        <主界面 GuiType="0" ID="-1" PosX="0.000000" PosY="0.000000" Width="1024.000000" Height="768.000000" IsVisible="1" IsStatic="0" IsEnabled="1" IsNotify="0" Text="" AlignMode="0" IsTextWarp="0" LineSpace="0" CharSpace="0" ToolTip="" ToolTipWidth="0" Font="" Skin="" Class="">
+            <CustomInfo/>
+            <ChildCtrl>
+                <登陆界面 GuiType="0" ID="-1" PosX="0.000000" PosY="0.000000" Width="1024.000000" Height="768.000000" IsVisible="1" IsStatic="0" IsEnabled="1" IsNotify="0" Text="" AlignMode="0" IsTextWarp="0" LineSpace="0" CharSpace="0" ToolTip="" ToolTipWidth="0" Font="" Skin="通用_背景" Class="">
+                    <CustomInfo/>
+                    <ChildCtrl>
+                        <左上角 GuiType="0" ID="-1" PosX="0.000000" PosY="0.000000" Width="338.000000" Height="76.000000" IsVisible="1" IsStatic="1" IsEnabled="1" IsNotify="0" Text="" AlignMode="0" IsTextWarp="0" LineSpace="0" CharSpace="0" ToolTip="" ToolTipWidth="0" Font="" Skin="输入账号_左上角" Class="">
+                            <CustomInfo/>
+                            <ChildCtrl/>
+                        </左上角>
+                        <LOGO GuiType="0" ID="-1" PosX="396.000000" PosY="127.000000" Width="230.000000" Height="152.000000" IsVisible="1" IsStatic="1" IsEnabled="1" IsNotify="0" Text="" AlignMode="0" IsTextWarp="0" LineSpace="0" CharSpace="0" ToolTip="" ToolTipWidth="0" Font="" Skin="输入账号_LOGO" Class="">
+                            <CustomInfo/>
+                            <ChildCtrl/>
+                        </LOGO>
+                        <进入游戏背景 GuiType="0" ID="-1" PosX="593.000000" PosY="253.000000" Width="154.000000" Height="154.000000" IsVisible="1" IsStatic="1" IsEnabled="1" IsNotify="0" Text="" AlignMode="0" IsTextWarp="0" LineSpace="0" CharSpace="0" ToolTip="" ToolTipWidth="0" Font="" Skin="输入账号_按钮背景" Class="">
+                            <CustomInfo/>
+                            <ChildCtrl/>
+                        </进入游戏背景>
+                        <账号背景 GuiType="0" ID="-1" PosX="282.000000" PosY="286.000000" Width="399.000000" Height="36.000000" IsVisible="1" IsStatic="1" IsEnabled="1" IsNotify="0" Text="" AlignMode="0" IsTextWarp="0" LineSpace="0" CharSpace="0" ToolTip="" ToolTipWidth="0" Font="" Skin="输入账号_输入背景" Class="">
+                            <CustomInfo/>
+                            <ChildCtrl>
+                                <账号标题 GuiType="0" ID="-1" PosX="346.000000" PosY="299.000000" Width="49.000000" Height="15.000000" IsVisible="1" IsStatic="1" IsEnabled="1" IsNotify="0" Text="" AlignMode="0" IsTextWarp="0" LineSpace="0" CharSpace="0" ToolTip="" ToolTipWidth="0" Font="" Skin="输入账号_账号" Class="">
+                                    <CustomInfo/>
+                                    <ChildCtrl/>
+                                </账号标题>
+                            </ChildCtrl>
+                        </账号背景>
+                        <密码背景 GuiType="0" ID="-1" PosX="282.000000" PosY="327.000000" Width="399.000000" Height="36.000000" IsVisible="1" IsStatic="1" IsEnabled="1" IsNotify="0" Text="" AlignMode="0" IsTextWarp="0" LineSpace="0" CharSpace="0" ToolTip="" ToolTipWidth="0" Font="" Skin="输入账号_输入背景" Class="">
+                            <CustomInfo/>
+                            <ChildCtrl>
+                                <密码标题 GuiType="0" ID="-1" PosX="347.000000" PosY="339.000000" Width="49.000000" Height="15.000000" IsVisible="1" IsStatic="1" IsEnabled="1" IsNotify="0" Text="" AlignMode="0" IsTextWarp="0" LineSpace="0" CharSpace="0" ToolTip="" ToolTipWidth="0" Font="" Skin="输入账号_密码" Class="">
+                                    <CustomInfo/>
+                                    <ChildCtrl/>
+                                </密码标题>
+                            </ChildCtrl>
+                        </密码背景>
+                        <登陆事件 GuiType="0" ID="-1" PosX="295.000000" PosY="258.000000" Width="460.000000" Height="146.000000" IsVisible="1" IsStatic="0" IsEnabled="1" IsNotify="0" Text="" AlignMode="0" IsTextWarp="0" LineSpace="0" CharSpace="0" ToolTip="" ToolTipWidth="0" Font="" Skin="" Class="登陆事件">
+                            <CustomInfo/>
+                            <ChildCtrl>
+                                <登陆游戏 GuiType="1" ID="-1" PosX="628.000000" PosY="291.000000" Width="75.000000" Height="72.000000" IsVisible="1" IsStatic="0" IsEnabled="1" IsNotify="1" Text="" AlignMode="0" IsTextWarp="0" LineSpace="0" CharSpace="0" ToolTip="" ToolTipWidth="0" Font="" Skin="输入账号_进入游戏" Class="">
+                                    <CustomInfo/>
+                                    <ChildCtrl/>
+                                </登陆游戏>
+                                <账号输入框 GuiType="5" ID="-1" PosX="427.000000" PosY="296.000000" Width="167.000000" Height="20.000000" IsVisible="1" IsStatic="0" IsEnabled="1" IsNotify="0" Text="test" AlignMode="0" IsTextWarp="0" LineSpace="0" CharSpace="0" ToolTip="" ToolTipWidth="0" Font="宋体16" Skin="" Class="" MaxCharNum="14" CursorColor="4294901760">
+                                    <CustomInfo/>
+                                    <ChildCtrl/>
+                                </账号输入框>
+                                <密码输入框 GuiType="5" ID="-1" PosX="427.000000" PosY="338.000000" Width="167.000000" Height="20.000000" IsVisible="1" IsStatic="0" IsEnabled="0" IsNotify="0" Text="*****" AlignMode="0" IsTextWarp="0" LineSpace="0" CharSpace="0" ToolTip="" ToolTipWidth="0" Font="宋体16" Skin="" Class="" MaxCharNum="65535" CursorColor="4294901760">
+                                    <CustomInfo/>
+                                    <ChildCtrl/>
+                                </密码输入框>
+                            </ChildCtrl>
+                        </登陆事件>
+                    </ChildCtrl>
+                </登陆界面>
+                <选择角色界面 GuiType="0" ID="-1" PosX="0.000000" PosY="0.000000" Width="1024.000000" Height="768.000000" IsVisible="0" IsStatic="0" IsEnabled="1" IsNotify="0" Text="" AlignMode="0" IsTextWarp="0" LineSpace="0" CharSpace="0" ToolTip="" ToolTipWidth="0" Font="" Skin="通用_背景" Class="">
+                    <CustomInfo/>
+                    <ChildCtrl>
+                        <左上角 GuiType="0" ID="-1" PosX="0.000000" PosY="0.000000" Width="338.000000" Height="76.000000" IsVisible="1" IsStatic="1" IsEnabled="1" IsNotify="0" Text="" AlignMode="0" IsTextWarp="0" LineSpace="0" CharSpace="0" ToolTip="" ToolTipWidth="0" Font="" Skin="选择角色_左上角" Class="">
+                            <CustomInfo/>
+                            <ChildCtrl/>
+                        </左上角>
+                        <信息背景 GuiType="0" ID="-1" PosX="201.000000" PosY="363.000000" Width="600.000000" Height="113.000000" IsVisible="1" IsStatic="1" IsEnabled="1" IsNotify="0" Text="" AlignMode="0" IsTextWarp="0" LineSpace="0" CharSpace="0" ToolTip="" ToolTipWidth="0" Font="" Skin="选择角色_信息背景" Class="">
+                            <CustomInfo/>
+                            <ChildCtrl/>
+                        </信息背景>
+                        <选择角色事件 GuiType="0" ID="-1" PosX="99.000000" PosY="86.000000" Width="837.000000" Height="574.000000" IsVisible="1" IsStatic="0" IsEnabled="1" IsNotify="0" Text="" AlignMode="0" IsTextWarp="0" LineSpace="0" CharSpace="0" ToolTip="" ToolTipWidth="0" Font="" Skin="" Class="选择事件">
+                            <CustomInfo/>
+                            <ChildCtrl>
+                                <创建角色 GuiType="1" ID="1" PosX="309.000000" PosY="553.000000" Width="118.000000" Height="48.000000" IsVisible="1" IsStatic="0" IsEnabled="1" IsNotify="1" Text="" AlignMode="0" IsTextWarp="0" LineSpace="0" CharSpace="0" ToolTip="" ToolTipWidth="0" Font="" Skin="选择角色_创建按钮" Class="">
+                                    <CustomInfo/>
+                                    <ChildCtrl/>
+                                </创建角色>
+                                <进入游戏 GuiType="1" ID="2" PosX="440.000000" PosY="547.000000" Width="148.000000" Height="45.000000" IsVisible="1" IsStatic="0" IsEnabled="1" IsNotify="1" Text="" AlignMode="0" IsTextWarp="0" LineSpace="0" CharSpace="0" ToolTip="" ToolTipWidth="0" Font="" Skin="选择角色_进入游戏" Class="">
+                                    <CustomInfo/>
+                                    <ChildCtrl/>
+                                </进入游戏>
+                                <返回 GuiType="1" ID="3" PosX="599.000000" PosY="538.000000" Width="118.000000" Height="48.000000" IsVisible="1" IsStatic="0" IsEnabled="1" IsNotify="1" Text="" AlignMode="0" IsTextWarp="0" LineSpace="0" CharSpace="0" ToolTip="" ToolTipWidth="0" Font="" Skin="选择角色_返回" Class="">
+                                    <CustomInfo/>
+                                    <ChildCtrl/>
+                                </返回>
+                                <角色1 GuiType="2" ID="11" PosX="179.000000" PosY="141.000000" Width="164.000000" Height="164.000000" IsVisible="1" IsStatic="0" IsEnabled="1" IsNotify="1" Text="" AlignMode="0" IsTextWarp="0" LineSpace="0" CharSpace="0" ToolTip="" ToolTipWidth="0" Font="" Skin="选择角色_选择按钮" Class="" IsChecked="1">
+                                    <CustomInfo/>
+                                    <ChildCtrl/>
+                                </角色1>
+                                <角色2 GuiType="2" ID="12" PosX="343.000000" PosY="141.000000" Width="164.000000" Height="164.000000" IsVisible="1" IsStatic="0" IsEnabled="1" IsNotify="1" Text="" AlignMode="0" IsTextWarp="0" LineSpace="0" CharSpace="0" ToolTip="" ToolTipWidth="0" Font="" Skin="选择角色_选择按钮" Class="" IsChecked="0">
+                                    <CustomInfo/>
+                                    <ChildCtrl/>
+                                </角色2>
+                                <角色3 GuiType="2" ID="13" PosX="507.000000" PosY="141.000000" Width="164.000000" Height="164.000000" IsVisible="1" IsStatic="0" IsEnabled="1" IsNotify="1" Text="" AlignMode="0" IsTextWarp="0" LineSpace="0" CharSpace="0" ToolTip="" ToolTipWidth="0" Font="" Skin="选择角色_选择按钮" Class="" IsChecked="0">
+                                    <CustomInfo/>
+                                    <ChildCtrl/>
+                                </角色3>
+                                <角色4 GuiType="2" ID="14" PosX="671.000000" PosY="141.000000" Width="164.000000" Height="164.000000" IsVisible="1" IsStatic="0" IsEnabled="1" IsNotify="0" Text="" AlignMode="0" IsTextWarp="0" LineSpace="0" CharSpace="0" ToolTip="" ToolTipWidth="0" Font="" Skin="选择角色_选择按钮" Class="" IsChecked="0">
+                                    <CustomInfo/>
+                                    <ChildCtrl/>
+                                </角色4>
+                                <选中 GuiType="0" ID="-1" PosX="193.000000" PosY="151.000000" Width="138.000000" Height="138.000000" IsVisible="1" IsStatic="1" IsEnabled="1" IsNotify="0" Text="" AlignMode="0" IsTextWarp="0" LineSpace="0" CharSpace="0" ToolTip="" ToolTipWidth="0" Font="" Skin="选择角色_选中" Class="">
+                                    <CustomInfo/>
+                                    <ChildCtrl/>
+                                </选中>
+                                <头像 GuiType="0" ID="-1" PosX="204.000000" PosY="145.000000" Width="116.000000" Height="146.000000" IsVisible="1" IsStatic="1" IsEnabled="1" IsNotify="0" Text="" AlignMode="0" IsTextWarp="0" LineSpace="0" CharSpace="0" ToolTip="" ToolTipWidth="0" Font="" Skin="选择角色_头像" Class="">
+                                    <CustomInfo/>
+                                    <ChildCtrl/>
+                                </头像>
+                            </ChildCtrl>
+                        </选择角色事件>
+                        <名称 GuiType="0" ID="-1" PosX="463.000000" PosY="379.000000" Width="200.000000" Height="16.000000" IsVisible="1" IsStatic="1" IsEnabled="1" IsNotify="0" Text="..." AlignMode="0" IsTextWarp="0" LineSpace="0" CharSpace="0" ToolTip="" ToolTipWidth="0" Font="宋体16" Skin="选择角色_字体" Class="">
+                            <CustomInfo/>
+                            <ChildCtrl/>
+                        </名称>
+                        <等级 GuiType="0" ID="-1" PosX="463.000000" PosY="414.000000" Width="200.000000" Height="16.000000" IsVisible="1" IsStatic="1" IsEnabled="1" IsNotify="0" Text="...
+" AlignMode="0" IsTextWarp="0" LineSpace="0" CharSpace="0" ToolTip="" ToolTipWidth="0" Font="宋体16" Skin="选择角色_字体" Class="">
+                            <CustomInfo/>
+                            <ChildCtrl/>
+                        </等级>
+                        <门派 GuiType="0" ID="-1" PosX="463.000000" PosY="449.000000" Width="200.000000" Height="16.000000" IsVisible="1" IsStatic="1" IsEnabled="1" IsNotify="0" Text="...
+" AlignMode="0" IsTextWarp="0" LineSpace="0" CharSpace="0" ToolTip="" ToolTipWidth="0" Font="宋体16" Skin="选择角色_字体" Class="">
+                            <CustomInfo/>
+                            <ChildCtrl/>
+                        </门派>
+                        <选择角色 GuiType="0" ID="-1" PosX="170.000000" PosY="118.000000" Width="682.000000" Height="209.000000" IsVisible="1" IsStatic="0" IsEnabled="1" IsNotify="1" Text="" AlignMode="0" IsTextWarp="0" LineSpace="0" CharSpace="0" ToolTip="" ToolTipWidth="0" Font="" Skin="" Class="">
+                            <CustomInfo/>
+                            <ChildCtrl/>
+                        </选择角色>
+                    </ChildCtrl>
+                </选择角色界面>
+            </ChildCtrl>
+        </主界面>
+    </Ctrl>
+</Galaxy2D_Game_Engine_GUI_File>

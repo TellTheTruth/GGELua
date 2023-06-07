@@ -1,0 +1,51 @@
+[
+    {
+        "id": "help"
+    },
+    {
+        "id": "folders", "caption": "-"
+    },
+    {
+        "id": "folders", "caption": "-"
+    },
+    {
+        "id": "folders", "caption": "-"
+    },
+    // {
+    //     "command": "new_file",
+    //     "caption": "▓"},
+    // {
+    //     "command": "save",
+    //     "caption": "回"},
+
+    {
+        "command": "build",
+        "args": {"variant": "RunInCommand"},
+        "caption": "▷"},
+    {
+        "command": "build",
+        "args": {"variant": "Run"},
+        "caption": "▶"},
+    {
+        "command": "build",
+        "args": {"variant": "Stop"},
+        "caption": "█"},
+    {
+        "id": "folders", "caption": "-"
+    },
+    {
+        "id": "folders", "caption": "|"
+    },
+    {
+        "id": "folders", "caption": "-"
+    },
+    {
+        "command": "build",
+        "caption": "⇣⇣⇣"},
+
+    {
+        "command": "build",
+        "args": {"variant": "SetGGE"},
+        "caption": "☼"},
+
+]

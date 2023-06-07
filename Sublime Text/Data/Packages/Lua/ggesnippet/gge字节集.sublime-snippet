@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[gge字节集]]></content>
+    <tabTrigger>ggezjj</tabTrigger>
+    <scope>source.lua</scope>
+    <description>gge字节集</description>
+</snippet>

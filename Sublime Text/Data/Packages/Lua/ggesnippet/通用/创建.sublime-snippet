@@ -1,0 +1,6 @@
+﻿<snippet>
+    <content><![CDATA[创建(${1:})]]></content>
+    <tabTrigger>cj</tabTrigger>
+    <scope>source.lua</scope>
+    <description>创建</description>
+</snippet>

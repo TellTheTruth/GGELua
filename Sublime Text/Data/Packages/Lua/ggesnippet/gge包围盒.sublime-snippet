@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[gge包围盒]]></content>
+    <tabTrigger>ggebwh</tabTrigger>
+    <scope>source.lua</scope>
+    <description>gge包围盒</description>
+</snippet>

@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[gge音效类]]></content>
+    <tabTrigger>ggeyxl</tabTrigger>
+    <scope>source.lua</scope>
+    <description>gge音效类</description>
+</snippet>

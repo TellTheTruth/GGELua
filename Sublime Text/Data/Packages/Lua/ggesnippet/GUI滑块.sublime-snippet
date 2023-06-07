@@ -1,0 +1,56 @@
+<snippet>
+	<content><![CDATA[
+--======================================================================--
+
+local ${1:滑块} = ${2:窗口}:创建滑块("${3:名称}","${4:宽或高}","${5:是否竖型}")
+
+
+function ${1:滑块}:初始化()
+	local 纹理 = require("gge纹理类")
+	self.纹理1 = 纹理.创建("${7:图片路径1}")
+	self.纹理2 = 纹理.创建("${8:图片路径2}")
+	--self.纹理3 = 纹理.创建("${9:图片路径2}")
+	self.精灵 = require("gge精灵类").创建(self.纹理1)
+	self.纹理宽度 = self.纹理1:取宽度()/2--用于居中
+	self.x = self.纹理宽度+0
+	self.y = 0
+	self.显示偏移 = -self.纹理宽度
+end
+
+function ${1:滑块}:更新(dt,x,y)
+	self.精灵:置坐标(x+self.x+self.显示偏移,y+self.y)
+end
+
+function ${1:滑块}:显示()
+	self.精灵:显示()
+end
+
+function ${1:滑块}:检查点(x,y)
+	return self.精灵:检查点(x,y)
+end
+
+function ${1:滑块}:消息事件(类型,消息,参数1,参数2)
+
+	if 类型 == 1 then
+		if  消息 == '获得焦点' then
+		    self.精灵:置纹理(self.纹理2)
+		elseif 消息 == '失去焦点' then
+			self.精灵:置纹理(self.纹理1)
+		elseif 消息 == '滑块移动' then
+			self.显示偏移 = 参数1-self.纹理宽度
+		end
+	end
+	if 消息 =="移动" or  消息 =="准备关闭" then
+		return not self:是否碰撞()
+	end
+	return true
+end
+]]></content>
+    <tabTrigger>guihk</tabTrigger>
+    <scope>source.lua</scope>
+    <description>滑块横型模版</description>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<!-- <tabTrigger>hello</tabTrigger> -->
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>

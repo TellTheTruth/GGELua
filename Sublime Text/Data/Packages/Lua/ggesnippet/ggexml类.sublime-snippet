@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[ggexml类]]></content>
+    <tabTrigger>ggexmll</tabTrigger>
+    <scope>source.lua</scope>
+    <description>ggexml类</description>
+</snippet>

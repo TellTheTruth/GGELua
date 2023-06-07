@@ -1,0 +1,6 @@
+﻿<snippet>
+    <content><![CDATA[更新(${1:})]]></content>
+    <tabTrigger>gx</tabTrigger>
+    <scope>source.lua</scope>
+    <description>更新</description>
+</snippet>

@@ -1,0 +1,657 @@
+<?xml version="1.0" encoding="gb2312"?>
+<Galaxy2D_Game_Engine_GUI_File>
+    <Font>
+        <GuiFont Name="c:\windows\fonts\simkai.ttf" Size="14" Bold="0" Boder="1" Mono="0" ImgFont="0"/>
+    </Font>
+    <Skin>
+        <TileBG>
+            <RS TextureFile="guiskins.png" RenderType="5" TexX="449.000000" TexY="2.000000" TexW="32.000000" TexH="32.000000" TexColor="4294967295" TopSize="0.000000" BottomSize="0.000000" LeftSize="0.000000" RightSize="0.000000" FontColor="4294967295" FontBColor="4278190080" FontSColor="0" FontOffsetX="0.000000" FontOffsetY="0.000000"/>
+            <RS TextureFile="" RenderType="0" TexX="0.000000" TexY="0.000000" TexW="0.000000" TexH="0.000000" TexColor="4294967295" TopSize="0.000000" BottomSize="0.000000" LeftSize="0.000000" RightSize="0.000000" FontColor="4294967295" FontBColor="4278190080" FontSColor="0" FontOffsetX="0.000000" FontOffsetY="0.000000"/>
+            <RS TextureFile="" RenderType="0" TexX="0.000000" TexY="0.000000" TexW="0.000000" TexH="0.000000" TexColor="4294967295" TopSize="0.000000" BottomSize="0.000000" LeftSize="0.000000" RightSize="0.000000" FontColor="4294967295" FontBColor="4278190080" FontSColor="0" FontOffsetX="0.000000" FontOffsetY="0.000000"/>
+            <RS TextureFile="" RenderType="0" TexX="0.000000" TexY="0.000000" TexW="0.000000" TexH="0.000000" TexColor="4294967295" TopSize="0.000000" BottomSize="0.000000" LeftSize="0.000000" RightSize="0.000000" FontColor="4294967295" FontBColor="4278190080" FontSColor="0" FontOffsetX="0.000000" FontOffsetY="0.000000"/>
+            <RS TextureFile="" RenderType="0" TexX="0.000000" TexY="0.000000" TexW="0.000000" TexH="0.000000" TexColor="4294967295" TopSize="0.000000" BottomSize="0.000000" LeftSize="0.000000" RightSize="0.000000" FontColor="4294967295" FontBColor="4278190080" FontSColor="0" FontOffsetX="0.000000" FontOffsetY="0.000000"/>
+            <RS TextureFile="" RenderType="0" TexX="0.000000" TexY="0.000000" TexW="0.000000" TexH="0.000000" TexColor="4294967295" TopSize="0.000000" BottomSize="0.000000" LeftSize="0.000000" RightSize="0.000000" FontColor="4294967295" FontBColor="4278190080" FontSColor="0" FontOffsetX="0.000000" FontOffsetY="0.000000"/>
+            <RS TextureFile="" RenderType="0" TexX="0.000000" TexY="0.000000" TexW="0.000000" TexH="0.000000" TexColor="4294967295" TopSize="0.000000" BottomSize="0.000000" LeftSize="0.000000" RightSize="0.000000" FontColor="4294967295" FontBColor="4278190080" FontSColor="0" FontOffsetX="0.000000" FontOffsetY="0.000000"/>
+            <RS TextureFile="" RenderType="0" TexX="0.000000" TexY="0.000000" TexW="0.000000" TexH="0.000000" TexColor="4294967295" TopSize="0.000000" BottomSize="0.000000" LeftSize="0.000000" RightSize="0.000000" FontColor="4294967295" FontBColor="4278190080" FontSColor="0" FontOffsetX="0.000000" FontOffsetY="0.000000"/>
+        </TileBG>
+        <MenuBG>
+            <RS TextureFile="guiskins.png" RenderType="4" TexX="138.000000" TexY="32.000000" TexW="22.000000" TexH="19.000000" TexColor="4294967295" TopSize="0.000000" BottomSize="0.000000" LeftSize="0.000000" RightSize="0.000000" FontColor="4294967295" FontBColor="4278190080" FontSColor="0" FontOffsetX="0.000000" FontOffsetY="0.000000"/>
+            <RS TextureFile="" RenderType="0" TexX="0.000000" TexY="0.000000" TexW="0.000000" TexH="0.000000" TexColor="4294967295" TopSize="0.000000" BottomSize="0.000000" LeftSize="0.000000" RightSize="0.000000" FontColor="4294967295" FontBColor="4278190080" FontSColor="0" FontOffsetX="0.000000" FontOffsetY="0.000000"/>
+            <RS TextureFile="" RenderType="0" TexX="0.000000" TexY="0.000000" TexW="0.000000" TexH="0.000000" TexColor="4294967295" TopSize="0.000000" BottomSize="0.000000" LeftSize="0.000000" RightSize="0.000000" FontColor="4294967295" FontBColor="4278190080" FontSColor="0" FontOffsetX="0.000000" FontOffsetY="0.000000"/>
+            <RS TextureFile="" RenderType="0" TexX="0.000000" TexY="0.000000" TexW="0.000000" TexH="0.000000" TexColor="4294967295" TopSize="0.000000" BottomSize="0.000000" LeftSize="0.000000" RightSize="0.000000" FontColor="4294967295" FontBColor="4278190080" FontSColor="0" FontOffsetX="0.000000" FontOffsetY="0.000000"/>
+            <RS TextureFile="" RenderType="0" TexX="0.000000" TexY="0.000000" TexW="0.000000" TexH="0.000000" TexColor="4294967295" TopSize="0.000000" BottomSize="0.000000" LeftSize="0.000000" RightSize="0.000000" FontColor="4294967295" FontBColor="4278190080" FontSColor="0" FontOffsetX="0.000000" FontOffsetY="0.000000"/>
+            <RS TextureFile="" RenderType="0" TexX="0.000000" TexY="0.000000" TexW="0.000000" TexH="0.000000" TexColor="4294967295" TopSize="0.000000" BottomSize="0.000000" LeftSize="0.000000" RightSize="0.000000" FontColor="4294967295" FontBColor="4278190080" FontSColor="0" FontOffsetX="0.000000" FontOffsetY="0.000000"/>
+            <RS TextureFile="" RenderType="0" TexX="0.000000" TexY="0.000000" TexW="0.000000" TexH="0.000000" TexColor="4294967295" TopSize="0.000000" BottomSize="0.000000" LeftSize="0.000000" RightSize="0.000000" FontColor="4294967295" FontBColor="4278190080" FontSColor="0" FontOffsetX="0.000000" FontOffsetY="0.000000"/>
+            <RS TextureFile="" RenderType="0" TexX="0.000000" TexY="0.000000" TexW="0.000000" TexH="0.000000" TexColor="4294967295" TopSize="0.000000" BottomSize="0.000000" LeftSize="0.000000" RightSize="0.000000" FontColor="4294967295" FontBColor="4278190080" FontSColor="0" FontOffsetX="0.000000" FontOffsetY="0.000000"/>
+        </MenuBG>
+        <MenuBtn>
+            <RS TextureFile="" RenderType="0" TexX="0.000000" TexY="0.000000" TexW="0.000000" TexH="0.000000" TexColor="0" TopSize="0.000000" BottomSize="0.000000" LeftSize="0.000000" RightSize="0.000000" FontColor="4294967295" FontBColor="4278190080" FontSColor="0" FontOffsetX="0.000000" FontOffsetY="-1.000000"/>
+            <RS TextureFile="guiskins.png" RenderType="4" TexX="204.000000" TexY="79.000000" TexW="26.000000" TexH="21.000000" TexColor="4294967295" TopSize="3.000000" BottomSize="5.000000" LeftSize="3.000000" RightSize="5.000000" FontColor="4286611584" FontBColor="4278190080" FontSColor="0" FontOffsetX="0.000000" FontOffsetY="-1.000000"/>
+            <RS TextureFile="guiskins.png" RenderType="4" TexX="204.000000" TexY="56.000000" TexW="26.000000" TexH="21.000000" TexColor="4294967295" TopSize="3.000000" BottomSize="5.000000" LeftSize="3.000000" RightSize="5.000000" FontColor="4279471052" FontBColor="4278190080" FontSColor="0" FontOffsetX="0.000000" FontOffsetY="-2.000000"/>
+            <RS TextureFile="" RenderType="0" TexX="0.000000" TexY="0.000000" TexW="0.000000" TexH="0.000000" TexColor="4294967295" TopSize="0.000000" BottomSize="0.000000" LeftSize="0.000000" RightSize="0.000000" FontColor="4294967295" FontBColor="4278190080" FontSColor="0" FontOffsetX="0.000000" FontOffsetY="0.000000"/>
+            <RS TextureFile="" RenderType="0" TexX="0.000000" TexY="0.000000" TexW="0.000000" TexH="0.000000" TexColor="4294967295" TopSize="0.000000" BottomSize="0.000000" LeftSize="0.000000" RightSize="0.000000" FontColor="4294967295" FontBColor="4278190080" FontSColor="0" FontOffsetX="0.000000" FontOffsetY="0.000000"/>
+            <RS TextureFile="" RenderType="0" TexX="0.000000" TexY="0.000000" TexW="0.000000" TexH="0.000000" TexColor="4294967295" TopSize="0.000000" BottomSize="0.000000" LeftSize="0.000000" RightSize="0.000000" FontColor="4294967295" FontBColor="4278190080" FontSColor="0" FontOffsetX="0.000000" FontOffsetY="0.000000"/>
+            <RS TextureFile="" RenderType="0" TexX="0.000000" TexY="0.000000" TexW="0.000000" TexH="0.000000" TexColor="4294967295" TopSize="0.000000" BottomSize="0.000000" LeftSize="0.000000" RightSize="0.000000" FontColor="4294967295" FontBColor="4278190080" FontSColor="0" FontOffsetX="0.000000" FontOffsetY="0.000000"/>
+            <RS TextureFile="" RenderType="0" TexX="0.000000" TexY="0.000000" TexW="0.000000" TexH="0.000000" TexColor="4294967295" TopSize="0.000000" BottomSize="0.000000" LeftSize="0.000000" RightSize="0.000000" FontColor="4294967295" FontBColor="4278190080" FontSColor="0" FontOffsetX="0.000000" FontOffsetY="0.000000"/>
+        </MenuBtn>
+        <SubMenuBG>
+            <RS TextureFile="guiskins.png" RenderType="4" TexX="341.000000" TexY="2.000000" TexW="23.000000" TexH="22.000000" TexColor="4294967295" TopSize="4.000000" BottomSize="6.000000" LeftSize="4.000000" RightSize="6.000000" FontColor="4294967295" FontBColor="4278190080" FontSColor="0" FontOffsetX="0.000000" FontOffsetY="0.000000"/>
+            <RS TextureFile="" RenderType="0" TexX="0.000000" TexY="0.000000" TexW="0.000000" TexH="0.000000" TexColor="4294967295" TopSize="0.000000" BottomSize="0.000000" LeftSize="0.000000" RightSize="0.000000" FontColor="4294967295" FontBColor="4278190080" FontSColor="0" FontOffsetX="0.000000" FontOffsetY="0.000000"/>
+            <RS TextureFile="" RenderType="0" TexX="0.000000" TexY="0.000000" TexW="0.000000" TexH="0.000000" TexColor="4294967295" TopSize="0.000000" BottomSize="0.000000" LeftSize="0.000000" RightSize="0.000000" FontColor="4294967295" FontBColor="4278190080" FontSColor="0" FontOffsetX="0.000000" FontOffsetY="0.000000"/>
+            <RS TextureFile="guiskins.png" RenderType="4" TexX="341.000000" TexY="2.000000" TexW="23.000000" TexH="22.000000" TexColor="4294967295" TopSize="4.000000" BottomSize="6.000000" LeftSize="4.000000" RightSize="6.000000" FontColor="4294967295" FontBColor="4278190080" FontSColor="0" FontOffsetX="0.000000" FontOffsetY="0.000000"/>
+            <RS TextureFile="" RenderType="0" TexX="0.000000" TexY="0.000000" TexW="0.000000" TexH="0.000000" TexColor="4294967295" TopSize="0.000000" BottomSize="0.000000" LeftSize="0.000000" RightSize="0.000000" FontColor="4294967295" FontBColor="4278190080" FontSColor="0" FontOffsetX="0.000000" FontOffsetY="0.000000"/>
+            <RS TextureFile="" RenderType="0" TexX="0.000000" TexY="0.000000" TexW="0.000000" TexH="0.000000" TexColor="4294967295" TopSize="0.000000" BottomSize="0.000000" LeftSize="0.000000" RightSize="0.000000" FontColor="4294967295" FontBColor="4278190080" FontSColor="0" FontOffsetX="0.000000" FontOffsetY="0.000000"/>
+            <RS TextureFile="" RenderType="0" TexX="0.000000" TexY="0.000000" TexW="0.000000" TexH="0.000000" TexColor="4294967295" TopSize="0.000000" BottomSize="0.000000" LeftSize="0.000000" RightSize="0.000000" FontColor="4294967295" FontBColor="4278190080" FontSColor="0" FontOffsetX="0.000000" FontOffsetY="0.000000"/>
+            <RS TextureFile="" RenderType="0" TexX="0.000000" TexY="0.000000" TexW="0.000000" TexH="0.000000" TexColor="4294967295" TopSize="0.000000" BottomSize="0.000000" LeftSize="0.000000" RightSize="0.000000" FontColor="4294967295" FontBColor="4278190080" FontSColor="0" FontOffsetX="0.000000" FontOffsetY="0.000000"/>
+        </SubMenuBG>
+        <SubMenuBtn>
+            <RS TextureFile="" RenderType="4" TexX="341.000000" TexY="2.000000" TexW="23.000000" TexH="22.000000" TexColor="0" TopSize="4.000000" BottomSize="6.000000" LeftSize="4.000000" RightSize="6.000000" FontColor="4294967295" FontBColor="4278190080" FontSColor="0" FontOffsetX="6.000000" FontOffsetY="0.000000"/>
+            <RS TextureFile="" RenderType="4" TexX="0.000000" TexY="0.000000" TexW="0.000000" TexH="0.000000" TexColor="4279471052" TopSize="0.000000" BottomSize="0.000000" LeftSize="0.000000" RightSize="0.000000" FontColor="4286611584" FontBColor="4278190080" FontSColor="0" FontOffsetX="6.000000" FontOffsetY="0.000000"/>
+            <RS TextureFile="" RenderType="4" TexX="0.000000" TexY="0.000000" TexW="0.000000" TexH="0.000000" TexColor="4280558628" TopSize="0.000000" BottomSize="0.000000" LeftSize="0.000000" RightSize="0.000000" FontColor="4279471052" FontBColor="4278190080" FontSColor="0" FontOffsetX="6.000000" FontOffsetY="0.000000"/>
+            <RS TextureFile="" RenderType="0" TexX="0.000000" TexY="0.000000" TexW="0.000000" TexH="0.000000" TexColor="4294967295" TopSize="0.000000" BottomSize="0.000000" LeftSize="0.000000" RightSize="0.000000" FontColor="4294967295" FontBColor="4278190080" FontSColor="0" FontOffsetX="0.000000" FontOffsetY="0.000000"/>
+            <RS TextureFile="" RenderType="0" TexX="0.000000" TexY="0.000000" TexW="0.000000" TexH="0.000000" TexColor="4294967295" TopSize="0.000000" BottomSize="0.000000" LeftSize="0.000000" RightSize="0.000000" FontColor="4294967295" FontBColor="4278190080" FontSColor="0" FontOffsetX="0.000000" FontOffsetY="0.000000"/>
+            <RS TextureFile="" RenderType="0" TexX="0.000000" TexY="0.000000" TexW="0.000000" TexH="0.000000" TexColor="4294967295" TopSize="0.000000" BottomSize="0.000000" LeftSize="0.000000" RightSize="0.000000" FontColor="4294967295" FontBColor="4278190080" FontSColor="0" FontOffsetX="0.000000" FontOffsetY="0.000000"/>
+            <RS TextureFile="" RenderType="0" TexX="0.000000" TexY="0.000000" TexW="0.000000" TexH="0.000000" TexColor="4294967295" TopSize="0.000000" BottomSize="0.000000" LeftSize="0.000000" RightSize="0.000000" FontColor="4294967295" FontBColor="4278190080" FontSColor="0" FontOffsetX="0.000000" FontOffsetY="0.000000"/>
+            <RS TextureFile="" RenderType="0" TexX="0.000000" TexY="0.000000" TexW="0.000000" TexH="0.000000" TexColor="4294967295" TopSize="0.000000" BottomSize="0.000000" LeftSize="0.000000" RightSize="0.000000" FontColor="4294967295" FontBColor="4278190080" FontSColor="0" FontOffsetX="0.000000" FontOffsetY="0.000000"/>
+        </SubMenuBtn>
+        <MenuBar>
+            <RS TextureFile="guiskins.png" RenderType="2" TexX="208.000000" TexY="235.000000" TexW="6.000000" TexH="2.000000" TexColor="4294967295" TopSize="0.000000" BottomSize="0.000000" LeftSize="2.000000" RightSize="2.000000" FontColor="4294967295" FontBColor="4278190080" FontSColor="0" FontOffsetX="0.000000" FontOffsetY="0.000000"/>
+            <RS TextureFile="" RenderType="4" TexX="0.000000" TexY="0.000000" TexW="0.000000" TexH="0.000000" TexColor="4279471052" TopSize="0.000000" BottomSize="0.000000" LeftSize="0.000000" RightSize="0.000000" FontColor="4286611584" FontBColor="4278190080" FontSColor="0" FontOffsetX="6.000000" FontOffsetY="1.000000"/>
+            <RS TextureFile="" RenderType="4" TexX="0.000000" TexY="0.000000" TexW="0.000000" TexH="0.000000" TexColor="4280558628" TopSize="0.000000" BottomSize="0.000000" LeftSize="0.000000" RightSize="0.000000" FontColor="4279471052" FontBColor="4278190080" FontSColor="0" FontOffsetX="6.000000" FontOffsetY="1.000000"/>
+            <RS TextureFile="" RenderType="0" TexX="0.000000" TexY="0.000000" TexW="0.000000" TexH="0.000000" TexColor="4294967295" TopSize="0.000000" BottomSize="0.000000" LeftSize="0.000000" RightSize="0.000000" FontColor="4294967295" FontBColor="4278190080" FontSColor="0" FontOffsetX="0.000000" FontOffsetY="0.000000"/>
+            <RS TextureFile="" RenderType="0" TexX="0.000000" TexY="0.000000" TexW="0.000000" TexH="0.000000" TexColor="4294967295" TopSize="0.000000" BottomSize="0.000000" LeftSize="0.000000" RightSize="0.000000" FontColor="4294967295" FontBColor="4278190080" FontSColor="0" FontOffsetX="0.000000" FontOffsetY="0.000000"/>
+            <RS TextureFile="" RenderType="0" TexX="0.000000" TexY="0.000000" TexW="0.000000" TexH="0.000000" TexColor="4294967295" TopSize="0.000000" BottomSize="0.000000" LeftSize="0.000000" RightSize="0.000000" FontColor="4294967295" FontBColor="4278190080" FontSColor="0" FontOffsetX="0.000000" FontOffsetY="0.000000"/>
+            <RS TextureFile="" RenderType="0" TexX="0.000000" TexY="0.000000" TexW="0.000000" TexH="0.000000" TexColor="4294967295" TopSize="0.000000" BottomSize="0.000000" LeftSize="0.000000" RightSize="0.000000" FontColor="4294967295" FontBColor="4278190080" FontSColor="0" FontOffsetX="0.000000" FontOffsetY="0.000000"/>
+            <RS TextureFile="" RenderType="0" TexX="0.000000" TexY="0.000000" TexW="0.000000" TexH="0.000000" TexColor="4294967295" TopSize="0.000000" BottomSize="0.000000" LeftSize="0.000000" RightSize="0.000000" FontColor="4294967295" FontBColor="4278190080" FontSColor="0" FontOffsetX="0.000000" FontOffsetY="0.000000"/>
+        </MenuBar>
+        <Button>
+            <RS TextureFile="guiskins.png" RenderType="4" TexX="136.000000" TexY="29.000000" TexW="29.000000" TexH="26.000000" TexColor="4294967295" TopSize="2.000000" BottomSize="4.000000" LeftSize="2.000000" RightSize="4.000000" FontColor="4294967295" FontBColor="4278190080" FontSColor="0" FontOffsetX="0.000000" FontOffsetY="-1.000000"/>
+            <RS TextureFile="guiskins.png" RenderType="4" TexX="136.000000" TexY="83.000000" TexW="29.000000" TexH="26.000000" TexColor="4294967295" TopSize="2.000000" BottomSize="4.000000" LeftSize="2.000000" RightSize="4.000000" FontColor="4286611584" FontBColor="4278190080" FontSColor="0" FontOffsetX="0.000000" FontOffsetY="-1.000000"/>
+            <RS TextureFile="guiskins.png" RenderType="4" TexX="136.000000" TexY="56.000000" TexW="29.000000" TexH="26.000000" TexColor="4294967295" TopSize="2.000000" BottomSize="4.000000" LeftSize="2.000000" RightSize="4.000000" FontColor="4279471052" FontBColor="4278190080" FontSColor="0" FontOffsetX="0.000000" FontOffsetY="-1.000000"/>
+            <RS TextureFile="guiskins.png" RenderType="4" TexX="136.000000" TexY="2.000000" TexW="29.000000" TexH="26.000000" TexColor="4294967295" TopSize="2.000000" BottomSize="4.000000" LeftSize="2.000000" RightSize="4.000000" FontColor="4282400832" FontBColor="4278190080" FontSColor="0" FontOffsetX="0.000000" FontOffsetY="0.000000"/>
+            <RS TextureFile="" RenderType="0" TexX="0.000000" TexY="0.000000" TexW="0.000000" TexH="0.000000" TexColor="4294967295" TopSize="0.000000" BottomSize="0.000000" LeftSize="0.000000" RightSize="0.000000" FontColor="4294967295" FontBColor="4278190080" FontSColor="0" FontOffsetX="0.000000" FontOffsetY="0.000000"/>
+            <RS TextureFile="" RenderType="0" TexX="0.000000" TexY="0.000000" TexW="0.000000" TexH="0.000000" TexColor="4294967295" TopSize="0.000000" BottomSize="0.000000" LeftSize="0.000000" RightSize="0.000000" FontColor="4294967295" FontBColor="4278190080" FontSColor="0" FontOffsetX="0.000000" FontOffsetY="0.000000"/>
+            <RS TextureFile="" RenderType="0" TexX="0.000000" TexY="0.000000" TexW="0.000000" TexH="0.000000" TexColor="4294967295" TopSize="0.000000" BottomSize="0.000000" LeftSize="0.000000" RightSize="0.000000" FontColor="4294967295" FontBColor="4278190080" FontSColor="0" FontOffsetX="0.000000" FontOffsetY="0.000000"/>
+            <RS TextureFile="" RenderType="0" TexX="0.000000" TexY="0.000000" TexW="0.000000" TexH="0.000000" TexColor="4294967295" TopSize="0.000000" BottomSize="0.000000" LeftSize="0.000000" RightSize="0.000000" FontColor="4294967295" FontBColor="4278190080" FontSColor="0" FontOffsetX="0.000000" FontOffsetY="0.000000"/>
+        </Button>
+        <Button1>
+            <RS TextureFile="guiskins.png" RenderType="4" TexX="136.000000" TexY="29.000000" TexW="29.000000" TexH="26.000000" TexColor="4294967295" TopSize="2.000000" BottomSize="4.000000" LeftSize="2.000000" RightSize="4.000000" FontColor="4294967295" FontBColor="4278190080" FontSColor="0" FontOffsetX="4.000000" FontOffsetY="-2.000000"/>
+            <RS TextureFile="guiskins.png" RenderType="4" TexX="136.000000" TexY="83.000000" TexW="29.000000" TexH="26.000000" TexColor="4294967295" TopSize="2.000000" BottomSize="4.000000" LeftSize="2.000000" RightSize="4.000000" FontColor="4286611584" FontBColor="4278190080" FontSColor="0" FontOffsetX="4.000000" FontOffsetY="-2.000000"/>
+            <RS TextureFile="guiskins.png" RenderType="4" TexX="136.000000" TexY="56.000000" TexW="29.000000" TexH="26.000000" TexColor="4294967295" TopSize="2.000000" BottomSize="4.000000" LeftSize="2.000000" RightSize="4.000000" FontColor="4279471052" FontBColor="4278190080" FontSColor="0" FontOffsetX="4.000000" FontOffsetY="-1.000000"/>
+            <RS TextureFile="guiskins.png" RenderType="4" TexX="136.000000" TexY="2.000000" TexW="29.000000" TexH="26.000000" TexColor="4294967295" TopSize="2.000000" BottomSize="4.000000" LeftSize="2.000000" RightSize="4.000000" FontColor="4282400832" FontBColor="4278190080" FontSColor="0" FontOffsetX="4.000000" FontOffsetY="-2.000000"/>
+            <RS TextureFile="" RenderType="0" TexX="0.000000" TexY="0.000000" TexW="0.000000" TexH="0.000000" TexColor="4294967295" TopSize="0.000000" BottomSize="0.000000" LeftSize="0.000000" RightSize="0.000000" FontColor="4294967295" FontBColor="4278190080" FontSColor="0" FontOffsetX="0.000000" FontOffsetY="0.000000"/>
+            <RS TextureFile="" RenderType="0" TexX="0.000000" TexY="0.000000" TexW="0.000000" TexH="0.000000" TexColor="4294967295" TopSize="0.000000" BottomSize="0.000000" LeftSize="0.000000" RightSize="0.000000" FontColor="4294967295" FontBColor="4278190080" FontSColor="0" FontOffsetX="0.000000" FontOffsetY="0.000000"/>
+            <RS TextureFile="" RenderType="0" TexX="0.000000" TexY="0.000000" TexW="0.000000" TexH="0.000000" TexColor="4294967295" TopSize="0.000000" BottomSize="0.000000" LeftSize="0.000000" RightSize="0.000000" FontColor="4294967295" FontBColor="4278190080" FontSColor="0" FontOffsetX="0.000000" FontOffsetY="0.000000"/>
+            <RS TextureFile="" RenderType="0" TexX="0.000000" TexY="0.000000" TexW="0.000000" TexH="0.000000" TexColor="4294967295" TopSize="0.000000" BottomSize="0.000000" LeftSize="0.000000" RightSize="0.000000" FontColor="4294967295" FontBColor="4278190080" FontSColor="0" FontOffsetX="0.000000" FontOffsetY="0.000000"/>
+        </Button1>
+        <MsgBoxBG>
+            <RS TextureFile="guiskins.png" RenderType="4" TexX="296.000000" TexY="196.000000" TexW="23.000000" TexH="22.000000" TexColor="4294967295" TopSize="4.000000" BottomSize="6.000000" LeftSize="4.000000" RightSize="6.000000" FontColor="4294967295" FontBColor="4278190080" FontSColor="0" FontOffsetX="0.000000" FontOffsetY="0.000000"/>
+            <RS TextureFile="guiskins.png" RenderType="4" TexX="136.000000" TexY="83.000000" TexW="29.000000" TexH="26.000000" TexColor="4294967295" TopSize="2.000000" BottomSize="4.000000" LeftSize="2.000000" RightSize="4.000000" FontColor="4286611584" FontBColor="4278190080" FontSColor="0" FontOffsetX="0.000000" FontOffsetY="0.000000"/>
+            <RS TextureFile="guiskins.png" RenderType="4" TexX="136.000000" TexY="56.000000" TexW="29.000000" TexH="26.000000" TexColor="4294967295" TopSize="2.000000" BottomSize="4.000000" LeftSize="2.000000" RightSize="4.000000" FontColor="4279471052" FontBColor="4278190080" FontSColor="0" FontOffsetX="0.000000" FontOffsetY="0.000000"/>
+            <RS TextureFile="guiskins.png" RenderType="4" TexX="136.000000" TexY="2.000000" TexW="29.000000" TexH="26.000000" TexColor="4294967295" TopSize="2.000000" BottomSize="4.000000" LeftSize="2.000000" RightSize="4.000000" FontColor="4282400832" FontBColor="4278190080" FontSColor="0" FontOffsetX="0.000000" FontOffsetY="0.000000"/>
+            <RS TextureFile="" RenderType="0" TexX="0.000000" TexY="0.000000" TexW="0.000000" TexH="0.000000" TexColor="4294967295" TopSize="0.000000" BottomSize="0.000000" LeftSize="0.000000" RightSize="0.000000" FontColor="4294967295" FontBColor="4278190080" FontSColor="0" FontOffsetX="0.000000" FontOffsetY="0.000000"/>
+            <RS TextureFile="" RenderType="0" TexX="0.000000" TexY="0.000000" TexW="0.000000" TexH="0.000000" TexColor="4294967295" TopSize="0.000000" BottomSize="0.000000" LeftSize="0.000000" RightSize="0.000000" FontColor="4294967295" FontBColor="4278190080" FontSColor="0" FontOffsetX="0.000000" FontOffsetY="0.000000"/>
+            <RS TextureFile="" RenderType="0" TexX="0.000000" TexY="0.000000" TexW="0.000000" TexH="0.000000" TexColor="4294967295" TopSize="0.000000" BottomSize="0.000000" LeftSize="0.000000" RightSize="0.000000" FontColor="4294967295" FontBColor="4278190080" FontSColor="0" FontOffsetX="0.000000" FontOffsetY="0.000000"/>
+            <RS TextureFile="" RenderType="0" TexX="0.000000" TexY="0.000000" TexW="0.000000" TexH="0.000000" TexColor="4294967295" TopSize="0.000000" BottomSize="0.000000" LeftSize="0.000000" RightSize="0.000000" FontColor="4294967295" FontBColor="4278190080" FontSColor="0" FontOffsetX="0.000000" FontOffsetY="0.000000"/>
+        </MsgBoxBG>
+        <TabBarBG>
+            <RS TextureFile="" RenderType="4" TexX="296.000000" TexY="196.000000" TexW="23.000000" TexH="22.000000" TexColor="4278190080" TopSize="4.000000" BottomSize="6.000000" LeftSize="4.000000" RightSize="6.000000" FontColor="4294967295" FontBColor="4278190080" FontSColor="0" FontOffsetX="0.000000" FontOffsetY="0.000000"/>
+            <RS TextureFile="guiskins.png" RenderType="4" TexX="136.000000" TexY="83.000000" TexW="29.000000" TexH="26.000000" TexColor="4294967295" TopSize="2.000000" BottomSize="4.000000" LeftSize="2.000000" RightSize="4.000000" FontColor="4286611584" FontBColor="4278190080" FontSColor="0" FontOffsetX="0.000000" FontOffsetY="0.000000"/>
+            <RS TextureFile="guiskins.png" RenderType="4" TexX="136.000000" TexY="56.000000" TexW="29.000000" TexH="26.000000" TexColor="4294967295" TopSize="2.000000" BottomSize="4.000000" LeftSize="2.000000" RightSize="4.000000" FontColor="4279471052" FontBColor="4278190080" FontSColor="0" FontOffsetX="0.000000" FontOffsetY="0.000000"/>
+            <RS TextureFile="guiskins.png" RenderType="4" TexX="136.000000" TexY="2.000000" TexW="29.000000" TexH="26.000000" TexColor="4294967295" TopSize="2.000000" BottomSize="4.000000" LeftSize="2.000000" RightSize="4.000000" FontColor="4282400832" FontBColor="4278190080" FontSColor="0" FontOffsetX="0.000000" FontOffsetY="0.000000"/>
+            <RS TextureFile="" RenderType="0" TexX="0.000000" TexY="0.000000" TexW="0.000000" TexH="0.000000" TexColor="4294967295" TopSize="0.000000" BottomSize="0.000000" LeftSize="0.000000" RightSize="0.000000" FontColor="4294967295" FontBColor="4278190080" FontSColor="0" FontOffsetX="0.000000" FontOffsetY="0.000000"/>
+            <RS TextureFile="" RenderType="0" TexX="0.000000" TexY="0.000000" TexW="0.000000" TexH="0.000000" TexColor="4294967295" TopSize="0.000000" BottomSize="0.000000" LeftSize="0.000000" RightSize="0.000000" FontColor="4294967295" FontBColor="4278190080" FontSColor="0" FontOffsetX="0.000000" FontOffsetY="0.000000"/>
+            <RS TextureFile="" RenderType="0" TexX="0.000000" TexY="0.000000" TexW="0.000000" TexH="0.000000" TexColor="4294967295" TopSize="0.000000" BottomSize="0.000000" LeftSize="0.000000" RightSize="0.000000" FontColor="4294967295" FontBColor="4278190080" FontSColor="0" FontOffsetX="0.000000" FontOffsetY="0.000000"/>
+            <RS TextureFile="" RenderType="0" TexX="0.000000" TexY="0.000000" TexW="0.000000" TexH="0.000000" TexColor="4294967295" TopSize="0.000000" BottomSize="0.000000" LeftSize="0.000000" RightSize="0.000000" FontColor="4294967295" FontBColor="4278190080" FontSColor="0" FontOffsetX="0.000000" FontOffsetY="0.000000"/>
+        </TabBarBG>
+        <TabBarFrameBG>
+            <RS TextureFile="guiskins.png" RenderType="4" TexX="358.000000" TexY="214.000000" TexW="43.000000" TexH="39.000000" TexColor="4294967295" TopSize="2.000000" BottomSize="4.000000" LeftSize="2.000000" RightSize="4.000000" FontColor="4294967295" FontBColor="4278190080" FontSColor="0" FontOffsetX="0.000000" FontOffsetY="0.000000"/>
+            <RS TextureFile="guiskins.png" RenderType="4" TexX="136.000000" TexY="83.000000" TexW="29.000000" TexH="26.000000" TexColor="4294967295" TopSize="2.000000" BottomSize="4.000000" LeftSize="2.000000" RightSize="4.000000" FontColor="4286611584" FontBColor="4278190080" FontSColor="0" FontOffsetX="0.000000" FontOffsetY="0.000000"/>
+            <RS TextureFile="guiskins.png" RenderType="4" TexX="136.000000" TexY="56.000000" TexW="29.000000" TexH="26.000000" TexColor="4294967295" TopSize="2.000000" BottomSize="4.000000" LeftSize="2.000000" RightSize="4.000000" FontColor="4279471052" FontBColor="4278190080" FontSColor="0" FontOffsetX="0.000000" FontOffsetY="0.000000"/>
+            <RS TextureFile="guiskins.png" RenderType="4" TexX="136.000000" TexY="2.000000" TexW="29.000000" TexH="26.000000" TexColor="4294967295" TopSize="2.000000" BottomSize="4.000000" LeftSize="2.000000" RightSize="4.000000" FontColor="4282400832" FontBColor="4278190080" FontSColor="0" FontOffsetX="0.000000" FontOffsetY="0.000000"/>
+            <RS TextureFile="" RenderType="0" TexX="0.000000" TexY="0.000000" TexW="0.000000" TexH="0.000000" TexColor="4294967295" TopSize="0.000000" BottomSize="0.000000" LeftSize="0.000000" RightSize="0.000000" FontColor="4294967295" FontBColor="4278190080" FontSColor="0" FontOffsetX="0.000000" FontOffsetY="0.000000"/>
+            <RS TextureFile="" RenderType="0" TexX="0.000000" TexY="0.000000" TexW="0.000000" TexH="0.000000" TexColor="4294967295" TopSize="0.000000" BottomSize="0.000000" LeftSize="0.000000" RightSize="0.000000" FontColor="4294967295" FontBColor="4278190080" FontSColor="0" FontOffsetX="0.000000" FontOffsetY="0.000000"/>
+            <RS TextureFile="" RenderType="0" TexX="0.000000" TexY="0.000000" TexW="0.000000" TexH="0.000000" TexColor="4294967295" TopSize="0.000000" BottomSize="0.000000" LeftSize="0.000000" RightSize="0.000000" FontColor="4294967295" FontBColor="4278190080" FontSColor="0" FontOffsetX="0.000000" FontOffsetY="0.000000"/>
+            <RS TextureFile="" RenderType="0" TexX="0.000000" TexY="0.000000" TexW="0.000000" TexH="0.000000" TexColor="4294967295" TopSize="0.000000" BottomSize="0.000000" LeftSize="0.000000" RightSize="0.000000" FontColor="4294967295" FontBColor="4278190080" FontSColor="0" FontOffsetX="0.000000" FontOffsetY="0.000000"/>
+        </TabBarFrameBG>
+        <TabButton>
+            <RS TextureFile="guiskins.png" RenderType="2" TexX="431.000000" TexY="152.000000" TexW="52.000000" TexH="23.000000" TexColor="4294967295" TopSize="0.000000" BottomSize="0.000000" LeftSize="19.000000" RightSize="22.000000" FontColor="4294967295" FontBColor="4278190080" FontSColor="0" FontOffsetX="4.000000" FontOffsetY="1.000000"/>
+            <RS TextureFile="guiskins.png" RenderType="2" TexX="431.000000" TexY="183.000000" TexW="52.000000" TexH="23.000000" TexColor="4294967295" TopSize="0.000000" BottomSize="0.000000" LeftSize="19.000000" RightSize="22.000000" FontColor="4286611584" FontBColor="4278190080" FontSColor="0" FontOffsetX="4.000000" FontOffsetY="1.000000"/>
+            <RS TextureFile="guiskins.png" RenderType="2" TexX="431.000000" TexY="183.000000" TexW="52.000000" TexH="23.000000" TexColor="4294967295" TopSize="0.000000" BottomSize="0.000000" LeftSize="19.000000" RightSize="22.000000" FontColor="4279471052" FontBColor="4278190080" FontSColor="0" FontOffsetX="4.000000" FontOffsetY="1.000000"/>
+            <RS TextureFile="guiskins.png" RenderType="2" TexX="431.000000" TexY="152.000000" TexW="52.000000" TexH="23.000000" TexColor="4294967295" TopSize="0.000000" BottomSize="0.000000" LeftSize="19.000000" RightSize="22.000000" FontColor="4294967295" FontBColor="4278190080" FontSColor="0" FontOffsetX="0.000000" FontOffsetY="1.000000"/>
+            <RS TextureFile="guiskins.png" RenderType="2" TexX="379.000000" TexY="152.000000" TexW="52.000000" TexH="23.000000" TexColor="4294967295" TopSize="0.000000" BottomSize="0.000000" LeftSize="19.000000" RightSize="22.000000" FontColor="4294967295" FontBColor="4278190080" FontSColor="0" FontOffsetX="4.000000" FontOffsetY="1.000000"/>
+            <RS TextureFile="guiskins.png" RenderType="2" TexX="431.000000" TexY="152.000000" TexW="52.000000" TexH="23.000000" TexColor="4294967295" TopSize="0.000000" BottomSize="0.000000" LeftSize="19.000000" RightSize="22.000000" FontColor="4286611584" FontBColor="4278190080" FontSColor="0" FontOffsetX="4.000000" FontOffsetY="1.000000"/>
+            <RS TextureFile="guiskins.png" RenderType="2" TexX="379.000000" TexY="183.000000" TexW="52.000000" TexH="23.000000" TexColor="4294967295" TopSize="0.000000" BottomSize="0.000000" LeftSize="19.000000" RightSize="22.000000" FontColor="4279471052" FontBColor="4278190080" FontSColor="0" FontOffsetX="4.000000" FontOffsetY="1.000000"/>
+            <RS TextureFile="guiskins.png" RenderType="2" TexX="431.000000" TexY="152.000000" TexW="52.000000" TexH="23.000000" TexColor="4294967295" TopSize="0.000000" BottomSize="0.000000" LeftSize="19.000000" RightSize="22.000000" FontColor="4294967295" FontBColor="4278190080" FontSColor="0" FontOffsetX="0.000000" FontOffsetY="1.000000"/>
+        </TabButton>
+        <CheckButton>
+            <RS TextureFile="guiskins.png" RenderType="0" TexX="2.000000" TexY="24.000000" TexW="21.000000" TexH="21.000000" TexColor="4294967295" TopSize="0.000000" BottomSize="0.000000" LeftSize="0.000000" RightSize="0.000000" FontColor="4294967295" FontBColor="4278190080" FontSColor="0" FontOffsetX="24.000000" FontOffsetY="0.000000"/>
+            <RS TextureFile="guiskins.png" RenderType="0" TexX="2.000000" TexY="68.000000" TexW="21.000000" TexH="21.000000" TexColor="4294967295" TopSize="0.000000" BottomSize="0.000000" LeftSize="0.000000" RightSize="0.000000" FontColor="4286611584" FontBColor="4278190080" FontSColor="0" FontOffsetX="24.000000" FontOffsetY="0.000000"/>
+            <RS TextureFile="guiskins.png" RenderType="0" TexX="2.000000" TexY="46.000000" TexW="21.000000" TexH="21.000000" TexColor="4294967295" TopSize="0.000000" BottomSize="0.000000" LeftSize="0.000000" RightSize="0.000000" FontColor="4279471052" FontBColor="4278190080" FontSColor="0" FontOffsetX="24.000000" FontOffsetY="0.000000"/>
+            <RS TextureFile="guiskins.png" RenderType="0" TexX="2.000000" TexY="2.000000" TexW="21.000000" TexH="21.000000" TexColor="4294967295" TopSize="0.000000" BottomSize="0.000000" LeftSize="0.000000" RightSize="0.000000" FontColor="4282400832" FontBColor="4278190080" FontSColor="0" FontOffsetX="24.000000" FontOffsetY="0.000000"/>
+            <RS TextureFile="guiskins.png" RenderType="0" TexX="2.000000" TexY="112.000000" TexW="21.000000" TexH="21.000000" TexColor="4294967295" TopSize="0.000000" BottomSize="0.000000" LeftSize="0.000000" RightSize="0.000000" FontColor="4294967295" FontBColor="4278190080" FontSColor="0" FontOffsetX="24.000000" FontOffsetY="0.000000"/>
+            <RS TextureFile="guiskins.png" RenderType="0" TexX="2.000000" TexY="156.000000" TexW="21.000000" TexH="21.000000" TexColor="4294967295" TopSize="0.000000" BottomSize="0.000000" LeftSize="0.000000" RightSize="0.000000" FontColor="4286611584" FontBColor="4278190080" FontSColor="0" FontOffsetX="24.000000" FontOffsetY="0.000000"/>
+            <RS TextureFile="guiskins.png" RenderType="0" TexX="2.000000" TexY="134.000000" TexW="21.000000" TexH="21.000000" TexColor="4294967295" TopSize="0.000000" BottomSize="0.000000" LeftSize="0.000000" RightSize="0.000000" FontColor="4279471052" FontBColor="4278190080" FontSColor="0" FontOffsetX="24.000000" FontOffsetY="0.000000"/>
+            <RS TextureFile="guiskins.png" RenderType="0" TexX="2.000000" TexY="90.000000" TexW="21.000000" TexH="21.000000" TexColor="4294967295" TopSize="0.000000" BottomSize="0.000000" LeftSize="0.000000" RightSize="0.000000" FontColor="4282400832" FontBColor="4278190080" FontSColor="0" FontOffsetX="24.000000" FontOffsetY="0.000000"/>
+        </CheckButton>
+        <DragArea>
+            <RS TextureFile="guiskins.png" RenderType="4" TexX="268.000000" TexY="36.000000" TexW="68.000000" TexH="31.000000" TexColor="4294967295" TopSize="1.000000" BottomSize="3.000000" LeftSize="7.000000" RightSize="10.000000" FontColor="4294967295" FontBColor="4278190080" FontSColor="0" FontOffsetX="10.000000" FontOffsetY="2.000000"/>
+            <RS TextureFile="" RenderType="0" TexX="0.000000" TexY="0.000000" TexW="0.000000" TexH="0.000000" TexColor="4294967295" TopSize="0.000000" BottomSize="0.000000" LeftSize="0.000000" RightSize="0.000000" FontColor="4294967295" FontBColor="4278190080" FontSColor="0" FontOffsetX="0.000000" FontOffsetY="0.000000"/>
+            <RS TextureFile="" RenderType="0" TexX="0.000000" TexY="0.000000" TexW="0.000000" TexH="0.000000" TexColor="4294967295" TopSize="0.000000" BottomSize="0.000000" LeftSize="0.000000" RightSize="0.000000" FontColor="4294967295" FontBColor="4278190080" FontSColor="0" FontOffsetX="0.000000" FontOffsetY="0.000000"/>
+            <RS TextureFile="" RenderType="0" TexX="0.000000" TexY="0.000000" TexW="0.000000" TexH="0.000000" TexColor="4294967295" TopSize="0.000000" BottomSize="0.000000" LeftSize="0.000000" RightSize="0.000000" FontColor="4294967295" FontBColor="4278190080" FontSColor="0" FontOffsetX="0.000000" FontOffsetY="0.000000"/>
+            <RS TextureFile="" RenderType="0" TexX="0.000000" TexY="0.000000" TexW="0.000000" TexH="0.000000" TexColor="4294967295" TopSize="0.000000" BottomSize="0.000000" LeftSize="0.000000" RightSize="0.000000" FontColor="4294967295" FontBColor="4278190080" FontSColor="0" FontOffsetX="0.000000" FontOffsetY="0.000000"/>
+            <RS TextureFile="" RenderType="0" TexX="0.000000" TexY="0.000000" TexW="0.000000" TexH="0.000000" TexColor="4294967295" TopSize="0.000000" BottomSize="0.000000" LeftSize="0.000000" RightSize="0.000000" FontColor="4294967295" FontBColor="4278190080" FontSColor="0" FontOffsetX="0.000000" FontOffsetY="0.000000"/>
+            <RS TextureFile="" RenderType="0" TexX="0.000000" TexY="0.000000" TexW="0.000000" TexH="0.000000" TexColor="4294967295" TopSize="0.000000" BottomSize="0.000000" LeftSize="0.000000" RightSize="0.000000" FontColor="4294967295" FontBColor="4278190080" FontSColor="0" FontOffsetX="0.000000" FontOffsetY="0.000000"/>
+            <RS TextureFile="" RenderType="0" TexX="0.000000" TexY="0.000000" TexW="0.000000" TexH="0.000000" TexColor="4294967295" TopSize="0.000000" BottomSize="0.000000" LeftSize="0.000000" RightSize="0.000000" FontColor="4294967295" FontBColor="4278190080" FontSColor="0" FontOffsetX="0.000000" FontOffsetY="0.000000"/>
+        </DragArea>
+        <TextBG>
+            <RS TextureFile="guiskins.png" RenderType="4" TexX="341.000000" TexY="2.000000" TexW="23.000000" TexH="22.000000" TexColor="4294967295" TopSize="4.000000" BottomSize="6.000000" LeftSize="4.000000" RightSize="6.000000" FontColor="4294967295" FontBColor="4278190080" FontSColor="0" FontOffsetX="0.000000" FontOffsetY="0.000000"/>
+            <RS TextureFile="" RenderType="0" TexX="0.000000" TexY="0.000000" TexW="0.000000" TexH="0.000000" TexColor="4294967295" TopSize="0.000000" BottomSize="0.000000" LeftSize="0.000000" RightSize="0.000000" FontColor="4294967295" FontBColor="4278190080" FontSColor="0" FontOffsetX="0.000000" FontOffsetY="0.000000"/>
+            <RS TextureFile="" RenderType="0" TexX="0.000000" TexY="0.000000" TexW="0.000000" TexH="0.000000" TexColor="4294967295" TopSize="0.000000" BottomSize="0.000000" LeftSize="0.000000" RightSize="0.000000" FontColor="4294967295" FontBColor="4278190080" FontSColor="0" FontOffsetX="0.000000" FontOffsetY="0.000000"/>
+            <RS TextureFile="guiskins.png" RenderType="4" TexX="341.000000" TexY="2.000000" TexW="23.000000" TexH="22.000000" TexColor="4294967295" TopSize="4.000000" BottomSize="6.000000" LeftSize="4.000000" RightSize="6.000000" FontColor="4282400832" FontBColor="4278190080" FontSColor="0" FontOffsetX="0.000000" FontOffsetY="0.000000"/>
+            <RS TextureFile="" RenderType="0" TexX="0.000000" TexY="0.000000" TexW="0.000000" TexH="0.000000" TexColor="4294967295" TopSize="0.000000" BottomSize="0.000000" LeftSize="0.000000" RightSize="0.000000" FontColor="4294967295" FontBColor="4278190080" FontSColor="0" FontOffsetX="0.000000" FontOffsetY="0.000000"/>
+            <RS TextureFile="" RenderType="0" TexX="0.000000" TexY="0.000000" TexW="0.000000" TexH="0.000000" TexColor="4294967295" TopSize="0.000000" BottomSize="0.000000" LeftSize="0.000000" RightSize="0.000000" FontColor="4294967295" FontBColor="4278190080" FontSColor="0" FontOffsetX="0.000000" FontOffsetY="0.000000"/>
+            <RS TextureFile="" RenderType="0" TexX="0.000000" TexY="0.000000" TexW="0.000000" TexH="0.000000" TexColor="4294967295" TopSize="0.000000" BottomSize="0.000000" LeftSize="0.000000" RightSize="0.000000" FontColor="4294967295" FontBColor="4278190080" FontSColor="0" FontOffsetX="0.000000" FontOffsetY="0.000000"/>
+            <RS TextureFile="" RenderType="0" TexX="0.000000" TexY="0.000000" TexW="0.000000" TexH="0.000000" TexColor="4294967295" TopSize="0.000000" BottomSize="0.000000" LeftSize="0.000000" RightSize="0.000000" FontColor="4294967295" FontBColor="4278190080" FontSColor="0" FontOffsetX="0.000000" FontOffsetY="0.000000"/>
+        </TextBG>
+        <HSliderBG>
+            <RS TextureFile="guiskins.png" RenderType="4" TexX="113.000000" TexY="10.000000" TexW="14.000000" TexH="7.000000" TexColor="4294967295" TopSize="1.000000" BottomSize="3.000000" LeftSize="1.000000" RightSize="3.000000" FontColor="4294967295" FontBColor="4278190080" FontSColor="0" FontOffsetX="10.000000" FontOffsetY="2.000000"/>
+            <RS TextureFile="" RenderType="0" TexX="0.000000" TexY="0.000000" TexW="0.000000" TexH="0.000000" TexColor="4294967295" TopSize="0.000000" BottomSize="0.000000" LeftSize="0.000000" RightSize="0.000000" FontColor="4294967295" FontBColor="4278190080" FontSColor="0" FontOffsetX="0.000000" FontOffsetY="0.000000"/>
+            <RS TextureFile="" RenderType="0" TexX="0.000000" TexY="0.000000" TexW="0.000000" TexH="0.000000" TexColor="4294967295" TopSize="0.000000" BottomSize="0.000000" LeftSize="0.000000" RightSize="0.000000" FontColor="4294967295" FontBColor="4278190080" FontSColor="0" FontOffsetX="0.000000" FontOffsetY="0.000000"/>
+            <RS TextureFile="guiskins.png" RenderType="4" TexX="113.000000" TexY="2.000000" TexW="14.000000" TexH="7.000000" TexColor="4294967295" TopSize="1.000000" BottomSize="3.000000" LeftSize="1.000000" RightSize="3.000000" FontColor="4294967295" FontBColor="4278190080" FontSColor="0" FontOffsetX="10.000000" FontOffsetY="2.000000"/>
+            <RS TextureFile="" RenderType="0" TexX="0.000000" TexY="0.000000" TexW="0.000000" TexH="0.000000" TexColor="4294967295" TopSize="0.000000" BottomSize="0.000000" LeftSize="0.000000" RightSize="0.000000" FontColor="4294967295" FontBColor="4278190080" FontSColor="0" FontOffsetX="0.000000" FontOffsetY="0.000000"/>
+            <RS TextureFile="" RenderType="0" TexX="0.000000" TexY="0.000000" TexW="0.000000" TexH="0.000000" TexColor="4294967295" TopSize="0.000000" BottomSize="0.000000" LeftSize="0.000000" RightSize="0.000000" FontColor="4294967295" FontBColor="4278190080" FontSColor="0" FontOffsetX="0.000000" FontOffsetY="0.000000"/>
+            <RS TextureFile="" RenderType="0" TexX="0.000000" TexY="0.000000" TexW="0.000000" TexH="0.000000" TexColor="4294967295" TopSize="0.000000" BottomSize="0.000000" LeftSize="0.000000" RightSize="0.000000" FontColor="4294967295" FontBColor="4278190080" FontSColor="0" FontOffsetX="0.000000" FontOffsetY="0.000000"/>
+            <RS TextureFile="" RenderType="0" TexX="0.000000" TexY="0.000000" TexW="0.000000" TexH="0.000000" TexColor="4294967295" TopSize="0.000000" BottomSize="0.000000" LeftSize="0.000000" RightSize="0.000000" FontColor="4294967295" FontBColor="4278190080" FontSColor="0" FontOffsetX="0.000000" FontOffsetY="0.000000"/>
+        </HSliderBG>
+        <HSliderBar>
+            <RS TextureFile="guiskins.png" RenderType="4" TexX="113.000000" TexY="57.000000" TexW="14.000000" TexH="19.000000" TexColor="4294967295" TopSize="1.000000" BottomSize="3.000000" LeftSize="1.000000" RightSize="3.000000" FontColor="4294967295" FontBColor="4278190080" FontSColor="0" FontOffsetX="0.000000" FontOffsetY="0.000000"/>
+            <RS TextureFile="guiskins.png" RenderType="4" TexX="113.000000" TexY="97.000000" TexW="14.000000" TexH="19.000000" TexColor="4294967295" TopSize="1.000000" BottomSize="3.000000" LeftSize="1.000000" RightSize="3.000000" FontColor="4294967295" FontBColor="4278190080" FontSColor="0" FontOffsetX="0.000000" FontOffsetY="0.000000"/>
+            <RS TextureFile="guiskins.png" RenderType="4" TexX="113.000000" TexY="77.000000" TexW="14.000000" TexH="19.000000" TexColor="4294967295" TopSize="1.000000" BottomSize="3.000000" LeftSize="1.000000" RightSize="3.000000" FontColor="4294967295" FontBColor="4278190080" FontSColor="0" FontOffsetX="0.000000" FontOffsetY="0.000000"/>
+            <RS TextureFile="guiskins.png" RenderType="4" TexX="113.000000" TexY="37.000000" TexW="14.000000" TexH="19.000000" TexColor="4294967295" TopSize="1.000000" BottomSize="3.000000" LeftSize="1.000000" RightSize="3.000000" FontColor="4294967295" FontBColor="4278190080" FontSColor="0" FontOffsetX="0.000000" FontOffsetY="0.000000"/>
+            <RS TextureFile="" RenderType="0" TexX="0.000000" TexY="0.000000" TexW="0.000000" TexH="0.000000" TexColor="4294967295" TopSize="0.000000" BottomSize="0.000000" LeftSize="0.000000" RightSize="0.000000" FontColor="4294967295" FontBColor="4278190080" FontSColor="0" FontOffsetX="0.000000" FontOffsetY="0.000000"/>
+            <RS TextureFile="" RenderType="0" TexX="0.000000" TexY="0.000000" TexW="0.000000" TexH="0.000000" TexColor="4294967295" TopSize="0.000000" BottomSize="0.000000" LeftSize="0.000000" RightSize="0.000000" FontColor="4294967295" FontBColor="4278190080" FontSColor="0" FontOffsetX="0.000000" FontOffsetY="0.000000"/>
+            <RS TextureFile="" RenderType="0" TexX="0.000000" TexY="0.000000" TexW="0.000000" TexH="0.000000" TexColor="4294967295" TopSize="0.000000" BottomSize="0.000000" LeftSize="0.000000" RightSize="0.000000" FontColor="4294967295" FontBColor="4278190080" FontSColor="0" FontOffsetX="0.000000" FontOffsetY="0.000000"/>
+            <RS TextureFile="" RenderType="0" TexX="0.000000" TexY="0.000000" TexW="0.000000" TexH="0.000000" TexColor="4294967295" TopSize="0.000000" BottomSize="0.000000" LeftSize="0.000000" RightSize="0.000000" FontColor="4294967295" FontBColor="4278190080" FontSColor="0" FontOffsetX="0.000000" FontOffsetY="0.000000"/>
+        </HSliderBar>
+        <HSliderLB>
+            <RS TextureFile="guiskins.png" RenderType="0" TexX="95.000000" TexY="128.000000" TexW="12.000000" TexH="16.000000" TexColor="4294967295" TopSize="0.000000" BottomSize="0.000000" LeftSize="0.000000" RightSize="0.000000" FontColor="4294967295" FontBColor="4278190080" FontSColor="0" FontOffsetX="0.000000" FontOffsetY="0.000000"/>
+            <RS TextureFile="guiskins.png" RenderType="0" TexX="95.000000" TexY="160.000000" TexW="12.000000" TexH="16.000000" TexColor="4294967295" TopSize="0.000000" BottomSize="0.000000" LeftSize="0.000000" RightSize="0.000000" FontColor="4294967295" FontBColor="4278190080" FontSColor="0" FontOffsetX="0.000000" FontOffsetY="0.000000"/>
+            <RS TextureFile="guiskins.png" RenderType="0" TexX="95.000000" TexY="144.000000" TexW="12.000000" TexH="16.000000" TexColor="4294967295" TopSize="0.000000" BottomSize="0.000000" LeftSize="0.000000" RightSize="0.000000" FontColor="4294967295" FontBColor="4278190080" FontSColor="0" FontOffsetX="0.000000" FontOffsetY="0.000000"/>
+            <RS TextureFile="guiskins.png" RenderType="0" TexX="95.000000" TexY="112.000000" TexW="12.000000" TexH="16.000000" TexColor="4294967295" TopSize="0.000000" BottomSize="0.000000" LeftSize="0.000000" RightSize="0.000000" FontColor="4294967295" FontBColor="4278190080" FontSColor="0" FontOffsetX="0.000000" FontOffsetY="0.000000"/>
+            <RS TextureFile="" RenderType="0" TexX="0.000000" TexY="0.000000" TexW="0.000000" TexH="0.000000" TexColor="4294967295" TopSize="0.000000" BottomSize="0.000000" LeftSize="0.000000" RightSize="0.000000" FontColor="4294967295" FontBColor="4278190080" FontSColor="0" FontOffsetX="0.000000" FontOffsetY="0.000000"/>
+            <RS TextureFile="" RenderType="0" TexX="0.000000" TexY="0.000000" TexW="0.000000" TexH="0.000000" TexColor="4294967295" TopSize="0.000000" BottomSize="0.000000" LeftSize="0.000000" RightSize="0.000000" FontColor="4294967295" FontBColor="4278190080" FontSColor="0" FontOffsetX="0.000000" FontOffsetY="0.000000"/>
+            <RS TextureFile="" RenderType="0" TexX="0.000000" TexY="0.000000" TexW="0.000000" TexH="0.000000" TexColor="4294967295" TopSize="0.000000" BottomSize="0.000000" LeftSize="0.000000" RightSize="0.000000" FontColor="4294967295" FontBColor="4278190080" FontSColor="0" FontOffsetX="0.000000" FontOffsetY="0.000000"/>
+            <RS TextureFile="" RenderType="0" TexX="0.000000" TexY="0.000000" TexW="0.000000" TexH="0.000000" TexColor="4294967295" TopSize="0.000000" BottomSize="0.000000" LeftSize="0.000000" RightSize="0.000000" FontColor="4294967295" FontBColor="4278190080" FontSColor="0" FontOffsetX="0.000000" FontOffsetY="0.000000"/>
+        </HSliderLB>
+        <HSliderRB>
+            <RS TextureFile="guiskins.png" RenderType="0" TexX="95.000000" TexY="194.000000" TexW="12.000000" TexH="16.000000" TexColor="4294967295" TopSize="0.000000" BottomSize="0.000000" LeftSize="0.000000" RightSize="0.000000" FontColor="4294967295" FontBColor="4278190080" FontSColor="0" FontOffsetX="0.000000" FontOffsetY="0.000000"/>
+            <RS TextureFile="guiskins.png" RenderType="0" TexX="95.000000" TexY="226.000000" TexW="12.000000" TexH="16.000000" TexColor="4294967295" TopSize="0.000000" BottomSize="0.000000" LeftSize="0.000000" RightSize="0.000000" FontColor="4294967295" FontBColor="4278190080" FontSColor="0" FontOffsetX="0.000000" FontOffsetY="0.000000"/>
+            <RS TextureFile="guiskins.png" RenderType="0" TexX="95.000000" TexY="210.000000" TexW="12.000000" TexH="16.000000" TexColor="4294967295" TopSize="0.000000" BottomSize="0.000000" LeftSize="0.000000" RightSize="0.000000" FontColor="4294967295" FontBColor="4278190080" FontSColor="0" FontOffsetX="0.000000" FontOffsetY="0.000000"/>
+            <RS TextureFile="guiskins.png" RenderType="0" TexX="95.000000" TexY="178.000000" TexW="12.000000" TexH="16.000000" TexColor="4294967295" TopSize="0.000000" BottomSize="0.000000" LeftSize="0.000000" RightSize="0.000000" FontColor="4294967295" FontBColor="4278190080" FontSColor="0" FontOffsetX="0.000000" FontOffsetY="0.000000"/>
+            <RS TextureFile="" RenderType="0" TexX="0.000000" TexY="0.000000" TexW="0.000000" TexH="0.000000" TexColor="4294967295" TopSize="0.000000" BottomSize="0.000000" LeftSize="0.000000" RightSize="0.000000" FontColor="4294967295" FontBColor="4278190080" FontSColor="0" FontOffsetX="0.000000" FontOffsetY="0.000000"/>
+            <RS TextureFile="" RenderType="0" TexX="0.000000" TexY="0.000000" TexW="0.000000" TexH="0.000000" TexColor="4294967295" TopSize="0.000000" BottomSize="0.000000" LeftSize="0.000000" RightSize="0.000000" FontColor="4294967295" FontBColor="4278190080" FontSColor="0" FontOffsetX="0.000000" FontOffsetY="0.000000"/>
+            <RS TextureFile="" RenderType="0" TexX="0.000000" TexY="0.000000" TexW="0.000000" TexH="0.000000" TexColor="4294967295" TopSize="0.000000" BottomSize="0.000000" LeftSize="0.000000" RightSize="0.000000" FontColor="4294967295" FontBColor="4278190080" FontSColor="0" FontOffsetX="0.000000" FontOffsetY="0.000000"/>
+            <RS TextureFile="" RenderType="0" TexX="0.000000" TexY="0.000000" TexW="0.000000" TexH="0.000000" TexColor="4294967295" TopSize="0.000000" BottomSize="0.000000" LeftSize="0.000000" RightSize="0.000000" FontColor="4294967295" FontBColor="4278190080" FontSColor="0" FontOffsetX="0.000000" FontOffsetY="0.000000"/>
+        </HSliderRB>
+        <VSliderBG>
+            <RS TextureFile="guiskins.png" RenderType="4" TexX="113.000000" TexY="135.000000" TexW="7.000000" TexH="14.000000" TexColor="4294967295" TopSize="1.000000" BottomSize="3.000000" LeftSize="1.000000" RightSize="3.000000" FontColor="4294967295" FontBColor="4278190080" FontSColor="0" FontOffsetX="10.000000" FontOffsetY="2.000000"/>
+            <RS TextureFile="" RenderType="0" TexX="0.000000" TexY="0.000000" TexW="0.000000" TexH="0.000000" TexColor="4294967295" TopSize="0.000000" BottomSize="0.000000" LeftSize="0.000000" RightSize="0.000000" FontColor="4294967295" FontBColor="4278190080" FontSColor="0" FontOffsetX="0.000000" FontOffsetY="0.000000"/>
+            <RS TextureFile="" RenderType="0" TexX="0.000000" TexY="0.000000" TexW="0.000000" TexH="0.000000" TexColor="4294967295" TopSize="0.000000" BottomSize="0.000000" LeftSize="0.000000" RightSize="0.000000" FontColor="4294967295" FontBColor="4278190080" FontSColor="0" FontOffsetX="0.000000" FontOffsetY="0.000000"/>
+            <RS TextureFile="guiskins.png" RenderType="4" TexX="113.000000" TexY="120.000000" TexW="7.000000" TexH="14.000000" TexColor="4294967295" TopSize="1.000000" BottomSize="3.000000" LeftSize="1.000000" RightSize="3.000000" FontColor="4294967295" FontBColor="4278190080" FontSColor="0" FontOffsetX="10.000000" FontOffsetY="2.000000"/>
+            <RS TextureFile="" RenderType="0" TexX="0.000000" TexY="0.000000" TexW="0.000000" TexH="0.000000" TexColor="4294967295" TopSize="0.000000" BottomSize="0.000000" LeftSize="0.000000" RightSize="0.000000" FontColor="4294967295" FontBColor="4278190080" FontSColor="0" FontOffsetX="0.000000" FontOffsetY="0.000000"/>
+            <RS TextureFile="" RenderType="0" TexX="0.000000" TexY="0.000000" TexW="0.000000" TexH="0.000000" TexColor="4294967295" TopSize="0.000000" BottomSize="0.000000" LeftSize="0.000000" RightSize="0.000000" FontColor="4294967295" FontBColor="4278190080" FontSColor="0" FontOffsetX="0.000000" FontOffsetY="0.000000"/>
+            <RS TextureFile="" RenderType="0" TexX="0.000000" TexY="0.000000" TexW="0.000000" TexH="0.000000" TexColor="4294967295" TopSize="0.000000" BottomSize="0.000000" LeftSize="0.000000" RightSize="0.000000" FontColor="4294967295" FontBColor="4278190080" FontSColor="0" FontOffsetX="0.000000" FontOffsetY="0.000000"/>
+            <RS TextureFile="" RenderType="0" TexX="0.000000" TexY="0.000000" TexW="0.000000" TexH="0.000000" TexColor="4294967295" TopSize="0.000000" BottomSize="0.000000" LeftSize="0.000000" RightSize="0.000000" FontColor="4294967295" FontBColor="4278190080" FontSColor="0" FontOffsetX="0.000000" FontOffsetY="0.000000"/>
+        </VSliderBG>
+        <VSliderBar>
+            <RS TextureFile="guiskins.png" RenderType="4" TexX="113.000000" TexY="198.000000" TexW="19.000000" TexH="14.000000" TexColor="4294967295" TopSize="1.000000" BottomSize="3.000000" LeftSize="1.000000" RightSize="3.000000" FontColor="4294967295" FontBColor="4278190080" FontSColor="0" FontOffsetX="0.000000" FontOffsetY="0.000000"/>
+            <RS TextureFile="guiskins.png" RenderType="4" TexX="113.000000" TexY="228.000000" TexW="19.000000" TexH="14.000000" TexColor="4294967295" TopSize="1.000000" BottomSize="3.000000" LeftSize="1.000000" RightSize="3.000000" FontColor="4294967295" FontBColor="4278190080" FontSColor="0" FontOffsetX="0.000000" FontOffsetY="0.000000"/>
+            <RS TextureFile="guiskins.png" RenderType="4" TexX="113.000000" TexY="213.000000" TexW="19.000000" TexH="14.000000" TexColor="4294967295" TopSize="1.000000" BottomSize="3.000000" LeftSize="1.000000" RightSize="3.000000" FontColor="4294967295" FontBColor="4278190080" FontSColor="0" FontOffsetX="0.000000" FontOffsetY="0.000000"/>
+            <RS TextureFile="guiskins.png" RenderType="4" TexX="113.000000" TexY="183.000000" TexW="19.000000" TexH="14.000000" TexColor="4294967295" TopSize="1.000000" BottomSize="3.000000" LeftSize="1.000000" RightSize="3.000000" FontColor="4294967295" FontBColor="4278190080" FontSColor="0" FontOffsetX="0.000000" FontOffsetY="0.000000"/>
+            <RS TextureFile="" RenderType="0" TexX="0.000000" TexY="0.000000" TexW="0.000000" TexH="0.000000" TexColor="4294967295" TopSize="0.000000" BottomSize="0.000000" LeftSize="0.000000" RightSize="0.000000" FontColor="4294967295" FontBColor="4278190080" FontSColor="0" FontOffsetX="0.000000" FontOffsetY="0.000000"/>
+            <RS TextureFile="" RenderType="0" TexX="0.000000" TexY="0.000000" TexW="0.000000" TexH="0.000000" TexColor="4294967295" TopSize="0.000000" BottomSize="0.000000" LeftSize="0.000000" RightSize="0.000000" FontColor="4294967295" FontBColor="4278190080" FontSColor="0" FontOffsetX="0.000000" FontOffsetY="0.000000"/>
+            <RS TextureFile="" RenderType="0" TexX="0.000000" TexY="0.000000" TexW="0.000000" TexH="0.000000" TexColor="4294967295" TopSize="0.000000" BottomSize="0.000000" LeftSize="0.000000" RightSize="0.000000" FontColor="4294967295" FontBColor="4278190080" FontSColor="0" FontOffsetX="0.000000" FontOffsetY="0.000000"/>
+            <RS TextureFile="" RenderType="0" TexX="0.000000" TexY="0.000000" TexW="0.000000" TexH="0.000000" TexColor="4294967295" TopSize="0.000000" BottomSize="0.000000" LeftSize="0.000000" RightSize="0.000000" FontColor="4294967295" FontBColor="4278190080" FontSColor="0" FontOffsetX="0.000000" FontOffsetY="0.000000"/>
+        </VSliderBar>
+        <VSliderUB>
+            <RS TextureFile="guiskins.png" RenderType="0" TexX="94.000000" TexY="68.000000" TexW="15.000000" TexH="11.000000" TexColor="4294967295" TopSize="0.000000" BottomSize="0.000000" LeftSize="0.000000" RightSize="0.000000" FontColor="4294967295" FontBColor="4278190080" FontSColor="0" FontOffsetX="0.000000" FontOffsetY="0.000000"/>
+            <RS TextureFile="guiskins.png" RenderType="0" TexX="94.000000" TexY="96.000000" TexW="15.000000" TexH="11.000000" TexColor="4294967295" TopSize="0.000000" BottomSize="0.000000" LeftSize="0.000000" RightSize="0.000000" FontColor="4294967295" FontBColor="4278190080" FontSColor="0" FontOffsetX="0.000000" FontOffsetY="0.000000"/>
+            <RS TextureFile="guiskins.png" RenderType="0" TexX="94.000000" TexY="82.000000" TexW="15.000000" TexH="11.000000" TexColor="4294967295" TopSize="0.000000" BottomSize="0.000000" LeftSize="0.000000" RightSize="0.000000" FontColor="4294967295" FontBColor="4278190080" FontSColor="0" FontOffsetX="0.000000" FontOffsetY="0.000000"/>
+            <RS TextureFile="guiskins.png" RenderType="0" TexX="94.000000" TexY="54.000000" TexW="15.000000" TexH="11.000000" TexColor="4294967295" TopSize="0.000000" BottomSize="0.000000" LeftSize="0.000000" RightSize="0.000000" FontColor="4294967295" FontBColor="4278190080" FontSColor="0" FontOffsetX="0.000000" FontOffsetY="0.000000"/>
+            <RS TextureFile="" RenderType="0" TexX="0.000000" TexY="0.000000" TexW="0.000000" TexH="0.000000" TexColor="4294967295" TopSize="0.000000" BottomSize="0.000000" LeftSize="0.000000" RightSize="0.000000" FontColor="4294967295" FontBColor="4278190080" FontSColor="0" FontOffsetX="0.000000" FontOffsetY="0.000000"/>
+            <RS TextureFile="" RenderType="0" TexX="0.000000" TexY="0.000000" TexW="0.000000" TexH="0.000000" TexColor="4294967295" TopSize="0.000000" BottomSize="0.000000" LeftSize="0.000000" RightSize="0.000000" FontColor="4294967295" FontBColor="4278190080" FontSColor="0" FontOffsetX="0.000000" FontOffsetY="0.000000"/>
+            <RS TextureFile="" RenderType="0" TexX="0.000000" TexY="0.000000" TexW="0.000000" TexH="0.000000" TexColor="4294967295" TopSize="0.000000" BottomSize="0.000000" LeftSize="0.000000" RightSize="0.000000" FontColor="4294967295" FontBColor="4278190080" FontSColor="0" FontOffsetX="0.000000" FontOffsetY="0.000000"/>
+            <RS TextureFile="" RenderType="0" TexX="0.000000" TexY="0.000000" TexW="0.000000" TexH="0.000000" TexColor="4294967295" TopSize="0.000000" BottomSize="0.000000" LeftSize="0.000000" RightSize="0.000000" FontColor="4294967295" FontBColor="4278190080" FontSColor="0" FontOffsetX="0.000000" FontOffsetY="0.000000"/>
+        </VSliderUB>
+        <VSliderDB>
+            <RS TextureFile="guiskins.png" RenderType="0" TexX="94.000000" TexY="15.000000" TexW="15.000000" TexH="11.000000" TexColor="4294967295" TopSize="0.000000" BottomSize="0.000000" LeftSize="0.000000" RightSize="0.000000" FontColor="4294967295" FontBColor="4278190080" FontSColor="0" FontOffsetX="0.000000" FontOffsetY="0.000000"/>
+            <RS TextureFile="guiskins.png" RenderType="0" TexX="94.000000" TexY="41.000000" TexW="15.000000" TexH="11.000000" TexColor="4294967295" TopSize="0.000000" BottomSize="0.000000" LeftSize="0.000000" RightSize="0.000000" FontColor="4294967295" FontBColor="4278190080" FontSColor="0" FontOffsetX="0.000000" FontOffsetY="0.000000"/>
+            <RS TextureFile="guiskins.png" RenderType="0" TexX="94.000000" TexY="28.000000" TexW="15.000000" TexH="11.000000" TexColor="4294967295" TopSize="0.000000" BottomSize="0.000000" LeftSize="0.000000" RightSize="0.000000" FontColor="4294967295" FontBColor="4278190080" FontSColor="0" FontOffsetX="0.000000" FontOffsetY="0.000000"/>
+            <RS TextureFile="guiskins.png" RenderType="0" TexX="94.000000" TexY="2.000000" TexW="15.000000" TexH="11.000000" TexColor="4294967295" TopSize="0.000000" BottomSize="0.000000" LeftSize="0.000000" RightSize="0.000000" FontColor="4294967295" FontBColor="4278190080" FontSColor="0" FontOffsetX="0.000000" FontOffsetY="0.000000"/>
+            <RS TextureFile="" RenderType="0" TexX="0.000000" TexY="0.000000" TexW="0.000000" TexH="0.000000" TexColor="4294967295" TopSize="0.000000" BottomSize="0.000000" LeftSize="0.000000" RightSize="0.000000" FontColor="4294967295" FontBColor="4278190080" FontSColor="0" FontOffsetX="0.000000" FontOffsetY="0.000000"/>
+            <RS TextureFile="" RenderType="0" TexX="0.000000" TexY="0.000000" TexW="0.000000" TexH="0.000000" TexColor="4294967295" TopSize="0.000000" BottomSize="0.000000" LeftSize="0.000000" RightSize="0.000000" FontColor="4294967295" FontBColor="4278190080" FontSColor="0" FontOffsetX="0.000000" FontOffsetY="0.000000"/>
+            <RS TextureFile="" RenderType="0" TexX="0.000000" TexY="0.000000" TexW="0.000000" TexH="0.000000" TexColor="4294967295" TopSize="0.000000" BottomSize="0.000000" LeftSize="0.000000" RightSize="0.000000" FontColor="4294967295" FontBColor="4278190080" FontSColor="0" FontOffsetX="0.000000" FontOffsetY="0.000000"/>
+            <RS TextureFile="" RenderType="0" TexX="0.000000" TexY="0.000000" TexW="0.000000" TexH="0.000000" TexColor="4294967295" TopSize="0.000000" BottomSize="0.000000" LeftSize="0.000000" RightSize="0.000000" FontColor="4294967295" FontBColor="4278190080" FontSColor="0" FontOffsetX="0.000000" FontOffsetY="0.000000"/>
+        </VSliderDB>
+        <RichWndBG>
+            <RS TextureFile="guiskins.png" RenderType="4" TexX="341.000000" TexY="2.000000" TexW="23.000000" TexH="22.000000" TexColor="4294967295" TopSize="4.000000" BottomSize="6.000000" LeftSize="4.000000" RightSize="6.000000" FontColor="4294967295" FontBColor="4278190080" FontSColor="0" FontOffsetX="4.000000" FontOffsetY="4.000000"/>
+            <RS TextureFile="" RenderType="0" TexX="0.000000" TexY="0.000000" TexW="0.000000" TexH="0.000000" TexColor="4294967295" TopSize="0.000000" BottomSize="0.000000" LeftSize="0.000000" RightSize="0.000000" FontColor="4294967295" FontBColor="4278190080" FontSColor="0" FontOffsetX="0.000000" FontOffsetY="0.000000"/>
+            <RS TextureFile="" RenderType="0" TexX="0.000000" TexY="0.000000" TexW="0.000000" TexH="0.000000" TexColor="4294967295" TopSize="0.000000" BottomSize="0.000000" LeftSize="0.000000" RightSize="0.000000" FontColor="4294967295" FontBColor="4278190080" FontSColor="0" FontOffsetX="0.000000" FontOffsetY="0.000000"/>
+            <RS TextureFile="guiskins.png" RenderType="4" TexX="341.000000" TexY="2.000000" TexW="23.000000" TexH="22.000000" TexColor="4294967295" TopSize="4.000000" BottomSize="6.000000" LeftSize="4.000000" RightSize="6.000000" FontColor="4282400832" FontBColor="4278190080" FontSColor="0" FontOffsetX="4.000000" FontOffsetY="4.000000"/>
+            <RS TextureFile="" RenderType="0" TexX="0.000000" TexY="0.000000" TexW="0.000000" TexH="0.000000" TexColor="4294967295" TopSize="0.000000" BottomSize="0.000000" LeftSize="0.000000" RightSize="0.000000" FontColor="4294967295" FontBColor="4278190080" FontSColor="0" FontOffsetX="0.000000" FontOffsetY="0.000000"/>
+            <RS TextureFile="" RenderType="0" TexX="0.000000" TexY="0.000000" TexW="0.000000" TexH="0.000000" TexColor="4294967295" TopSize="0.000000" BottomSize="0.000000" LeftSize="0.000000" RightSize="0.000000" FontColor="4294967295" FontBColor="4278190080" FontSColor="0" FontOffsetX="0.000000" FontOffsetY="0.000000"/>
+            <RS TextureFile="" RenderType="0" TexX="0.000000" TexY="0.000000" TexW="0.000000" TexH="0.000000" TexColor="4294967295" TopSize="0.000000" BottomSize="0.000000" LeftSize="0.000000" RightSize="0.000000" FontColor="4294967295" FontBColor="4278190080" FontSColor="0" FontOffsetX="0.000000" FontOffsetY="0.000000"/>
+            <RS TextureFile="" RenderType="0" TexX="0.000000" TexY="0.000000" TexW="0.000000" TexH="0.000000" TexColor="4294967295" TopSize="0.000000" BottomSize="0.000000" LeftSize="0.000000" RightSize="0.000000" FontColor="4294967295" FontBColor="4278190080" FontSColor="0" FontOffsetX="0.000000" FontOffsetY="0.000000"/>
+        </RichWndBG>
+        <EditBoxBG>
+            <RS TextureFile="guiskins.png" RenderType="4" TexX="169.000000" TexY="29.000000" TexW="29.000000" TexH="26.000000" TexColor="4294967295" TopSize="4.000000" BottomSize="6.000000" LeftSize="4.000000" RightSize="6.000000" FontColor="4294967295" FontBColor="4278190080" FontSColor="0" FontOffsetX="4.000000" FontOffsetY="2.000000"/>
+            <RS TextureFile="guiskins.png" RenderType="4" TexX="169.000000" TexY="164.000000" TexW="29.000000" TexH="26.000000" TexColor="4294967295" TopSize="4.000000" BottomSize="6.000000" LeftSize="4.000000" RightSize="6.000000" FontColor="4294967295" FontBColor="4278190080" FontSColor="0" FontOffsetX="4.000000" FontOffsetY="2.000000"/>
+            <RS TextureFile="guiskins.png" RenderType="4" TexX="169.000000" TexY="56.000000" TexW="29.000000" TexH="26.000000" TexColor="4294967295" TopSize="4.000000" BottomSize="6.000000" LeftSize="4.000000" RightSize="6.000000" FontColor="4279471052" FontBColor="4278190080" FontSColor="0" FontOffsetX="4.000000" FontOffsetY="2.000000"/>
+            <RS TextureFile="guiskins.png" RenderType="4" TexX="169.000000" TexY="2.000000" TexW="29.000000" TexH="26.000000" TexColor="4294967295" TopSize="4.000000" BottomSize="6.000000" LeftSize="4.000000" RightSize="6.000000" FontColor="4282400832" FontBColor="4278190080" FontSColor="0" FontOffsetX="4.000000" FontOffsetY="2.000000"/>
+            <RS TextureFile="" RenderType="0" TexX="0.000000" TexY="0.000000" TexW="0.000000" TexH="0.000000" TexColor="4294967295" TopSize="0.000000" BottomSize="0.000000" LeftSize="0.000000" RightSize="0.000000" FontColor="4294967295" FontBColor="4278190080" FontSColor="0" FontOffsetX="0.000000" FontOffsetY="0.000000"/>
+            <RS TextureFile="" RenderType="0" TexX="0.000000" TexY="0.000000" TexW="0.000000" TexH="0.000000" TexColor="4294967295" TopSize="0.000000" BottomSize="0.000000" LeftSize="0.000000" RightSize="0.000000" FontColor="4294967295" FontBColor="4278190080" FontSColor="0" FontOffsetX="0.000000" FontOffsetY="0.000000"/>
+            <RS TextureFile="" RenderType="0" TexX="0.000000" TexY="0.000000" TexW="0.000000" TexH="0.000000" TexColor="4294967295" TopSize="0.000000" BottomSize="0.000000" LeftSize="0.000000" RightSize="0.000000" FontColor="4294967295" FontBColor="4278190080" FontSColor="0" FontOffsetX="0.000000" FontOffsetY="0.000000"/>
+            <RS TextureFile="" RenderType="0" TexX="0.000000" TexY="0.000000" TexW="0.000000" TexH="0.000000" TexColor="4294967295" TopSize="0.000000" BottomSize="0.000000" LeftSize="0.000000" RightSize="0.000000" FontColor="4294967295" FontBColor="4278190080" FontSColor="0" FontOffsetX="0.000000" FontOffsetY="0.000000"/>
+        </EditBoxBG>
+        <ListBoxBG>
+            <RS TextureFile="guiskins.png" RenderType="5" TexX="204.000000" TexY="160.000000" TexW="43.000000" TexH="10.000000" TexColor="4294967295" TopSize="0.000000" BottomSize="0.000000" LeftSize="0.000000" RightSize="0.000000" FontColor="4288716960" FontBColor="4278190080" FontSColor="0" FontOffsetX="5.000000" FontOffsetY="0.000000"/>
+            <RS TextureFile="guiskins.png" RenderType="5" TexX="204.000000" TexY="188.000000" TexW="43.000000" TexH="10.000000" TexColor="4294967295" TopSize="0.000000" BottomSize="0.000000" LeftSize="0.000000" RightSize="0.000000" FontColor="4294967295" FontBColor="4278190080" FontSColor="0" FontOffsetX="5.000000" FontOffsetY="0.000000"/>
+            <RS TextureFile="guiskins.png" RenderType="5" TexX="204.000000" TexY="202.000000" TexW="43.000000" TexH="10.000000" TexColor="4294967295" TopSize="0.000000" BottomSize="0.000000" LeftSize="0.000000" RightSize="0.000000" FontColor="4279471052" FontBColor="4278190080" FontSColor="0" FontOffsetX="0.000000" FontOffsetY="0.000000"/>
+            <RS TextureFile="guiskins.png" RenderType="5" TexX="204.000000" TexY="174.000000" TexW="43.000000" TexH="10.000000" TexColor="4294967295" TopSize="0.000000" BottomSize="0.000000" LeftSize="0.000000" RightSize="0.000000" FontColor="4282400832" FontBColor="4278190080" FontSColor="0" FontOffsetX="5.000000" FontOffsetY="0.000000"/>
+            <RS TextureFile="" RenderType="0" TexX="0.000000" TexY="0.000000" TexW="0.000000" TexH="0.000000" TexColor="4294967295" TopSize="0.000000" BottomSize="0.000000" LeftSize="0.000000" RightSize="0.000000" FontColor="4294967295" FontBColor="4278190080" FontSColor="0" FontOffsetX="0.000000" FontOffsetY="0.000000"/>
+            <RS TextureFile="" RenderType="0" TexX="0.000000" TexY="0.000000" TexW="0.000000" TexH="0.000000" TexColor="4294967295" TopSize="0.000000" BottomSize="0.000000" LeftSize="0.000000" RightSize="0.000000" FontColor="4294967295" FontBColor="4278190080" FontSColor="0" FontOffsetX="0.000000" FontOffsetY="0.000000"/>
+            <RS TextureFile="" RenderType="0" TexX="0.000000" TexY="0.000000" TexW="0.000000" TexH="0.000000" TexColor="4294967295" TopSize="0.000000" BottomSize="0.000000" LeftSize="0.000000" RightSize="0.000000" FontColor="4294967295" FontBColor="4278190080" FontSColor="0" FontOffsetX="0.000000" FontOffsetY="0.000000"/>
+            <RS TextureFile="" RenderType="0" TexX="0.000000" TexY="0.000000" TexW="0.000000" TexH="0.000000" TexColor="4294967295" TopSize="0.000000" BottomSize="0.000000" LeftSize="0.000000" RightSize="0.000000" FontColor="4294967295" FontBColor="4278190080" FontSColor="0" FontOffsetX="0.000000" FontOffsetY="0.000000"/>
+        </ListBoxBG>
+        <TooltipBG>
+            <RS TextureFile="guiskins.png" RenderType="4" TexX="341.000000" TexY="2.000000" TexW="23.000000" TexH="22.000000" TexColor="4294967295" TopSize="4.000000" BottomSize="6.000000" LeftSize="4.000000" RightSize="6.000000" FontColor="4294967295" FontBColor="4278190080" FontSColor="0" FontOffsetX="0.000000" FontOffsetY="0.000000"/>
+            <RS TextureFile="" RenderType="0" TexX="0.000000" TexY="0.000000" TexW="0.000000" TexH="0.000000" TexColor="4294967295" TopSize="0.000000" BottomSize="0.000000" LeftSize="0.000000" RightSize="0.000000" FontColor="4294967295" FontBColor="4278190080" FontSColor="0" FontOffsetX="0.000000" FontOffsetY="0.000000"/>
+            <RS TextureFile="" RenderType="0" TexX="0.000000" TexY="0.000000" TexW="0.000000" TexH="0.000000" TexColor="4294967295" TopSize="0.000000" BottomSize="0.000000" LeftSize="0.000000" RightSize="0.000000" FontColor="4294967295" FontBColor="4278190080" FontSColor="0" FontOffsetX="0.000000" FontOffsetY="0.000000"/>
+            <RS TextureFile="guiskins.png" RenderType="4" TexX="341.000000" TexY="2.000000" TexW="23.000000" TexH="22.000000" TexColor="4294967295" TopSize="4.000000" BottomSize="6.000000" LeftSize="4.000000" RightSize="6.000000" FontColor="4282400832" FontBColor="4278190080" FontSColor="0" FontOffsetX="4.000000" FontOffsetY="4.000000"/>
+            <RS TextureFile="" RenderType="0" TexX="0.000000" TexY="0.000000" TexW="0.000000" TexH="0.000000" TexColor="4294967295" TopSize="0.000000" BottomSize="0.000000" LeftSize="0.000000" RightSize="0.000000" FontColor="4294967295" FontBColor="4278190080" FontSColor="0" FontOffsetX="0.000000" FontOffsetY="0.000000"/>
+            <RS TextureFile="" RenderType="0" TexX="0.000000" TexY="0.000000" TexW="0.000000" TexH="0.000000" TexColor="4294967295" TopSize="0.000000" BottomSize="0.000000" LeftSize="0.000000" RightSize="0.000000" FontColor="4294967295" FontBColor="4278190080" FontSColor="0" FontOffsetX="0.000000" FontOffsetY="0.000000"/>
+            <RS TextureFile="" RenderType="0" TexX="0.000000" TexY="0.000000" TexW="0.000000" TexH="0.000000" TexColor="4294967295" TopSize="0.000000" BottomSize="0.000000" LeftSize="0.000000" RightSize="0.000000" FontColor="4294967295" FontBColor="4278190080" FontSColor="0" FontOffsetX="0.000000" FontOffsetY="0.000000"/>
+            <RS TextureFile="" RenderType="0" TexX="0.000000" TexY="0.000000" TexW="0.000000" TexH="0.000000" TexColor="4294967295" TopSize="0.000000" BottomSize="0.000000" LeftSize="0.000000" RightSize="0.000000" FontColor="4294967295" FontBColor="4278190080" FontSColor="0" FontOffsetX="0.000000" FontOffsetY="0.000000"/>
+        </TooltipBG>
+    </Skin>
+    <Ctrl>
+        <MainWnd GuiType="0" ID="0" PosX="0.000000" PosY="0.000000" Width="640.000000" Height="480.000000" IsVisible="1" IsStatic="0" IsEnabled="1" IsNotify="0" Text="" AlignMode="0" IsTextWarp="0" LineSpace="0" CharSpace="0" ToolTip="" ToolTipWidth="0" Font="" Skin="" Class="">
+            <CustomInfo/>
+            <ChildCtrl>
+                <TabBar GuiType="0" ID="-1" PosX="0.000000" PosY="24.000000" Width="640.000000" Height="455.000000" IsVisible="1" IsStatic="0" IsEnabled="1" IsNotify="0" Text="" AlignMode="0" IsTextWarp="0" LineSpace="0" CharSpace="0" ToolTip="" ToolTipWidth="0" Font="" Skin="TabBarBG" Class="TabBar">
+                    <CustomInfo/>
+                    <ChildCtrl>
+                        <Window GuiType="0" ID="-1" PosX="0.000000" PosY="50.000000" Width="640.000000" Height="430.000000" IsVisible="1" IsStatic="0" IsEnabled="1" IsNotify="0" Text="" AlignMode="0" IsTextWarp="0" LineSpace="0" CharSpace="0" ToolTip="" ToolTipWidth="0" Font="" Skin="TabBarFrameBG" Class="">
+                            <CustomInfo/>
+                            <ChildCtrl/>
+                        </Window>
+                        <FuncTab1 GuiType="2" ID="0" PosX="8.000000" PosY="29.000000" Width="75.000000" Height="22.000000" IsVisible="1" IsStatic="0" IsEnabled="1" IsNotify="1" Text="功能演示1" AlignMode="0" IsTextWarp="0" LineSpace="0" CharSpace="0" ToolTip="" ToolTipWidth="0" Font="GuiFont" Skin="TabButton" Class="" IsChecked="1">
+                            <CustomInfo/>
+                            <ChildCtrl/>
+                        </FuncTab1>
+                        <FuncTab2 GuiType="2" ID="1" PosX="83.000000" PosY="29.000000" Width="75.000000" Height="22.000000" IsVisible="1" IsStatic="0" IsEnabled="1" IsNotify="1" Text="功能演示2" AlignMode="0" IsTextWarp="0" LineSpace="0" CharSpace="0" ToolTip="" ToolTipWidth="0" Font="GuiFont" Skin="TabButton" Class="" IsChecked="0">
+                            <CustomInfo/>
+                            <ChildCtrl/>
+                        </FuncTab2>
+                        <FuncWnd1 GuiType="0" ID="1000" PosX="4.000000" PosY="57.000000" Width="631.000000" Height="419.000000" IsVisible="1" IsStatic="0" IsEnabled="1" IsNotify="0" Text="" AlignMode="0" IsTextWarp="0" LineSpace="0" CharSpace="0" ToolTip="" ToolTipWidth="0" Font="GuiFont" Skin="SubMenuBG" Class="">
+                            <CustomInfo/>
+                            <ChildCtrl>
+                                <Button GuiType="1" ID="-1" PosX="14.000000" PosY="69.000000" Width="101.000000" Height="25.000000" IsVisible="1" IsStatic="0" IsEnabled="1" IsNotify="0" Text="Button-Normal" AlignMode="0" IsTextWarp="0" LineSpace="0" CharSpace="0" ToolTip="#cFFFF8080Bttton ToolTip" ToolTipWidth="0" Font="GuiFont" Skin="Button1" Class="">
+                                    <CustomInfo/>
+                                    <ChildCtrl/>
+                                </Button>
+                                <Button GuiType="1" ID="-1" PosX="119.000000" PosY="69.000000" Width="102.000000" Height="25.000000" IsVisible="1" IsStatic="0" IsEnabled="0" IsNotify="0" Text="ButtonDisable" AlignMode="0" IsTextWarp="0" LineSpace="0" CharSpace="0" ToolTip="" ToolTipWidth="0" Font="GuiFont" Skin="Button1" Class="">
+                                    <CustomInfo/>
+                                    <ChildCtrl/>
+                                </Button>
+                                <ModalWndText GuiType="1" ID="-1" PosX="284.000000" PosY="145.000000" Width="94.000000" Height="25.000000" IsVisible="1" IsStatic="0" IsEnabled="1" IsNotify="0" Text="模态窗口测试" AlignMode="0" IsTextWarp="0" LineSpace="0" CharSpace="0" ToolTip="" ToolTipWidth="0" Font="GuiFont" Skin="Button1" Class="">
+                                    <CustomInfo/>
+                                    <ChildCtrl/>
+                                </ModalWndText>
+                                <CheckButton GuiType="2" ID="-1" PosX="14.000000" PosY="101.000000" Width="151.000000" Height="20.000000" IsVisible="1" IsStatic="0" IsEnabled="1" IsNotify="0" Text="CheckButton-Normal" AlignMode="0" IsTextWarp="0" LineSpace="0" CharSpace="0" ToolTip="#cFF8080FFCheckButton ToolTip" ToolTipWidth="0" Font="GuiFont" Skin="CheckButton" Class="" IsChecked="0">
+                                    <CustomInfo/>
+                                    <ChildCtrl/>
+                                </CheckButton>
+                                <CheckButton GuiType="2" ID="-1" PosX="14.000000" PosY="124.000000" Width="151.000000" Height="20.000000" IsVisible="1" IsStatic="0" IsEnabled="0" IsNotify="0" Text="CheckButton-Normal" AlignMode="0" IsTextWarp="0" LineSpace="0" CharSpace="0" ToolTip="" ToolTipWidth="0" Font="GuiFont" Skin="CheckButton" Class="" IsChecked="0">
+                                    <CustomInfo/>
+                                    <ChildCtrl/>
+                                </CheckButton>
+                                <CheckButton GuiType="2" ID="-1" PosX="14.000000" PosY="147.000000" Width="151.000000" Height="20.000000" IsVisible="1" IsStatic="0" IsEnabled="0" IsNotify="0" Text="CheckButton-Normal" AlignMode="0" IsTextWarp="0" LineSpace="0" CharSpace="0" ToolTip="" ToolTipWidth="0" Font="GuiFont" Skin="CheckButton" Class="" IsChecked="1">
+                                    <CustomInfo/>
+                                    <ChildCtrl/>
+                                </CheckButton>
+                                <ImageFont GuiType="0" ID="-1" PosX="260.000000" PosY="69.000000" Width="122.000000" Height="27.000000" IsVisible="1" IsStatic="0" IsEnabled="1" IsNotify="0" Text="12345" AlignMode="0" IsTextWarp="0" LineSpace="0" CharSpace="0" ToolTip="" ToolTipWidth="0" Font="GuiImageFont" Skin="" Class="">
+                                    <CustomInfo/>
+                                    <ChildCtrl/>
+                                </ImageFont>
+                                <SliderWnd GuiType="0" ID="-1" PosX="15.000000" PosY="174.000000" Width="366.000000" Height="29.000000" IsVisible="1" IsStatic="0" IsEnabled="1" IsNotify="0" Text="" AlignMode="0" IsTextWarp="0" LineSpace="0" CharSpace="0" ToolTip="" ToolTipWidth="0" Font="" Skin="SubMenuBG" Class="SliderWnd">
+                                    <CustomInfo/>
+                                    <ChildCtrl>
+                                        <Window GuiType="0" ID="-1" PosX="80.000000" PosY="185.000000" Width="279.000000" Height="7.000000" IsVisible="1" IsStatic="0" IsEnabled="1" IsNotify="0" Text="" AlignMode="0" IsTextWarp="0" LineSpace="0" CharSpace="0" ToolTip="" ToolTipWidth="0" Font="" Skin="HSliderBG" Class="">
+                                            <CustomInfo/>
+                                            <ChildCtrl/>
+                                        </Window>
+                                        <Button GuiType="1" ID="0" PosX="65.000000" PosY="179.000000" Width="13.000000" Height="17.000000" IsVisible="1" IsStatic="0" IsEnabled="1" IsNotify="0" Text="" AlignMode="0" IsTextWarp="0" LineSpace="0" CharSpace="0" ToolTip="" ToolTipWidth="0" Font="" Skin="HSliderLB" Class="">
+                                            <CustomInfo/>
+                                            <ChildCtrl/>
+                                        </Button>
+                                        <Button GuiType="1" ID="1" PosX="362.000000" PosY="179.000000" Width="12.000000" Height="17.000000" IsVisible="1" IsStatic="0" IsEnabled="1" IsNotify="0" Text="" AlignMode="0" IsTextWarp="0" LineSpace="0" CharSpace="0" ToolTip="" ToolTipWidth="0" Font="" Skin="HSliderRB" Class="">
+                                            <CustomInfo/>
+                                            <ChildCtrl/>
+                                        </Button>
+                                        <Slider GuiType="3" ID="2" PosX="81.000000" PosY="181.000000" Width="278.000000" Height="14.000000" IsVisible="1" IsStatic="0" IsEnabled="1" IsNotify="0" Text="" AlignMode="0" IsTextWarp="0" LineSpace="0" CharSpace="0" ToolTip="拖动滑块改变数值" ToolTipWidth="0" Font="" Skin="HSliderBar" Class="" BarSize="20.000000" Min="0.000000" Max="100.000000" Val="50.000000" IsVertical="0">
+                                            <CustomInfo/>
+                                            <ChildCtrl/>
+                                        </Slider>
+                                        <SliderText GuiType="0" ID="-1" PosX="20.000000" PosY="179.000000" Width="35.000000" Height="19.000000" IsVisible="1" IsStatic="0" IsEnabled="1" IsNotify="0" Text="50" AlignMode="1" IsTextWarp="0" LineSpace="0" CharSpace="0" ToolTip="" ToolTipWidth="0" Font="GuiFont" Skin="TextBG" Class="">
+                                            <CustomInfo/>
+                                            <ChildCtrl/>
+                                        </SliderText>
+                                    </ChildCtrl>
+                                </SliderWnd>
+                                <SliderWnd GuiType="0" ID="-1" PosX="15.000000" PosY="208.000000" Width="366.000000" Height="29.000000" IsVisible="1" IsStatic="0" IsEnabled="0" IsNotify="0" Text="" AlignMode="0" IsTextWarp="0" LineSpace="0" CharSpace="0" ToolTip="" ToolTipWidth="0" Font="" Skin="SubMenuBG" Class="SliderWnd">
+                                    <CustomInfo/>
+                                    <ChildCtrl>
+                                        <Window GuiType="0" ID="-1" PosX="80.000000" PosY="219.000000" Width="281.000000" Height="7.000000" IsVisible="1" IsStatic="0" IsEnabled="1" IsNotify="0" Text="" AlignMode="0" IsTextWarp="0" LineSpace="0" CharSpace="0" ToolTip="" ToolTipWidth="0" Font="" Skin="HSliderBG" Class="">
+                                            <CustomInfo/>
+                                            <ChildCtrl/>
+                                        </Window>
+                                        <Button GuiType="1" ID="-1" PosX="65.000000" PosY="213.000000" Width="13.000000" Height="17.000000" IsVisible="1" IsStatic="0" IsEnabled="1" IsNotify="0" Text="" AlignMode="0" IsTextWarp="0" LineSpace="0" CharSpace="0" ToolTip="" ToolTipWidth="0" Font="" Skin="HSliderLB" Class="">
+                                            <CustomInfo/>
+                                            <ChildCtrl/>
+                                        </Button>
+                                        <Button GuiType="1" ID="-1" PosX="362.000000" PosY="213.000000" Width="12.000000" Height="17.000000" IsVisible="1" IsStatic="0" IsEnabled="1" IsNotify="0" Text="" AlignMode="0" IsTextWarp="0" LineSpace="0" CharSpace="0" ToolTip="" ToolTipWidth="0" Font="" Skin="HSliderRB" Class="">
+                                            <CustomInfo/>
+                                            <ChildCtrl/>
+                                        </Button>
+                                        <Slider GuiType="3" ID="-1" PosX="81.000000" PosY="215.000000" Width="278.000000" Height="14.000000" IsVisible="1" IsStatic="0" IsEnabled="1" IsNotify="0" Text="" AlignMode="0" IsTextWarp="0" LineSpace="0" CharSpace="0" ToolTip="" ToolTipWidth="0" Font="" Skin="HSliderBar" Class="" BarSize="20.000000" Min="0.000000" Max="100.000000" Val="50.000000" IsVertical="0">
+                                            <CustomInfo/>
+                                            <ChildCtrl/>
+                                        </Slider>
+                                        <SliderText GuiType="0" ID="-1" PosX="20.000000" PosY="213.000000" Width="35.000000" Height="19.000000" IsVisible="1" IsStatic="0" IsEnabled="1" IsNotify="0" Text="50" AlignMode="1" IsTextWarp="0" LineSpace="0" CharSpace="0" ToolTip="" ToolTipWidth="0" Font="GuiFont" Skin="TextBG" Class="">
+                                            <CustomInfo/>
+                                            <ChildCtrl/>
+                                        </SliderText>
+                                    </ChildCtrl>
+                                </SliderWnd>
+                                <SliderWnd GuiType="0" ID="-1" PosX="16.000000" PosY="244.000000" Width="46.000000" Height="224.000000" IsVisible="1" IsStatic="0" IsEnabled="1" IsNotify="0" Text="" AlignMode="0" IsTextWarp="0" LineSpace="0" CharSpace="0" ToolTip="" ToolTipWidth="0" Font="" Skin="SubMenuBG" Class="SliderWnd">
+                                    <CustomInfo/>
+                                    <ChildCtrl>
+                                        <Window GuiType="0" ID="-1" PosX="33.000000" PosY="289.000000" Width="7.000000" Height="158.000000" IsVisible="1" IsStatic="0" IsEnabled="1" IsNotify="0" Text="" AlignMode="0" IsTextWarp="0" LineSpace="0" CharSpace="0" ToolTip="" ToolTipWidth="0" Font="" Skin="VSliderBG" Class="">
+                                            <CustomInfo/>
+                                            <ChildCtrl/>
+                                        </Window>
+                                        <Button GuiType="1" ID="0" PosX="29.000000" PosY="275.000000" Width="15.000000" Height="12.000000" IsVisible="1" IsStatic="0" IsEnabled="1" IsNotify="0" Text="" AlignMode="0" IsTextWarp="0" LineSpace="0" CharSpace="0" ToolTip="" ToolTipWidth="0" Font="" Skin="VSliderUB" Class="">
+                                            <CustomInfo/>
+                                            <ChildCtrl/>
+                                        </Button>
+                                        <Button GuiType="1" ID="1" PosX="29.000000" PosY="449.000000" Width="15.000000" Height="12.000000" IsVisible="1" IsStatic="0" IsEnabled="1" IsNotify="0" Text="" AlignMode="0" IsTextWarp="0" LineSpace="0" CharSpace="0" ToolTip="" ToolTipWidth="0" Font="" Skin="VSliderDB" Class="">
+                                            <CustomInfo/>
+                                            <ChildCtrl/>
+                                        </Button>
+                                        <Slider GuiType="3" ID="2" PosX="29.000000" PosY="289.000000" Width="16.000000" Height="155.000000" IsVisible="1" IsStatic="0" IsEnabled="1" IsNotify="0" Text="" AlignMode="0" IsTextWarp="0" LineSpace="0" CharSpace="0" ToolTip="拖动滑块改变数值" ToolTipWidth="0" Font="" Skin="VSliderBar" Class="" BarSize="20.000000" Min="0.000000" Max="100.000000" Val="50.000000" IsVertical="1">
+                                            <CustomInfo/>
+                                            <ChildCtrl/>
+                                        </Slider>
+                                        <SliderText GuiType="0" ID="-1" PosX="21.000000" PosY="249.000000" Width="35.000000" Height="19.000000" IsVisible="1" IsStatic="0" IsEnabled="1" IsNotify="0" Text="50" AlignMode="1" IsTextWarp="0" LineSpace="0" CharSpace="0" ToolTip="" ToolTipWidth="0" Font="GuiFont" Skin="TextBG" Class="">
+                                            <CustomInfo/>
+                                            <ChildCtrl/>
+                                        </SliderText>
+                                    </ChildCtrl>
+                                </SliderWnd>
+                                <SliderWnd GuiType="0" ID="-1" PosX="69.000000" PosY="244.000000" Width="46.000000" Height="224.000000" IsVisible="1" IsStatic="0" IsEnabled="0" IsNotify="0" Text="" AlignMode="0" IsTextWarp="0" LineSpace="0" CharSpace="0" ToolTip="" ToolTipWidth="0" Font="" Skin="SubMenuBG" Class="SliderWnd">
+                                    <CustomInfo/>
+                                    <ChildCtrl>
+                                        <Window GuiType="0" ID="-1" PosX="86.000000" PosY="289.000000" Width="7.000000" Height="158.000000" IsVisible="1" IsStatic="0" IsEnabled="1" IsNotify="0" Text="" AlignMode="0" IsTextWarp="0" LineSpace="0" CharSpace="0" ToolTip="" ToolTipWidth="0" Font="" Skin="VSliderBG" Class="">
+                                            <CustomInfo/>
+                                            <ChildCtrl/>
+                                        </Window>
+                                        <Button GuiType="1" ID="-1" PosX="82.000000" PosY="275.000000" Width="15.000000" Height="12.000000" IsVisible="1" IsStatic="0" IsEnabled="1" IsNotify="0" Text="" AlignMode="0" IsTextWarp="0" LineSpace="0" CharSpace="0" ToolTip="" ToolTipWidth="0" Font="" Skin="VSliderUB" Class="">
+                                            <CustomInfo/>
+                                            <ChildCtrl/>
+                                        </Button>
+                                        <Button GuiType="1" ID="-1" PosX="82.000000" PosY="449.000000" Width="15.000000" Height="12.000000" IsVisible="1" IsStatic="0" IsEnabled="1" IsNotify="0" Text="" AlignMode="0" IsTextWarp="0" LineSpace="0" CharSpace="0" ToolTip="" ToolTipWidth="0" Font="" Skin="VSliderDB" Class="">
+                                            <CustomInfo/>
+                                            <ChildCtrl/>
+                                        </Button>
+                                        <Slider GuiType="3" ID="-1" PosX="82.000000" PosY="270.000000" Width="16.000000" Height="190.000000" IsVisible="1" IsStatic="0" IsEnabled="1" IsNotify="0" Text="" AlignMode="0" IsTextWarp="0" LineSpace="0" CharSpace="0" ToolTip="" ToolTipWidth="0" Font="" Skin="VSliderBar" Class="" BarSize="20.000000" Min="0.000000" Max="100.000000" Val="50.000000" IsVertical="1">
+                                            <CustomInfo/>
+                                            <ChildCtrl/>
+                                        </Slider>
+                                        <SliderText GuiType="0" ID="-1" PosX="74.000000" PosY="249.000000" Width="35.000000" Height="19.000000" IsVisible="1" IsStatic="0" IsEnabled="1" IsNotify="0" Text="50" AlignMode="1" IsTextWarp="0" LineSpace="0" CharSpace="0" ToolTip="" ToolTipWidth="0" Font="GuiFont" Skin="TextBG" Class="">
+                                            <CustomInfo/>
+                                            <ChildCtrl/>
+                                        </SliderText>
+                                    </ChildCtrl>
+                                </SliderWnd>
+                                <RichText GuiType="6" ID="-1" PosX="396.000000" PosY="66.000000" Width="230.000000" Height="322.000000" IsVisible="1" IsStatic="0" IsEnabled="1" IsNotify="0" Text="#cFFFF0000红色文字
+#cFF00FF00绿色文字
+#cFF0000FF蓝色文字
+#cFFFFFFFF#dFF000000带阴影文字1
+#dFF0000FF带阴影文字2
+#bFF000000带边框文字1
+#bFFFF0000带边框文字2
+#bFF000000#u带下划线文字#u
+#p0左对齐文字
+#p1居中对齐文字
+#p2右对齐文字#p0
+#u#h100,FFFF0000,超链接1#h
+#h200,FF0000FF,超链接2#h#bFF000000#u
+静态图标#s1静态图标
+动态图标#a1动态图标
+特殊字体：#f1DejaVuSans.ttf#f0" AlignMode="0" IsTextWarp="0" LineSpace="0" CharSpace="0" ToolTip="" ToolTipWidth="0" Font="GuiFont" Skin="RichWndBG" Class="" MaxTextWidth="210">
+                                    <CustomInfo/>
+                                    <ChildCtrl/>
+                                </RichText>
+                                <ListBoxWnd GuiType="0" ID="-1" PosX="123.000000" PosY="245.000000" Width="96.000000" Height="223.000000" IsVisible="1" IsStatic="0" IsEnabled="1" IsNotify="0" Text="" AlignMode="0" IsTextWarp="0" LineSpace="0" CharSpace="0" ToolTip="" ToolTipWidth="0" Font="" Skin="TextBG" Class="">
+                                    <CustomInfo/>
+                                    <ChildCtrl>
+                                        <ListBox GuiType="4" ID="-1" PosX="128.000000" PosY="254.000000" Width="84.000000" Height="202.000000" IsVisible="1" IsStatic="0" IsEnabled="1" IsNotify="0" Text="" AlignMode="0" IsTextWarp="0" LineSpace="4" CharSpace="0" ToolTip="用上/下键或鼠标滚轮移动项目" ToolTipWidth="0" Font="GuiFont" Skin="ListBoxBG" Class="">
+                                            <ListItems>
+                                                <Item Name="新建项目01"/>
+                                                <Item Name="新建项目02"/>
+                                                <Item Name="新建项目03"/>
+                                                <Item Name="新建项目04"/>
+                                                <Item Name="新建项目05"/>
+                                                <Item Name="新建项目06"/>
+                                                <Item Name="新建项目07"/>
+                                                <Item Name="新建项目08"/>
+                                                <Item Name="新建项目09"/>
+                                                <Item Name="新建项目10"/>
+                                                <Item Name="新建项目11"/>
+                                                <Item Name="新建项目12"/>
+                                                <Item Name="新建项目13"/>
+                                                <Item Name="新建项目14"/>
+                                                <Item Name="新建项目15"/>
+                                                <Item Name="新建项目16"/>
+                                                <Item Name="新建项目17"/>
+                                                <Item Name="新建项目18"/>
+                                                <Item Name="新建项目19"/>
+                                                <Item Name="新建项目20"/>
+                                            </ListItems>
+                                            <CustomInfo>
+                                                <Info Key="" Val=""/>
+                                            </CustomInfo>
+                                            <ChildCtrl/>
+                                        </ListBox>
+                                    </ChildCtrl>
+                                </ListBoxWnd>
+                                <ListBoxWnd GuiType="0" ID="-1" PosX="228.000000" PosY="245.000000" Width="96.000000" Height="223.000000" IsVisible="1" IsStatic="0" IsEnabled="0" IsNotify="0" Text="" AlignMode="0" IsTextWarp="0" LineSpace="0" CharSpace="0" ToolTip="" ToolTipWidth="0" Font="" Skin="TextBG" Class="">
+                                    <CustomInfo/>
+                                    <ChildCtrl>
+                                        <ListBox GuiType="4" ID="-1" PosX="233.000000" PosY="253.000000" Width="84.000000" Height="201.000000" IsVisible="1" IsStatic="0" IsEnabled="1" IsNotify="0" Text="" AlignMode="0" IsTextWarp="0" LineSpace="4" CharSpace="0" ToolTip="用上/下键或鼠标滚轮移送项目" ToolTipWidth="0" Font="GuiFont" Skin="ListBoxBG" Class="">
+                                            <ListItems>
+                                                <Item Name="新建项目01"/>
+                                                <Item Name="新建项目02"/>
+                                                <Item Name="新建项目03"/>
+                                                <Item Name="新建项目04"/>
+                                                <Item Name="新建项目05"/>
+                                                <Item Name="新建项目06"/>
+                                                <Item Name="新建项目07"/>
+                                                <Item Name="新建项目08"/>
+                                                <Item Name="新建项目09"/>
+                                                <Item Name="新建项目10"/>
+                                                <Item Name="新建项目11"/>
+                                                <Item Name="新建项目12"/>
+                                                <Item Name="新建项目13"/>
+                                                <Item Name="新建项目14"/>
+                                                <Item Name="新建项目15"/>
+                                                <Item Name="新建项目16"/>
+                                                <Item Name="新建项目17"/>
+                                                <Item Name="新建项目18"/>
+                                                <Item Name="新建项目19"/>
+                                                <Item Name="新建项目20"/>
+                                            </ListItems>
+                                            <CustomInfo>
+                                                <Info Key="" Val=""/>
+                                            </CustomInfo>
+                                            <ChildCtrl/>
+                                        </ListBox>
+                                    </ChildCtrl>
+                                </ListBoxWnd>
+                                <Window GuiType="0" ID="-1" PosX="397.000000" PosY="393.000000" Width="229.000000" Height="74.000000" IsVisible="1" IsStatic="0" IsEnabled="1" IsNotify="0" Text="" AlignMode="0" IsTextWarp="0" LineSpace="0" CharSpace="0" ToolTip="" ToolTipWidth="0" Font="" Skin="TextBG" Class="">
+                                    <CustomInfo/>
+                                    <ChildCtrl>
+                                        <EditBox GuiType="5" ID="-1" PosX="407.000000" PosY="436.000000" Width="209.000000" Height="22.000000" IsVisible="1" IsStatic="0" IsEnabled="0" IsNotify="0" Text="输入框" AlignMode="0" IsTextWarp="0" LineSpace="0" CharSpace="2" ToolTip="" ToolTipWidth="0" Font="GuiFont" Skin="EditBoxBG" Class="" MaxCharNum="0" CursorColor="0">
+                                            <CustomInfo/>
+                                            <ChildCtrl/>
+                                        </EditBox>
+                                        <EditBox GuiType="5" ID="-1" PosX="407.000000" PosY="405.000000" Width="209.000000" Height="22.000000" IsVisible="1" IsStatic="0" IsEnabled="1" IsNotify="0" Text="输入框" AlignMode="0" IsTextWarp="0" LineSpace="0" CharSpace="2" ToolTip="点击输入" ToolTipWidth="0" Font="GuiFont" Skin="EditBoxBG" Class="" MaxCharNum="22" CursorColor="4279471052">
+                                            <CustomInfo/>
+                                            <ChildCtrl/>
+                                        </EditBox>
+                                    </ChildCtrl>
+                                </Window>
+                            </ChildCtrl>
+                        </FuncWnd1>
+                        <FuncWnd2 GuiType="0" ID="1001" PosX="4.000000" PosY="57.000000" Width="631.000000" Height="419.000000" IsVisible="0" IsStatic="0" IsEnabled="1" IsNotify="0" Text="" AlignMode="0" IsTextWarp="0" LineSpace="0" CharSpace="0" ToolTip="" ToolTipWidth="0" Font="" Skin="SubMenuBG" Class="FuncWnd2">
+                            <CustomInfo/>
+                            <ChildCtrl>
+                                <Window GuiType="0" ID="-1" PosX="19.000000" PosY="74.000000" Width="213.000000" Height="200.000000" IsVisible="1" IsStatic="0" IsEnabled="1" IsNotify="0" Text="" AlignMode="0" IsTextWarp="0" LineSpace="0" CharSpace="0" ToolTip="" ToolTipWidth="0" Font="" Skin="TextBG" Class="">
+                                    <CustomInfo/>
+                                    <ChildCtrl/>
+                                </Window>
+                                <ListBox GuiType="4" ID="0" PosX="24.000000" PosY="80.000000" Width="181.000000" Height="186.000000" IsVisible="1" IsStatic="0" IsEnabled="1" IsNotify="0" Text="" AlignMode="0" IsTextWarp="0" LineSpace="4" CharSpace="0" ToolTip="" ToolTipWidth="0" Font="GuiFont" Skin="ListBoxBG" Class="">
+                                    <ListItems/>
+                                    <CustomInfo/>
+                                    <ChildCtrl/>
+                                </ListBox>
+                                <SliderWnd GuiType="0" ID="2" PosX="206.000000" PosY="81.000000" Width="19.000000" Height="186.000000" IsVisible="1" IsStatic="0" IsEnabled="1" IsNotify="0" Text="" AlignMode="0" IsTextWarp="0" LineSpace="0" CharSpace="0" ToolTip="" ToolTipWidth="0" Font="" Skin="" Class="SliderWnd">
+                                    <CustomInfo/>
+                                    <ChildCtrl>
+                                        <Window GuiType="0" ID="-1" PosX="212.000000" PosY="97.000000" Width="7.000000" Height="158.000000" IsVisible="1" IsStatic="0" IsEnabled="1" IsNotify="0" Text="" AlignMode="0" IsTextWarp="0" LineSpace="0" CharSpace="0" ToolTip="" ToolTipWidth="0" Font="" Skin="VSliderBG" Class="">
+                                            <CustomInfo/>
+                                            <ChildCtrl/>
+                                        </Window>
+                                        <Button GuiType="1" ID="0" PosX="208.000000" PosY="83.000000" Width="15.000000" Height="12.000000" IsVisible="1" IsStatic="0" IsEnabled="1" IsNotify="0" Text="" AlignMode="0" IsTextWarp="0" LineSpace="0" CharSpace="0" ToolTip="" ToolTipWidth="0" Font="" Skin="VSliderUB" Class="">
+                                            <CustomInfo/>
+                                            <ChildCtrl/>
+                                        </Button>
+                                        <Button GuiType="1" ID="1" PosX="208.000000" PosY="257.000000" Width="15.000000" Height="12.000000" IsVisible="1" IsStatic="0" IsEnabled="1" IsNotify="0" Text="" AlignMode="0" IsTextWarp="0" LineSpace="0" CharSpace="0" ToolTip="" ToolTipWidth="0" Font="" Skin="VSliderDB" Class="">
+                                            <CustomInfo/>
+                                            <ChildCtrl/>
+                                        </Button>
+                                        <Slider GuiType="3" ID="2" PosX="208.000000" PosY="97.000000" Width="16.000000" Height="155.000000" IsVisible="1" IsStatic="0" IsEnabled="1" IsNotify="0" Text="" AlignMode="0" IsTextWarp="0" LineSpace="0" CharSpace="0" ToolTip="拖动滑块改变数值" ToolTipWidth="0" Font="" Skin="VSliderBar" Class="" BarSize="20.000000" Min="0.000000" Max="0.000000" Val="0.000000" IsVertical="1">
+                                            <CustomInfo/>
+                                            <ChildCtrl/>
+                                        </Slider>
+                                    </ChildCtrl>
+                                </SliderWnd>
+                                <Button GuiType="1" ID="-1" PosX="195.000000" PosY="279.000000" Width="37.000000" Height="21.000000" IsVisible="1" IsStatic="0" IsEnabled="1" IsNotify="0" Text="添加" AlignMode="0" IsTextWarp="0" LineSpace="0" CharSpace="0" ToolTip="" ToolTipWidth="0" Font="GuiFont" Skin="Button1" Class="">
+                                    <CustomInfo/>
+                                    <ChildCtrl/>
+                                </Button>
+                                <EditBox GuiType="5" ID="1" PosX="19.000000" PosY="278.000000" Width="173.000000" Height="22.000000" IsVisible="1" IsStatic="0" IsEnabled="1" IsNotify="0" Text="" AlignMode="0" IsTextWarp="0" LineSpace="0" CharSpace="2" ToolTip="点击输入" ToolTipWidth="0" Font="GuiFont" Skin="EditBoxBG" Class="" MaxCharNum="18" CursorColor="4279471052">
+                                    <CustomInfo/>
+                                    <ChildCtrl/>
+                                </EditBox>
+                            </ChildCtrl>
+                        </FuncWnd2>
+                    </ChildCtrl>
+                </TabBar>
+                <MenuBar GuiType="0" ID="-1" PosX="0.000000" PosY="0.000000" Width="640.000000" Height="24.000000" IsVisible="1" IsStatic="0" IsEnabled="1" IsNotify="0" Text="" AlignMode="0" IsTextWarp="0" LineSpace="0" CharSpace="0" ToolTip="" ToolTipWidth="0" Font="" Skin="MenuBG" Class="MenuBar">
+                    <CustomInfo/>
+                    <ChildCtrl>
+                        <FileMenuBtn GuiType="1" ID="1000" PosX="2.000000" PosY="2.000000" Width="54.000000" Height="21.000000" IsVisible="1" IsStatic="0" IsEnabled="1" IsNotify="1" Text="文件" AlignMode="1" IsTextWarp="0" LineSpace="0" CharSpace="0" ToolTip="" ToolTipWidth="0" Font="GuiFont" Skin="MenuBtn" Class="">
+                            <CustomInfo/>
+                            <ChildCtrl/>
+                        </FileMenuBtn>
+                        <HelpMenuBtn GuiType="1" ID="1001" PosX="56.000000" PosY="2.000000" Width="54.000000" Height="21.000000" IsVisible="1" IsStatic="0" IsEnabled="1" IsNotify="1" Text="帮助" AlignMode="1" IsTextWarp="0" LineSpace="0" CharSpace="0" ToolTip="" ToolTipWidth="0" Font="GuiFont" Skin="MenuBtn" Class="">
+                            <CustomInfo/>
+                            <ChildCtrl/>
+                        </HelpMenuBtn>
+                    </ChildCtrl>
+                </MenuBar>
+                <MenuWnd GuiType="0" ID="-1" PosX="0.000000" PosY="24.000000" Width="640.000000" Height="456.000000" IsVisible="0" IsStatic="0" IsEnabled="1" IsNotify="0" Text="" AlignMode="0" IsTextWarp="0" LineSpace="0" CharSpace="0" ToolTip="" ToolTipWidth="0" Font="" Skin="" Class="MenuWnd">
+                    <CustomInfo/>
+                    <ChildCtrl>
+                        <FileMenuWnd GuiType="0" ID="1" PosX="1.000000" PosY="24.000000" Width="82.000000" Height="91.000000" IsVisible="0" IsStatic="0" IsEnabled="1" IsNotify="0" Text="" AlignMode="0" IsTextWarp="0" LineSpace="0" CharSpace="0" ToolTip="" ToolTipWidth="0" Font="" Skin="SubMenuBG" Class="">
+                            <CustomInfo/>
+                            <ChildCtrl>
+                                <Button GuiType="1" ID="0" PosX="6.000000" PosY="30.000000" Width="70.000000" Height="18.000000" IsVisible="1" IsStatic="0" IsEnabled="1" IsNotify="0" Text="打开" AlignMode="0" IsTextWarp="0" LineSpace="0" CharSpace="0" ToolTip="" ToolTipWidth="0" Font="GuiFont" Skin="SubMenuBtn" Class="">
+                                    <CustomInfo/>
+                                    <ChildCtrl/>
+                                </Button>
+                                <Button GuiType="1" ID="1" PosX="6.000000" PosY="48.000000" Width="70.000000" Height="18.000000" IsVisible="1" IsStatic="0" IsEnabled="1" IsNotify="0" Text="保存" AlignMode="0" IsTextWarp="0" LineSpace="0" CharSpace="0" ToolTip="" ToolTipWidth="0" Font="GuiFont" Skin="SubMenuBtn" Class="">
+                                    <CustomInfo/>
+                                    <ChildCtrl/>
+                                </Button>
+                                <Button GuiType="1" ID="2" PosX="6.000000" PosY="66.000000" Width="70.000000" Height="18.000000" IsVisible="1" IsStatic="0" IsEnabled="1" IsNotify="0" Text="另存为..." AlignMode="0" IsTextWarp="0" LineSpace="0" CharSpace="0" ToolTip="" ToolTipWidth="0" Font="GuiFont" Skin="SubMenuBtn" Class="">
+                                    <CustomInfo/>
+                                    <ChildCtrl/>
+                                </Button>
+                                <Window GuiType="0" ID="-1" PosX="7.000000" PosY="86.000000" Width="69.000000" Height="3.000000" IsVisible="1" IsStatic="0" IsEnabled="1" IsNotify="0" Text="" AlignMode="0" IsTextWarp="0" LineSpace="0" CharSpace="0" ToolTip="" ToolTipWidth="0" Font="" Skin="MenuBar" Class="">
+                                    <CustomInfo/>
+                                    <ChildCtrl/>
+                                </Window>
+                                <Button GuiType="1" ID="3" PosX="6.000000" PosY="90.000000" Width="70.000000" Height="18.000000" IsVisible="1" IsStatic="0" IsEnabled="1" IsNotify="0" Text="退出" AlignMode="0" IsTextWarp="0" LineSpace="0" CharSpace="0" ToolTip="" ToolTipWidth="0" Font="GuiFont" Skin="SubMenuBtn" Class="">
+                                    <CustomInfo/>
+                                    <ChildCtrl/>
+                                </Button>
+                            </ChildCtrl>
+                        </FileMenuWnd>
+                        <HelpMenuWnd GuiType="0" ID="2" PosX="56.000000" PosY="24.000000" Width="82.000000" Height="30.000000" IsVisible="0" IsStatic="0" IsEnabled="1" IsNotify="0" Text="" AlignMode="0" IsTextWarp="0" LineSpace="0" CharSpace="0" ToolTip="" ToolTipWidth="0" Font="" Skin="SubMenuBG" Class="">
+                            <CustomInfo/>
+                            <ChildCtrl>
+                                <Button GuiType="1" ID="0" PosX="61.000000" PosY="29.000000" Width="70.000000" Height="18.000000" IsVisible="1" IsStatic="0" IsEnabled="1" IsNotify="0" Text="关于" AlignMode="0" IsTextWarp="0" LineSpace="0" CharSpace="0" ToolTip="" ToolTipWidth="0" Font="GuiFont" Skin="SubMenuBtn" Class="">
+                                    <CustomInfo/>
+                                    <ChildCtrl/>
+                                </Button>
+                            </ChildCtrl>
+                        </HelpMenuWnd>
+                    </ChildCtrl>
+                </MenuWnd>
+            </ChildCtrl>
+        </MainWnd>
+        <MessageBox GuiType="0" ID="-1" PosX="200.000000" PosY="171.000000" Width="240.000000" Height="110.000000" IsVisible="1" IsStatic="0" IsEnabled="1" IsNotify="0" Text="" AlignMode="0" IsTextWarp="0" LineSpace="0" CharSpace="0" ToolTip="" ToolTipWidth="0" Font="" Skin="MsgBoxBG" Class="MessageBox">
+            <CustomInfo/>
+            <ChildCtrl>
+                <DragArea GuiType="0" ID="-1" PosX="199.000000" PosY="149.000000" Width="242.000000" Height="24.000000" IsVisible="1" IsStatic="0" IsEnabled="1" IsNotify="0" Text="提示" AlignMode="0" IsTextWarp="0" LineSpace="0" CharSpace="0" ToolTip="" ToolTipWidth="0" Font="GuiFont" Skin="DragArea" Class="DragArea">
+                    <CustomInfo/>
+                    <ChildCtrl/>
+                </DragArea>
+                <RichText GuiType="6" ID="3" PosX="215.000000" PosY="185.000000" Width="210.000000" Height="58.000000" IsVisible="1" IsStatic="1" IsEnabled="1" IsNotify="0" Text="测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试" AlignMode="0" IsTextWarp="0" LineSpace="0" CharSpace="0" ToolTip="" ToolTipWidth="0" Font="GuiFont" Skin="MessageBoxText" Class="" MaxTextWidth="215">
+                    <CustomInfo/>
+                    <ChildCtrl/>
+                </RichText>
+                <Button GuiType="1" ID="1" PosX="227.000000" PosY="250.000000" Width="63.000000" Height="22.000000" IsVisible="1" IsStatic="0" IsEnabled="1" IsNotify="0" Text="确 定" AlignMode="1" IsTextWarp="0" LineSpace="0" CharSpace="0" ToolTip="" ToolTipWidth="0" Font="GuiFont" Skin="Button" Class="">
+                    <CustomInfo/>
+                    <ChildCtrl/>
+                </Button>
+                <Button GuiType="1" ID="2" PosX="341.000000" PosY="250.000000" Width="63.000000" Height="22.000000" IsVisible="1" IsStatic="0" IsEnabled="1" IsNotify="0" Text="取 消" AlignMode="1" IsTextWarp="0" LineSpace="0" CharSpace="0" ToolTip="" ToolTipWidth="0" Font="GuiFont" Skin="Button" Class="">
+                    <CustomInfo/>
+                    <ChildCtrl/>
+                </Button>
+                <Button GuiType="1" ID="0" PosX="283.000000" PosY="250.000000" Width="63.000000" Height="22.000000" IsVisible="1" IsStatic="0" IsEnabled="1" IsNotify="0" Text="确 定" AlignMode="1" IsTextWarp="0" LineSpace="0" CharSpace="0" ToolTip="" ToolTipWidth="0" Font="GuiFont" Skin="Button" Class="">
+                    <CustomInfo/>
+                    <ChildCtrl/>
+                </Button>
+            </ChildCtrl>
+        </MessageBox>
+        <ToolTip GuiType="6" ID="-1" PosX="0.000000" PosY="0.000000" Width="128.000000" Height="120.000000" IsVisible="1" IsStatic="1" IsEnabled="1" IsNotify="0" Text="" AlignMode="0" IsTextWarp="0" LineSpace="0" CharSpace="0" ToolTip="" ToolTipWidth="0" Font="GuiFont" Skin="TooltipBG" Class="" MaxTextWidth="0">
+            <CustomInfo/>
+            <ChildCtrl/>
+        </ToolTip>
+    </Ctrl>
+</Galaxy2D_Game_Engine_GUI_File>

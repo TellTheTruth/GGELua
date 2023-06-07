@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[gui控件类]]></content>
+    <tabTrigger>guikjl</tabTrigger>
+    <scope>source.lua</scope>
+    <description>gui控件类</description>
+</snippet>

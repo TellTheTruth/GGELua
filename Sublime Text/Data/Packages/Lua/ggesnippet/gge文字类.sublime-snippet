@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[gge文字类]]></content>
+    <tabTrigger>ggewzl</tabTrigger>
+    <scope>source.lua</scope>
+    <description>gge文字类</description>
+</snippet>

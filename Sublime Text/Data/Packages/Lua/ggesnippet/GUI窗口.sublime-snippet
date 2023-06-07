@@ -1,0 +1,43 @@
+<snippet>
+	<content><![CDATA[
+--======================================================================--
+local ${1:窗口} = GUI:创建窗口("${2:名称}")
+
+function ${1:窗口}:初始化()
+	self.图像 = require("gge图像类").创建("${3:路径}")
+	self.x = 30
+	self.y = 20
+end
+
+function ${1:窗口}:更新(dt)
+
+
+end
+
+function ${1:窗口}:显示()
+	self.图像:显示(self.x,self.y)
+	--self.图像:取包围盒():显示()
+end
+
+function ${1:窗口}:检查点(x,y)
+	return self.图像:取像素(x,y) ~=0
+end
+
+function ${1:窗口}:消息事件(类型,消息,参数1,参数2)
+
+	if 消息 == "打开" then
+		self.x = 30
+		self.y = 20
+	end
+	return true
+end
+
+]]></content>
+    <tabTrigger>guick</tabTrigger>
+    <scope>source.lua</scope>
+    <description>窗口模版</description>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<!-- <tabTrigger>hello</tabTrigger> -->
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>

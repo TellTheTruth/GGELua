@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[引擎.置高度(${1:v})]]></content>
+    <tabTrigger>yq.zgd</tabTrigger>
+    <scope>source.lua</scope>
+    <description>引擎.置高度</description>
+</snippet>

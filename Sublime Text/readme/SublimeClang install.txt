@@ -1,0 +1,55 @@
+=== Prerequisites ===
+  # To use the clang static analyzer you need to have clang installed and in your path. The other functionality should work without having the clang binaries installed.
+
+=== Additional Prerequisites (Linux Only)===
+  # [[http://sublimetext.userecho.com/topic/85126-ctypes-cant-be-imported-in-linux/|ctypes can't be imported]] in the Linux version of Sublime Text 2 right now. This can however be worked around easily with the help of pythonbrew:
+  ## curl -kL http://xrl.us/pythonbrewinstall | bash
+  ## source "$HOME/.pythonbrew/etc/bashrc"
+  ## pythonbrew install --configure="--enable-unicode=ucs4" 2.6
+  ## ln -s $HOME/.pythonbrew/pythons/Python-2.6/lib/python2.6/ <your Sublime Text 2 folder>/lib/python2.6
+  # If you install SublimeClang via Package Control, it seems [[http://github.com/quarnster/SublimeClang/issues/97|libcache and libclang will be deleted]] when the package is updated, so it's recommended that you manually install the plugin by using the git commands listed in the Installation section.
+  # Once SublimeClang has been installed, libcache will have to be compiled:
+  ## cd src
+  ## mkdir build
+  ## cd build
+  ## cmake ..
+  ## make
+  * Note that if a usable libclang library isn't found, it will be downloaded and built as part of the build process.
+
+=== Additional Prerequisites (Windows Only)===
+Download sublimeclang git to the packages folder of ST3
+1.git clone --recursive https://github.com/quarnster/SublimeClang SublimeClang
+2.git pull && git submodule foreach --recursive git pull origin master
+
+Copy the libcache.dll and libclang.dll files found in the sublimeclang installed with package control into Sublimeclang/internals/
+
+If you want to compile the dll files all by yourself... then follow the steps in http://clang.llvm.org/get_started.html or ones i used below to compile libclang.dll
+You need to have visual studio installed
+1. svn co http://llvm.org/svn/llvm-project/llvm/trunk llvm
+2. cd llvm\tools
+3. svn co http://llvm.org/svn/llvm-project/cfe/trunk clang
+4. Run CMake to generate the Visual Studio solution and project files:
+- cd ..\.. (back to where you started)
+- mkdir build
+- cd build
+- Visual Studio 2008: cmake -G "Visual Studio 9 2008" ..\llvm
+- Visual Studio 2010: cmake -G "Visual Studio 10" ..\llvm
+- Visual Studio 2011: cmake -G "Visual Studio 11" ..\llvm
+5.You should now have libclang.vcxproj in "build\tools\clang\tools\libclang" path.
+6.Open the visual studio command prompt and move the path where the file in above step is mentioned
+- msbuild libclang.vcxproj /m /p:Configuration=Release
+7. This will generate the libclang.dll file in "build\bin\Release".
+8.Download sublimeclang git to the packages folder of ST3
+- git clone --recursive https://github.com/quarnster/SublimeClang SublimeClang
+- git pull && git submodule foreach --recursive git pull origin master
+9.Copy the generated dll file into "SublimeClang\internals"
+10. cd SublimeClang/src
+- mkdir build
+- cd build
+- cmake ..
+11. Run msbuild libcache.vcxproj /m /p:Configuration=Release
+12. This should generate libcache.dll file in "SublimeClang\src\build\Release"
+13. Copy to "SublimeClang\internals"
+14. This should get you going
+
+Hope this helps and its not too long ... I am not an expert, so bear with the errrors............

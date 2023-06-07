@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[引擎.置宽度(${1:v})]]></content>
+    <tabTrigger>yq.zkd</tabTrigger>
+    <scope>source.lua</scope>
+    <description>引擎.置宽度</description>
+</snippet>

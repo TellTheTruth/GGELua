@@ -1,0 +1,23 @@
+[
+    { "command": "file_header_add_header", "caption": "添加头信息" },
+/*    {
+        "caption": "File Header",
+        "children":
+        [
+            {
+                "caption": "New File1",
+                "command": "file_header_new_file",
+                "args":{
+                    "paths": []
+                }
+            },
+            {
+                "caption": "Add Header",
+                "command": "file_header_add_header",
+                "args":{
+                    "paths": []
+                }
+            }
+        ]
+    }*/
+]

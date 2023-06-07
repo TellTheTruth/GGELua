@@ -1,0 +1,12 @@
+--以下是luajit核心库,别问我文件在哪
+math 		数学库
+string 		文本库
+table 		表库
+coroutine       协程库
+os 		系统库
+io
+package
+debug
+bit
+ffi
+jit

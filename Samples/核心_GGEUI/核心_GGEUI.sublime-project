@@ -1,0 +1,19 @@
+{
+	"folders":
+	[
+		{
+			"file_exclude_patterns":
+			[
+				"UI-主界面.sublime-project",
+				"GGEUI.sublime-project"
+			],
+			"path": "."
+		},
+		{
+			"path": "..\\..\\Core\\Game"
+		},
+		{
+			"path": "..\\..\\Extend"
+		}
+	]
+}

@@ -1,0 +1,24 @@
+<snippet>
+    <content><![CDATA[
+
+local ${1:新建类} = class()
+
+
+function ${1:新建类}:初始化()
+
+end
+
+
+function ${1:新建类}:更新(dt)
+
+end
+
+
+function ${1:新建类}:显示()
+
+end
+]]></content>
+    <tabTrigger>class</tabTrigger>
+    <scope>source.lua</scope>
+    <description>class模版</description>
+</snippet>

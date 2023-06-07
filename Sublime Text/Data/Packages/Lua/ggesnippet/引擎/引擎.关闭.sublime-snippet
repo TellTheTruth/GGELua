@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[引擎.关闭()]]></content>
+    <tabTrigger>yq.gb</tabTrigger>
+    <scope>source.lua</scope>
+    <description>引擎.关闭</description>
+</snippet>

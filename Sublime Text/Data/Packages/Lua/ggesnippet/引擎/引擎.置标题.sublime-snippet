@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[引擎.置标题(${1:名称})]]></content>
+    <tabTrigger>yq.zbt</tabTrigger>
+    <scope>source.lua</scope>
+    <description>引擎.置标题</description>
+</snippet>

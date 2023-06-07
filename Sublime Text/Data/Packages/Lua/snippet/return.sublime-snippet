@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[return ${1:}]]></content>
+    <tabTrigger>return</tabTrigger>
+    <scope>source.lua</scope>
+    <description>return 返回</description>
+</snippet>

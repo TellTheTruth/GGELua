@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[gge引擎]]></content>
+    <tabTrigger>ggeyq</tabTrigger>
+    <scope>source.lua</scope>
+    <description>gge引擎</description>
+</snippet>

@@ -1,0 +1,12 @@
+{
+	"folders":
+	[
+		{
+			"file_exclude_patterns":
+			[
+				"梦幻地图.sublime-project"
+			],
+			"path": "."
+		}
+	]
+}
